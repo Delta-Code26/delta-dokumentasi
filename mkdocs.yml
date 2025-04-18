@@ -7,37 +7,37 @@ theme:
 nav:
   - Home: index.md
   - Pemula:
-      - Intro: 01-pemula/intro.md
-      - Variabel: 01-pemula/variabel.md
-      - Tipe Data: 01-pemula/tipe-data.md
-      - Operator: 01-pemula/operator.md
-      - Control Flow: 01-pemula/control-flow.md
-      - Array & Object: 01-pemula/array-object.md
-      - Fungsi: 01-pemula/fungsi.md
+      - Intro: javascript/01-pemula/intro.md
+      - Variabel: javascript/01-pemula/variabel.md
+      - Tipe Data: javascript/01-pemula/tipe-data.md
+      - Operator: javascript/01-pemula/operator.md
+      - Control Flow: javascript/01-pemula/control-flow.md
+      - Array & Object: javascript/01-pemula/array-object.md
+      - Fungsi: javascript/01-pemula/fungsi.md
   - Menengah:
-      - Struktur Data: 02-menengah/struktur-data.md
-      - Higher-Order Functions: 02-menengah/higher-order.md
-      - ASYNC: 02-menengah/async.md
-      - Modularisasi: 02-menengah/modularisasi.md
-      - DOM EVENT: 02-menengah/dom-event.md
-      - FETCH API: 02-menengah/fetch-api.md
+      - Struktur Data: javascript/02-menengah/struktur-data.md
+      - Higher-Order Functions: javascript/02-menengah/higher-order.md
+      - ASYNC: javascript/02-menengah/async.md
+      - Modularisasi: javascript/02-menengah/modularisasi.md
+      - DOM EVENT: javascript/02-menengah/dom-event.md
+      - FETCH API: javascript/02-menengah/fetch-api.md
   - Mahir:
-      - Konsep Lanjutan: 03-mahir/konsep-lanjut.md
-      - OOP: 03-mahir/oop.md
-      - Functional Programming: 03-mahir/functional.md
-      - Event Loop: 03-mahir/event-loop.md
-      - Tools: 03-mahir/tools.md
-      - Keamanan: 03-mahir/keamanan.md
+      - Konsep Lanjutan: javascript/03-mahir/konsep-lanjut.md
+      - OOP: javascript/03-mahir/oop.md
+      - Functional Programming: javascript/03-mahir/functional.md
+      - Event Loop: javascript/03-mahir/event-loop.md
+      - Tools: javascript/03-mahir/tools.md
+      - Keamanan: javascript/03-mahir/keamanan.md
   - Best Practices:
-      - Clean Code: 04-best-practices/clean-code.md
-      - Debugging: 04-best-practices/debugging.md
-      - Komentar: 04-best-practices/komentar.md
-      - Refactor: 04-best-practices/refactor.md
-      - Style Guide: 04-best-practices/style-guide.md
-      - Testing: 04-best-practices/testing.md
-      - error-handling: 04-best-practices/error-handling.md
-      - Performance: 04-best-practices/performance.md
-      - Eslintcr & Prettier: 04-best-practices/eslintrc-prettierrc.md
+      - Clean Code: javascript/04-best-practices/clean-code.md
+      - Debugging: javascript/04-best-practices/debugging.md
+      - Komentar: javascript/04-best-practices/komentar.md
+      - Refactor: javascript/04-best-practices/refactor.md
+      - Style Guide: javascript/04-best-practices/style-guide.md
+      - Testing: javascript/04-best-practices/testing.md
+      - error-handling: javascript/04-best-practices/error-handling.md
+      - Performance: javascript/04-best-practices/performance.md
+      - Eslintcr & Prettier: javascript/04-best-practices/eslintrc-prettierrc.md
 
       
 repo_url: https://github.com/Delta-Code26/dokumentasi-javascript-dari-nol
