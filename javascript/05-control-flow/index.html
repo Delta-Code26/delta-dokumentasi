@@ -8,19 +8,25 @@
       
       
       
+        <link rel="canonical" href="https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/javascript/05-control-flow/">
       
       
+        <link rel="prev" href="../04-operator/">
       
-      <link rel="icon" href="/dokumentasi-javascript-dari-nol/assets/images/favicon.png">
+      
+        <link rel="next" href="../06-array-object/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.11">
     
     
       
-        <title>Dokumentasi JavaScript dari Nol</title>
+        <title>Control Flow - Dokumentasi JavaScript dari Nol</title>
       
     
     
-      <link rel="stylesheet" href="/dokumentasi-javascript-dari-nol/assets/stylesheets/main.4af4bdda.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.4af4bdda.min.css">
       
       
 
@@ -39,7 +45,7 @@
       
     
     
-    <script>__md_scope=new URL("/dokumentasi-javascript-dari-nol/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -57,6 +63,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#struktur-kontrol-di-javascript" class="md-skip">
+          Lewati ke isi
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -69,7 +80,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/dokumentasi-javascript-dari-nol/." title="Dokumentasi JavaScript dari Nol" class="md-header__button md-logo" aria-label="Dokumentasi JavaScript dari Nol" data-md-component="logo">
+    <a href="../.." title="Dokumentasi JavaScript dari Nol" class="md-header__button md-logo" aria-label="Dokumentasi JavaScript dari Nol" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -89,7 +100,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              Control Flow
             
           </span>
         </div>
@@ -179,7 +190,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigasi" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/dokumentasi-javascript-dari-nol/." title="Dokumentasi JavaScript dari Nol" class="md-nav__button md-logo" aria-label="Dokumentasi JavaScript dari Nol" data-md-component="logo">
+    <a href="../.." title="Dokumentasi JavaScript dari Nol" class="md-nav__button md-logo" aria-label="Dokumentasi JavaScript dari Nol" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -209,7 +220,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   
@@ -228,18 +239,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
@@ -255,7 +268,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             JavaScript
@@ -266,18 +279,20 @@
                 
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" checked>
         
           
           <label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
@@ -293,7 +308,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_1">
             <span class="md-nav__icon md-icon"></span>
             Pemula
@@ -307,7 +322,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/javascript/01-intro/" class="md-nav__link">
+      <a href="../01-intro/" class="md-nav__link">
         
   
   
@@ -330,7 +345,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/javascript/02-variabel/" class="md-nav__link">
+      <a href="../02-variabel/" class="md-nav__link">
         
   
   
@@ -353,7 +368,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/javascript/03-tipe-data/" class="md-nav__link">
+      <a href="../03-tipe-data/" class="md-nav__link">
         
   
   
@@ -376,7 +391,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/javascript/04-operator/" class="md-nav__link">
+      <a href="../04-operator/" class="md-nav__link">
         
   
   
@@ -396,10 +411,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/javascript/05-control-flow/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Control Flow
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -410,6 +447,227 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Daftar isi">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Daftar isi
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-percabangan-conditional-statements" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Percabangan (Conditional Statements)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Percabangan (Conditional Statements)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#if-statement" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 If Statement
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#if-else-statement" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 If-Else Statement
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#if-else-if-else-statement" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 If-Else If-Else Statement
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-operator-logika-untuk-percabangan" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Operator Logika untuk Percabangan
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Operator Logika untuk Percabangan">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#and" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 AND (&amp;&amp;)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#or" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 OR (||)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#not" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 NOT (!)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-switch-statement" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Switch Statement
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Switch Statement">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sintaks-switch" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Sintaks Switch
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#penjelasan" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Penjelasan:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-perulangan-loops" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Perulangan (Loops)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Perulangan (Loops)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#for-loop" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 For Loop
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#while-loop" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 While Loop
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#do-while-loop" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Do-While Loop
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-break-dan-continue" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Break dan Continue
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Break dan Continue">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#break" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Break
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#continue" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Continue
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kesimpulan" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎯 Kesimpulan
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -422,7 +680,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/javascript/06-array-object/" class="md-nav__link">
+      <a href="../06-array-object/" class="md-nav__link">
         
   
   
@@ -445,7 +703,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/javascript/07-fungsi/" class="md-nav__link">
+      <a href="../07-fungsi/" class="md-nav__link">
         
   
   
@@ -514,7 +772,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/javascript/08-struktur-data/" class="md-nav__link">
+      <a href="../08-struktur-data/" class="md-nav__link">
         
   
   
@@ -537,7 +795,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/javascript/09-higher-order/" class="md-nav__link">
+      <a href="../09-higher-order/" class="md-nav__link">
         
   
   
@@ -560,7 +818,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/javascript/10-async/" class="md-nav__link">
+      <a href="../10-async/" class="md-nav__link">
         
   
   
@@ -583,7 +841,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/javascript/11-modularisasi/" class="md-nav__link">
+      <a href="../11-modularisasi/" class="md-nav__link">
         
   
   
@@ -606,7 +864,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/javascript/12-dom-event/" class="md-nav__link">
+      <a href="../12-dom-event/" class="md-nav__link">
         
   
   
@@ -629,7 +887,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/javascript/13-fetch-api/" class="md-nav__link">
+      <a href="../13-fetch-api/" class="md-nav__link">
         
   
   
@@ -698,7 +956,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/javascript/14-konsep-lanjut/" class="md-nav__link">
+      <a href="../14-konsep-lanjut/" class="md-nav__link">
         
   
   
@@ -721,7 +979,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/javascript/15-oop/" class="md-nav__link">
+      <a href="../15-oop/" class="md-nav__link">
         
   
   
@@ -744,7 +1002,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/javascript/16-functional/" class="md-nav__link">
+      <a href="../16-functional/" class="md-nav__link">
         
   
   
@@ -767,7 +1025,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/javascript/17-event-loop/" class="md-nav__link">
+      <a href="../17-event-loop/" class="md-nav__link">
         
   
   
@@ -790,7 +1048,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/javascript/18-tools/" class="md-nav__link">
+      <a href="../18-tools/" class="md-nav__link">
         
   
   
@@ -813,7 +1071,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/javascript/19-keamanan/" class="md-nav__link">
+      <a href="../19-keamanan/" class="md-nav__link">
         
   
   
@@ -882,7 +1140,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/javascript/20-clean-code.md" class="md-nav__link">
+      <a href="../20-clean-code.md" class="md-nav__link">
         
   
   
@@ -905,7 +1163,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/javascript/21-debugging/" class="md-nav__link">
+      <a href="../21-debugging/" class="md-nav__link">
         
   
   
@@ -928,7 +1186,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/javascript/22-komentar/" class="md-nav__link">
+      <a href="../22-komentar/" class="md-nav__link">
         
   
   
@@ -951,7 +1209,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/javascript/23-refactor/" class="md-nav__link">
+      <a href="../23-refactor/" class="md-nav__link">
         
   
   
@@ -974,7 +1232,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/javascript/24-style-guide/" class="md-nav__link">
+      <a href="../24-style-guide/" class="md-nav__link">
         
   
   
@@ -997,7 +1255,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/javascript/25-testing/" class="md-nav__link">
+      <a href="../25-testing/" class="md-nav__link">
         
   
   
@@ -1020,7 +1278,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/javascript/26-error-handling/" class="md-nav__link">
+      <a href="../26-error-handling/" class="md-nav__link">
         
   
   
@@ -1043,7 +1301,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/javascript/27-performance/" class="md-nav__link">
+      <a href="../27-performance/" class="md-nav__link">
         
   
   
@@ -1066,7 +1324,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/javascript/28-eslintrc-prettierrc/" class="md-nav__link">
+      <a href="../28-eslintrc-prettierrc/" class="md-nav__link">
         
   
   
@@ -1180,7 +1438,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/python/01-intro.md" class="md-nav__link">
+      <a href="../../python/01-intro.md" class="md-nav__link">
         
   
   
@@ -1203,7 +1461,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/python/02-variabel.md" class="md-nav__link">
+      <a href="../../python/02-variabel.md" class="md-nav__link">
         
   
   
@@ -1226,7 +1484,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/python/03-tipe-data.md" class="md-nav__link">
+      <a href="../../python/03-tipe-data.md" class="md-nav__link">
         
   
   
@@ -1249,7 +1507,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/python/04-operator.md" class="md-nav__link">
+      <a href="../../python/04-operator.md" class="md-nav__link">
         
   
   
@@ -1272,7 +1530,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/python/05-control-flow.md" class="md-nav__link">
+      <a href="../../python/05-control-flow.md" class="md-nav__link">
         
   
   
@@ -1295,7 +1553,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/python/06-array-object.md" class="md-nav__link">
+      <a href="../../python/06-array-object.md" class="md-nav__link">
         
   
   
@@ -1318,7 +1576,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/python/07-fungsi.md" class="md-nav__link">
+      <a href="../../python/07-fungsi.md" class="md-nav__link">
         
   
   
@@ -1387,7 +1645,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/python/08-struktur-data.md" class="md-nav__link">
+      <a href="../../python/08-struktur-data.md" class="md-nav__link">
         
   
   
@@ -1410,7 +1668,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/python/09-higher-order.md" class="md-nav__link">
+      <a href="../../python/09-higher-order.md" class="md-nav__link">
         
   
   
@@ -1433,7 +1691,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/python/10-async.md" class="md-nav__link">
+      <a href="../../python/10-async.md" class="md-nav__link">
         
   
   
@@ -1456,7 +1714,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/python/11-modularisasi.md" class="md-nav__link">
+      <a href="../../python/11-modularisasi.md" class="md-nav__link">
         
   
   
@@ -1479,7 +1737,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/python/12-dom-event.md" class="md-nav__link">
+      <a href="../../python/12-dom-event.md" class="md-nav__link">
         
   
   
@@ -1502,7 +1760,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/python/13-fetch-api.md" class="md-nav__link">
+      <a href="../../python/13-fetch-api.md" class="md-nav__link">
         
   
   
@@ -1571,7 +1829,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/python/14-konsep-lanjut.md" class="md-nav__link">
+      <a href="../../python/14-konsep-lanjut.md" class="md-nav__link">
         
   
   
@@ -1594,7 +1852,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/python/15-oop.md" class="md-nav__link">
+      <a href="../../python/15-oop.md" class="md-nav__link">
         
   
   
@@ -1617,7 +1875,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/python/16-functional.md" class="md-nav__link">
+      <a href="../../python/16-functional.md" class="md-nav__link">
         
   
   
@@ -1640,7 +1898,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/python/17-event-loop.md" class="md-nav__link">
+      <a href="../../python/17-event-loop.md" class="md-nav__link">
         
   
   
@@ -1663,7 +1921,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/python/18-tools.md" class="md-nav__link">
+      <a href="../../python/18-tools.md" class="md-nav__link">
         
   
   
@@ -1686,7 +1944,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/python/19-keamanan.md" class="md-nav__link">
+      <a href="../../python/19-keamanan.md" class="md-nav__link">
         
   
   
@@ -1755,7 +2013,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/python/20-clean-code.md" class="md-nav__link">
+      <a href="../../python/20-clean-code.md" class="md-nav__link">
         
   
   
@@ -1778,7 +2036,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/python/21-debugging.md" class="md-nav__link">
+      <a href="../../python/21-debugging.md" class="md-nav__link">
         
   
   
@@ -1801,7 +2059,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/python/22-komentar.md" class="md-nav__link">
+      <a href="../../python/22-komentar.md" class="md-nav__link">
         
   
   
@@ -1824,7 +2082,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/python/23-refactor.md" class="md-nav__link">
+      <a href="../../python/23-refactor.md" class="md-nav__link">
         
   
   
@@ -1847,7 +2105,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/python/24-style-guide.md" class="md-nav__link">
+      <a href="../../python/24-style-guide.md" class="md-nav__link">
         
   
   
@@ -1870,7 +2128,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/python/25-testing.md" class="md-nav__link">
+      <a href="../../python/25-testing.md" class="md-nav__link">
         
   
   
@@ -1893,7 +2151,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/python/26-error-handling.md" class="md-nav__link">
+      <a href="../../python/26-error-handling.md" class="md-nav__link">
         
   
   
@@ -1916,7 +2174,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/python/27-performance.md" class="md-nav__link">
+      <a href="../../python/27-performance.md" class="md-nav__link">
         
   
   
@@ -1939,7 +2197,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/python/28-eslintrc-prettierrc.md" class="md-nav__link">
+      <a href="../../python/28-eslintrc-prettierrc.md" class="md-nav__link">
         
   
   
@@ -2053,7 +2311,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/01-intro.md" class="md-nav__link">
+      <a href="../../java/01-intro.md" class="md-nav__link">
         
   
   
@@ -2076,7 +2334,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/02-array.md" class="md-nav__link">
+      <a href="../../java/02-array.md" class="md-nav__link">
         
   
   
@@ -2099,7 +2357,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/03-variabel.md" class="md-nav__link">
+      <a href="../../java/03-variabel.md" class="md-nav__link">
         
   
   
@@ -2122,7 +2380,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/04-tipe-data.md" class="md-nav__link">
+      <a href="../../java/04-tipe-data.md" class="md-nav__link">
         
   
   
@@ -2145,7 +2403,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/05-operator.md" class="md-nav__link">
+      <a href="../../java/05-operator.md" class="md-nav__link">
         
   
   
@@ -2168,7 +2426,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/06-string.md" class="md-nav__link">
+      <a href="../../java/06-string.md" class="md-nav__link">
         
   
   
@@ -2191,7 +2449,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/07-method.md" class="md-nav__link">
+      <a href="../../java/07-method.md" class="md-nav__link">
         
   
   
@@ -2214,7 +2472,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/08-control-flow.md" class="md-nav__link">
+      <a href="../../java/08-control-flow.md" class="md-nav__link">
         
   
   
@@ -2237,7 +2495,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/09-oop-pengenalan.md" class="md-nav__link">
+      <a href="../../java/09-oop-pengenalan.md" class="md-nav__link">
         
   
   
@@ -2306,7 +2564,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/10-inheritance.md" class="md-nav__link">
+      <a href="../../java/10-inheritance.md" class="md-nav__link">
         
   
   
@@ -2329,7 +2587,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/11-encapsulation.md" class="md-nav__link">
+      <a href="../../java/11-encapsulation.md" class="md-nav__link">
         
   
   
@@ -2352,7 +2610,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/12-polymorphism.md" class="md-nav__link">
+      <a href="../../java/12-polymorphism.md" class="md-nav__link">
         
   
   
@@ -2375,7 +2633,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/13-abstraction.md" class="md-nav__link">
+      <a href="../../java/13-abstraction.md" class="md-nav__link">
         
   
   
@@ -2444,7 +2702,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/14-collection-framework.md" class="md-nav__link">
+      <a href="../../java/14-collection-framework.md" class="md-nav__link">
         
   
   
@@ -2467,7 +2725,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/15-exception-handling.md" class="md-nav__link">
+      <a href="../../java/15-exception-handling.md" class="md-nav__link">
         
   
   
@@ -2490,7 +2748,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/16-multi-threading.md" class="md-nav__link">
+      <a href="../../java/16-multi-threading.md" class="md-nav__link">
         
   
   
@@ -2513,7 +2771,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/17-file-io.md" class="md-nav__link">
+      <a href="../../java/17-file-io.md" class="md-nav__link">
         
   
   
@@ -2536,7 +2794,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/18-serialization.md" class="md-nav__link">
+      <a href="../../java/18-serialization.md" class="md-nav__link">
         
   
   
@@ -2559,7 +2817,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/19-database-jdbc.md" class="md-nav__link">
+      <a href="../../java/19-database-jdbc.md" class="md-nav__link">
         
   
   
@@ -2628,7 +2886,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/20-lambda.md" class="md-nav__link">
+      <a href="../../java/20-lambda.md" class="md-nav__link">
         
   
   
@@ -2651,7 +2909,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/21-stream-api.md" class="md-nav__link">
+      <a href="../../java/21-stream-api.md" class="md-nav__link">
         
   
   
@@ -2674,7 +2932,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/22-optional.md" class="md-nav__link">
+      <a href="../../java/22-optional.md" class="md-nav__link">
         
   
   
@@ -2697,7 +2955,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/23-functional-interface.md" class="md-nav__link">
+      <a href="../../java/23-functional-interface.md" class="md-nav__link">
         
   
   
@@ -2720,7 +2978,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/24-modular-system.md" class="md-nav__link">
+      <a href="../../java/24-modular-system.md" class="md-nav__link">
         
   
   
@@ -2743,7 +3001,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/25-record-class.md" class="md-nav__link">
+      <a href="../../java/25-record-class.md" class="md-nav__link">
         
   
   
@@ -2812,7 +3070,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/26-gradle.md" class="md-nav__link">
+      <a href="../../java/26-gradle.md" class="md-nav__link">
         
   
   
@@ -2835,7 +3093,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/27-maven.md" class="md-nav__link">
+      <a href="../../java/27-maven.md" class="md-nav__link">
         
   
   
@@ -2858,7 +3116,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/28-ide-setup.md" class="md-nav__link">
+      <a href="../../java/28-ide-setup.md" class="md-nav__link">
         
   
   
@@ -2927,7 +3185,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/29-clean-code.md" class="md-nav__link">
+      <a href="../../java/29-clean-code.md" class="md-nav__link">
         
   
   
@@ -2950,7 +3208,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/30-unit-testing.md" class="md-nav__link">
+      <a href="../../java/30-unit-testing.md" class="md-nav__link">
         
   
   
@@ -2973,7 +3231,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/31-tdd.md" class="md-nav__link">
+      <a href="../../java/31-tdd.md" class="md-nav__link">
         
   
   
@@ -2996,7 +3254,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/32-performance.md" class="md-nav__link">
+      <a href="../../java/32-performance.md" class="md-nav__link">
         
   
   
@@ -3019,7 +3277,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/33-security.md" class="md-nav__link">
+      <a href="../../java/33-security.md" class="md-nav__link">
         
   
   
@@ -3088,7 +3346,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/34-intro.md" class="md-nav__link">
+      <a href="../../java/34-intro.md" class="md-nav__link">
         
   
   
@@ -3111,7 +3369,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/35-viewmodel.md" class="md-nav__link">
+      <a href="../../java/35-viewmodel.md" class="md-nav__link">
         
   
   
@@ -3134,7 +3392,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/36-intentservice.md" class="md-nav__link">
+      <a href="../../java/36-intentservice.md" class="md-nav__link">
         
   
   
@@ -3157,7 +3415,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/37-firebase.md" class="md-nav__link">
+      <a href="../../java/37-firebase.md" class="md-nav__link">
         
   
   
@@ -3205,6 +3463,217 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Daftar isi
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-percabangan-conditional-statements" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Percabangan (Conditional Statements)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Percabangan (Conditional Statements)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#if-statement" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 If Statement
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#if-else-statement" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 If-Else Statement
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#if-else-if-else-statement" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 If-Else If-Else Statement
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-operator-logika-untuk-percabangan" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Operator Logika untuk Percabangan
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Operator Logika untuk Percabangan">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#and" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 AND (&amp;&amp;)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#or" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 OR (||)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#not" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 NOT (!)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-switch-statement" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Switch Statement
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Switch Statement">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sintaks-switch" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Sintaks Switch
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#penjelasan" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Penjelasan:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-perulangan-loops" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Perulangan (Loops)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Perulangan (Loops)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#for-loop" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 For Loop
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#while-loop" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 While Loop
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#do-while-loop" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Do-While Loop
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-break-dan-continue" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Break dan Continue
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Break dan Continue">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#break" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Break
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#continue" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Continue
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kesimpulan" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎯 Kesimpulan
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -3216,8 +3685,166 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+
+  
+  
+
+
+<h1 id="struktur-kontrol-di-javascript">🛠️ Struktur Kontrol di JavaScript</h1>
+<p>Struktur kontrol adalah cara untuk menentukan jalannya eksekusi program berdasarkan kondisi tertentu atau mengulangi operasi. Di JavaScript, ada beberapa jenis struktur kontrol seperti percabangan dan perulangan.</p>
+<hr />
+<h2 id="1-percabangan-conditional-statements">1. Percabangan (Conditional Statements)</h2>
+<p>Percabangan memungkinkan kita untuk mengevaluasi kondisi dan mengeksekusi kode berdasarkan hasil evaluasi tersebut.</p>
+<h3 id="if-statement">📌 <strong>If Statement</strong></h3>
+<p><code>if</code> digunakan untuk mengevaluasi sebuah kondisi. Jika kondisi tersebut benar (true), maka kode di dalam blok <code>if</code> akan dieksekusi.</p>
+<pre><code class="language-js">let angka = 10;
+if (angka &gt; 5) {
+  console.log(&quot;Angka lebih besar dari 5&quot;);
+}
+</code></pre>
+<h3 id="if-else-statement">📌 <strong>If-Else Statement</strong></h3>
+<p><code>if-else</code> memungkinkan kita untuk mengevaluasi kondisi dan memberikan alternatif jika kondisi tersebut tidak benar (false).</p>
+<pre><code class="language-js">let angka = 3;
+if (angka &gt; 5) {
+  console.log(&quot;Angka lebih besar dari 5&quot;);
+} else {
+  console.log(&quot;Angka tidak lebih besar dari 5&quot;);
+}
+</code></pre>
+<h3 id="if-else-if-else-statement">📌 <strong>If-Else If-Else Statement</strong></h3>
+<p>Jika kamu memiliki lebih dari dua kondisi yang perlu dievaluasi, kamu bisa menggunakan <code>else if</code> untuk memeriksa kondisi lain.</p>
+<pre><code class="language-js">let angka = 7;
+if (angka &gt; 10) {
+  console.log(&quot;Angka lebih besar dari 10&quot;);
+} else if (angka &gt; 5) {
+  console.log(&quot;Angka lebih besar dari 5 tapi kurang dari atau sama dengan 10&quot;);
+} else {
+  console.log(&quot;Angka kurang dari atau sama dengan 5&quot;);
+}
+</code></pre>
+<hr />
+<h2 id="2-operator-logika-untuk-percabangan">2. Operator Logika untuk Percabangan</h2>
+<p>Operator logika sering digunakan dalam kondisi <code>if</code> untuk mengevaluasi beberapa kondisi sekaligus.</p>
+<h3 id="and">📌 <strong>AND (&amp;&amp;)</strong></h3>
+<p><code>&amp;&amp;</code> digunakan untuk memastikan semua kondisi dalam <code>if</code> bernilai <code>true</code>.</p>
+<pre><code class="language-js">let a = 5;
+let b = 10;
+if (a &gt; 0 &amp;&amp; b &gt; 5) {
+  console.log(&quot;Kedua kondisi benar&quot;);
+}
+</code></pre>
+<h3 id="or">📌 <strong>OR (||)</strong></h3>
+<p><code>||</code> digunakan untuk memastikan salah satu kondisi dalam <code>if</code> bernilai <code>true</code>.</p>
+<pre><code class="language-js">let a = 3;
+let b = 10;
+if (a &gt; 0 || b &gt; 5) {
+  console.log(&quot;Salah satu kondisi benar&quot;);
+}
+</code></pre>
+<h3 id="not">📌 <strong>NOT (!)</strong></h3>
+<p><code>!</code> digunakan untuk membalikkan nilai dari kondisi.</p>
+<pre><code class="language-js">let a = true;
+if (!a) {
+  console.log(&quot;Kondisi a adalah false&quot;);
+} else {
+  console.log(&quot;Kondisi a adalah true&quot;);
+}
+</code></pre>
+<hr />
+<h2 id="3-switch-statement">3. Switch Statement</h2>
+<p><code>switch</code> digunakan untuk memeriksa nilai dari suatu ekspresi terhadap beberapa kemungkinan nilai yang disebut dengan <em>case</em>. Jika nilai ekspresi cocok dengan salah satu <code>case</code>, maka kode dalam blok <code>case</code> tersebut akan dieksekusi.</p>
+<h3 id="sintaks-switch">📌 <strong>Sintaks Switch</strong></h3>
+<pre><code class="language-js">let warna = &quot;merah&quot;;
+switch (warna) {
+  case &quot;merah&quot;:
+    console.log(&quot;Ini adalah warna merah&quot;);
+    break;
+  case &quot;biru&quot;:
+    console.log(&quot;Ini adalah warna biru&quot;);
+    break;
+  default:
+    console.log(&quot;Warna tidak dikenali&quot;);
+}
+</code></pre>
+<h3 id="penjelasan">📌 <strong>Penjelasan:</strong></h3>
+<ul>
+<li><strong><code>case</code></strong>: Mengecek apakah ekspresi cocok dengan nilai tersebut.</li>
+<li><strong><code>break</code></strong>: Menghentikan eksekusi setelah menemukan kecocokan.</li>
+<li><strong><code>default</code></strong>: Jika tidak ada yang cocok dengan <code>case</code>, maka blok kode di <code>default</code> yang akan dieksekusi.</li>
+</ul>
+<hr />
+<h2 id="4-perulangan-loops">4. Perulangan (Loops)</h2>
+<p>Perulangan digunakan untuk mengulangi eksekusi kode beberapa kali berdasarkan kondisi tertentu.</p>
+<h3 id="for-loop">📌 <strong>For Loop</strong></h3>
+<p><code>for</code> digunakan ketika kita tahu jumlah iterasi yang pasti. Biasanya digunakan untuk perulangan dengan angka yang terstruktur.</p>
+<pre><code class="language-js">for (let i = 0; i &lt; 5; i++) {
+  console.log(i);  // Output: 0 1 2 3 4
+}
+</code></pre>
+<h3 id="while-loop">📌 <strong>While Loop</strong></h3>
+<p><code>while</code> digunakan ketika kita tidak tahu berapa kali perulangan yang akan dilakukan, tapi ingin melanjutkan selama kondisi tertentu terpenuhi.</p>
+<pre><code class="language-js">let i = 0;
+while (i &lt; 5) {
+  console.log(i);  // Output: 0 1 2 3 4
+  i++;
+}
+</code></pre>
+<h3 id="do-while-loop">📌 <strong>Do-While Loop</strong></h3>
+<p><code>do-while</code> mirip dengan <code>while</code>, tetapi perbedaan utamanya adalah kode di dalam blok <code>do</code> akan dijalankan setidaknya sekali, bahkan jika kondisinya salah.</p>
+<pre><code class="language-js">let i = 0;
+do {
+  console.log(i);  // Output: 0 1 2 3 4
+  i++;
+} while (i &lt; 5);
+</code></pre>
+<hr />
+<h2 id="5-break-dan-continue">5. Break dan Continue</h2>
+<p><code>break</code> dan <code>continue</code> adalah dua perintah yang dapat digunakan untuk mengontrol alur perulangan.</p>
+<h3 id="break">📌 <strong>Break</strong></h3>
+<p><code>break</code> digunakan untuk keluar dari perulangan, meskipun kondisi perulangan masih memenuhi.</p>
+<pre><code class="language-js">for (let i = 0; i &lt; 5; i++) {
+  if (i === 3) {
+    break;  // Menghentikan perulangan saat i = 3
+  }
+  console.log(i);  // Output: 0 1 2
+}
+</code></pre>
+<h3 id="continue">📌 <strong>Continue</strong></h3>
+<p><code>continue</code> digunakan untuk melewati sisa iterasi saat kondisi tertentu dipenuhi dan melanjutkan ke iterasi berikutnya.</p>
+<pre><code class="language-js">for (let i = 0; i &lt; 5; i++) {
+  if (i === 3) {
+    continue;  // Melewati iterasi saat i = 3
+  }
+  console.log(i);  // Output: 0 1 2 4
+}
+</code></pre>
+<hr />
+<h2 id="kesimpulan">🎯 Kesimpulan</h2>
+<ul>
+<li><strong>Percabangan</strong>: Gunakan <code>if</code>, <code>else if</code>, dan <code>else</code> untuk mengevaluasi kondisi dan membuat keputusan.</li>
+<li><strong>Switch</strong>: Digunakan untuk memilih antara banyak kondisi dengan cara yang lebih terstruktur.</li>
+<li><strong>Perulangan</strong>: Gunakan <code>for</code>, <code>while</code>, atau <code>do-while</code> untuk mengulangi kode berdasarkan kondisi.</li>
+<li><strong>Break dan Continue</strong>: Kontrol alur perulangan dengan <code>break</code> (keluar dari perulangan) dan <code>continue</code> (melanjutkan ke iterasi berikutnya).</li>
+</ul>
+<p>Sekarang, kamu sudah siap untuk mulai mengendalikan alur program menggunakan percabangan dan perulangan! Selanjutnya, kita akan belajar tentang <strong>Array</strong> dan bagaimana cara menyimpan dan mengelola data dalam JavaScript.
+```</p>
+<hr />
+<p>Itu dia, penjelasan lengkap tentang <strong>Control Flow</strong> di JavaScript! Kalau sudah oke, aku siap untuk lanjut ke materi berikutnya, atau kalau ada bagian yang perlu diubah atau ditambah, tinggal kasih tahu!</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
               </article>
             </div>
           
@@ -3253,10 +3880,10 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "/dokumentasi-javascript-dari-nol/", "features": [], "search": "/dokumentasi-javascript-dari-nol/assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Tersalin ke clipboard", "clipboard.copy": "Salin ke clipboard", "search.result.more.one": "1 lagi di halaman ini", "search.result.more.other": "# lagi di halaman ini", "search.result.none": "Tidak ada dokumen yang sesuai", "search.result.one": "1 dokumen ditemukan", "search.result.other": "# dokumen ditemukan", "search.result.placeholder": "Ketik untuk mulai pencarian", "search.result.term.missing": "Tidak ada", "select.version": "Pilih versi"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Tersalin ke clipboard", "clipboard.copy": "Salin ke clipboard", "search.result.more.one": "1 lagi di halaman ini", "search.result.more.other": "# lagi di halaman ini", "search.result.none": "Tidak ada dokumen yang sesuai", "search.result.one": "1 dokumen ditemukan", "search.result.other": "# dokumen ditemukan", "search.result.placeholder": "Ketik untuk mulai pencarian", "search.result.term.missing": "Tidak ada", "select.version": "Pilih versi"}, "version": null}</script>
     
     
-      <script src="/dokumentasi-javascript-dari-nol/assets/javascripts/bundle.c8b220af.min.js"></script>
+      <script src="../../assets/javascripts/bundle.c8b220af.min.js"></script>
       
     
   </body>

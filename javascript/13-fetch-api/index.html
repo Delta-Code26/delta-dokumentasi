@@ -8,19 +8,25 @@
       
       
       
+        <link rel="canonical" href="https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/javascript/13-fetch-api/">
       
       
+        <link rel="prev" href="../12-dom-event/">
       
-      <link rel="icon" href="/dokumentasi-javascript-dari-nol/assets/images/favicon.png">
+      
+        <link rel="next" href="../14-konsep-lanjut/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.11">
     
     
       
-        <title>Dokumentasi JavaScript dari Nol</title>
+        <title>FETCH API - Dokumentasi JavaScript dari Nol</title>
       
     
     
-      <link rel="stylesheet" href="/dokumentasi-javascript-dari-nol/assets/stylesheets/main.4af4bdda.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.4af4bdda.min.css">
       
       
 
@@ -39,7 +45,7 @@
       
     
     
-    <script>__md_scope=new URL("/dokumentasi-javascript-dari-nol/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -57,6 +63,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#fetch-api-di-javascript" class="md-skip">
+          Lewati ke isi
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -69,7 +80,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/dokumentasi-javascript-dari-nol/." title="Dokumentasi JavaScript dari Nol" class="md-header__button md-logo" aria-label="Dokumentasi JavaScript dari Nol" data-md-component="logo">
+    <a href="../.." title="Dokumentasi JavaScript dari Nol" class="md-header__button md-logo" aria-label="Dokumentasi JavaScript dari Nol" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -89,7 +100,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              FETCH API
             
           </span>
         </div>
@@ -179,7 +190,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigasi" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/dokumentasi-javascript-dari-nol/." title="Dokumentasi JavaScript dari Nol" class="md-nav__button md-logo" aria-label="Dokumentasi JavaScript dari Nol" data-md-component="logo">
+    <a href="../.." title="Dokumentasi JavaScript dari Nol" class="md-nav__button md-logo" aria-label="Dokumentasi JavaScript dari Nol" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -209,7 +220,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   
@@ -228,18 +239,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
@@ -255,7 +268,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             JavaScript
@@ -307,7 +320,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/javascript/01-intro/" class="md-nav__link">
+      <a href="../01-intro/" class="md-nav__link">
         
   
   
@@ -330,7 +343,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/javascript/02-variabel/" class="md-nav__link">
+      <a href="../02-variabel/" class="md-nav__link">
         
   
   
@@ -353,7 +366,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/javascript/03-tipe-data/" class="md-nav__link">
+      <a href="../03-tipe-data/" class="md-nav__link">
         
   
   
@@ -376,7 +389,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/javascript/04-operator/" class="md-nav__link">
+      <a href="../04-operator/" class="md-nav__link">
         
   
   
@@ -399,7 +412,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/javascript/05-control-flow/" class="md-nav__link">
+      <a href="../05-control-flow/" class="md-nav__link">
         
   
   
@@ -422,7 +435,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/javascript/06-array-object/" class="md-nav__link">
+      <a href="../06-array-object/" class="md-nav__link">
         
   
   
@@ -445,7 +458,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/javascript/07-fungsi/" class="md-nav__link">
+      <a href="../07-fungsi/" class="md-nav__link">
         
   
   
@@ -473,18 +486,20 @@
                 
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
@@ -500,7 +515,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_2">
             <span class="md-nav__icon md-icon"></span>
             Menengah
@@ -514,7 +529,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/javascript/08-struktur-data/" class="md-nav__link">
+      <a href="../08-struktur-data/" class="md-nav__link">
         
   
   
@@ -537,7 +552,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/javascript/09-higher-order/" class="md-nav__link">
+      <a href="../09-higher-order/" class="md-nav__link">
         
   
   
@@ -560,7 +575,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/javascript/10-async/" class="md-nav__link">
+      <a href="../10-async/" class="md-nav__link">
         
   
   
@@ -583,7 +598,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/javascript/11-modularisasi/" class="md-nav__link">
+      <a href="../11-modularisasi/" class="md-nav__link">
         
   
   
@@ -606,7 +621,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/javascript/12-dom-event/" class="md-nav__link">
+      <a href="../12-dom-event/" class="md-nav__link">
         
   
   
@@ -626,10 +641,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/javascript/13-fetch-api/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    FETCH API
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -640,6 +677,215 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Daftar isi">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Daftar isi
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-apa-itu-fetch-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Apa itu Fetch API?
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Apa itu Fetch API?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fetch-api-dan-promise" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Fetch API dan Promise
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-sintaks-dasar-fetch" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Sintaks Dasar fetch()
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Sintaks Dasar fetch()">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#contoh-penggunaan-fetch" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Contoh Penggunaan fetch()
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-metode-http-di-fetch-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Metode HTTP di Fetch API
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Metode HTTP di Fetch API">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#contoh-permintaan-get" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Contoh Permintaan GET
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contoh-permintaan-post" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Contoh Permintaan POST
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contoh-permintaan-put" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Contoh Permintaan PUT
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contoh-permintaan-delete" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Contoh Permintaan DELETE
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-menangani-respons" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Menangani Respons
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Menangani Respons">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#respons-status-dan-status-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Respons Status dan Status Code
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-menggunakan-asyncawait-dengan-fetch" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Menggunakan Async/Await dengan Fetch
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Menggunakan Async/Await dengan Fetch">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#contoh-asyncawait-dengan-fetch" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Contoh Async/Await dengan Fetch
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-menangani-error-dalam-fetch-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Menangani Error dalam Fetch API
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Menangani Error dalam Fetch API">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#error-yang-dapat-terjadi" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Error yang Dapat Terjadi
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contoh-error-handling" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Contoh Error Handling
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kesimpulan" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎯 Kesimpulan
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -698,7 +944,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/javascript/14-konsep-lanjut/" class="md-nav__link">
+      <a href="../14-konsep-lanjut/" class="md-nav__link">
         
   
   
@@ -721,7 +967,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/javascript/15-oop/" class="md-nav__link">
+      <a href="../15-oop/" class="md-nav__link">
         
   
   
@@ -744,7 +990,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/javascript/16-functional/" class="md-nav__link">
+      <a href="../16-functional/" class="md-nav__link">
         
   
   
@@ -767,7 +1013,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/javascript/17-event-loop/" class="md-nav__link">
+      <a href="../17-event-loop/" class="md-nav__link">
         
   
   
@@ -790,7 +1036,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/javascript/18-tools/" class="md-nav__link">
+      <a href="../18-tools/" class="md-nav__link">
         
   
   
@@ -813,7 +1059,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/javascript/19-keamanan/" class="md-nav__link">
+      <a href="../19-keamanan/" class="md-nav__link">
         
   
   
@@ -882,7 +1128,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/javascript/20-clean-code.md" class="md-nav__link">
+      <a href="../20-clean-code.md" class="md-nav__link">
         
   
   
@@ -905,7 +1151,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/javascript/21-debugging/" class="md-nav__link">
+      <a href="../21-debugging/" class="md-nav__link">
         
   
   
@@ -928,7 +1174,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/javascript/22-komentar/" class="md-nav__link">
+      <a href="../22-komentar/" class="md-nav__link">
         
   
   
@@ -951,7 +1197,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/javascript/23-refactor/" class="md-nav__link">
+      <a href="../23-refactor/" class="md-nav__link">
         
   
   
@@ -974,7 +1220,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/javascript/24-style-guide/" class="md-nav__link">
+      <a href="../24-style-guide/" class="md-nav__link">
         
   
   
@@ -997,7 +1243,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/javascript/25-testing/" class="md-nav__link">
+      <a href="../25-testing/" class="md-nav__link">
         
   
   
@@ -1020,7 +1266,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/javascript/26-error-handling/" class="md-nav__link">
+      <a href="../26-error-handling/" class="md-nav__link">
         
   
   
@@ -1043,7 +1289,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/javascript/27-performance/" class="md-nav__link">
+      <a href="../27-performance/" class="md-nav__link">
         
   
   
@@ -1066,7 +1312,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/javascript/28-eslintrc-prettierrc/" class="md-nav__link">
+      <a href="../28-eslintrc-prettierrc/" class="md-nav__link">
         
   
   
@@ -1180,7 +1426,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/python/01-intro.md" class="md-nav__link">
+      <a href="../../python/01-intro.md" class="md-nav__link">
         
   
   
@@ -1203,7 +1449,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/python/02-variabel.md" class="md-nav__link">
+      <a href="../../python/02-variabel.md" class="md-nav__link">
         
   
   
@@ -1226,7 +1472,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/python/03-tipe-data.md" class="md-nav__link">
+      <a href="../../python/03-tipe-data.md" class="md-nav__link">
         
   
   
@@ -1249,7 +1495,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/python/04-operator.md" class="md-nav__link">
+      <a href="../../python/04-operator.md" class="md-nav__link">
         
   
   
@@ -1272,7 +1518,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/python/05-control-flow.md" class="md-nav__link">
+      <a href="../../python/05-control-flow.md" class="md-nav__link">
         
   
   
@@ -1295,7 +1541,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/python/06-array-object.md" class="md-nav__link">
+      <a href="../../python/06-array-object.md" class="md-nav__link">
         
   
   
@@ -1318,7 +1564,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/python/07-fungsi.md" class="md-nav__link">
+      <a href="../../python/07-fungsi.md" class="md-nav__link">
         
   
   
@@ -1387,7 +1633,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/python/08-struktur-data.md" class="md-nav__link">
+      <a href="../../python/08-struktur-data.md" class="md-nav__link">
         
   
   
@@ -1410,7 +1656,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/python/09-higher-order.md" class="md-nav__link">
+      <a href="../../python/09-higher-order.md" class="md-nav__link">
         
   
   
@@ -1433,7 +1679,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/python/10-async.md" class="md-nav__link">
+      <a href="../../python/10-async.md" class="md-nav__link">
         
   
   
@@ -1456,7 +1702,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/python/11-modularisasi.md" class="md-nav__link">
+      <a href="../../python/11-modularisasi.md" class="md-nav__link">
         
   
   
@@ -1479,7 +1725,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/python/12-dom-event.md" class="md-nav__link">
+      <a href="../../python/12-dom-event.md" class="md-nav__link">
         
   
   
@@ -1502,7 +1748,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/python/13-fetch-api.md" class="md-nav__link">
+      <a href="../../python/13-fetch-api.md" class="md-nav__link">
         
   
   
@@ -1571,7 +1817,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/python/14-konsep-lanjut.md" class="md-nav__link">
+      <a href="../../python/14-konsep-lanjut.md" class="md-nav__link">
         
   
   
@@ -1594,7 +1840,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/python/15-oop.md" class="md-nav__link">
+      <a href="../../python/15-oop.md" class="md-nav__link">
         
   
   
@@ -1617,7 +1863,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/python/16-functional.md" class="md-nav__link">
+      <a href="../../python/16-functional.md" class="md-nav__link">
         
   
   
@@ -1640,7 +1886,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/python/17-event-loop.md" class="md-nav__link">
+      <a href="../../python/17-event-loop.md" class="md-nav__link">
         
   
   
@@ -1663,7 +1909,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/python/18-tools.md" class="md-nav__link">
+      <a href="../../python/18-tools.md" class="md-nav__link">
         
   
   
@@ -1686,7 +1932,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/python/19-keamanan.md" class="md-nav__link">
+      <a href="../../python/19-keamanan.md" class="md-nav__link">
         
   
   
@@ -1755,7 +2001,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/python/20-clean-code.md" class="md-nav__link">
+      <a href="../../python/20-clean-code.md" class="md-nav__link">
         
   
   
@@ -1778,7 +2024,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/python/21-debugging.md" class="md-nav__link">
+      <a href="../../python/21-debugging.md" class="md-nav__link">
         
   
   
@@ -1801,7 +2047,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/python/22-komentar.md" class="md-nav__link">
+      <a href="../../python/22-komentar.md" class="md-nav__link">
         
   
   
@@ -1824,7 +2070,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/python/23-refactor.md" class="md-nav__link">
+      <a href="../../python/23-refactor.md" class="md-nav__link">
         
   
   
@@ -1847,7 +2093,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/python/24-style-guide.md" class="md-nav__link">
+      <a href="../../python/24-style-guide.md" class="md-nav__link">
         
   
   
@@ -1870,7 +2116,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/python/25-testing.md" class="md-nav__link">
+      <a href="../../python/25-testing.md" class="md-nav__link">
         
   
   
@@ -1893,7 +2139,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/python/26-error-handling.md" class="md-nav__link">
+      <a href="../../python/26-error-handling.md" class="md-nav__link">
         
   
   
@@ -1916,7 +2162,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/python/27-performance.md" class="md-nav__link">
+      <a href="../../python/27-performance.md" class="md-nav__link">
         
   
   
@@ -1939,7 +2185,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/python/28-eslintrc-prettierrc.md" class="md-nav__link">
+      <a href="../../python/28-eslintrc-prettierrc.md" class="md-nav__link">
         
   
   
@@ -2053,7 +2299,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/01-intro.md" class="md-nav__link">
+      <a href="../../java/01-intro.md" class="md-nav__link">
         
   
   
@@ -2076,7 +2322,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/02-array.md" class="md-nav__link">
+      <a href="../../java/02-array.md" class="md-nav__link">
         
   
   
@@ -2099,7 +2345,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/03-variabel.md" class="md-nav__link">
+      <a href="../../java/03-variabel.md" class="md-nav__link">
         
   
   
@@ -2122,7 +2368,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/04-tipe-data.md" class="md-nav__link">
+      <a href="../../java/04-tipe-data.md" class="md-nav__link">
         
   
   
@@ -2145,7 +2391,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/05-operator.md" class="md-nav__link">
+      <a href="../../java/05-operator.md" class="md-nav__link">
         
   
   
@@ -2168,7 +2414,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/06-string.md" class="md-nav__link">
+      <a href="../../java/06-string.md" class="md-nav__link">
         
   
   
@@ -2191,7 +2437,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/07-method.md" class="md-nav__link">
+      <a href="../../java/07-method.md" class="md-nav__link">
         
   
   
@@ -2214,7 +2460,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/08-control-flow.md" class="md-nav__link">
+      <a href="../../java/08-control-flow.md" class="md-nav__link">
         
   
   
@@ -2237,7 +2483,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/09-oop-pengenalan.md" class="md-nav__link">
+      <a href="../../java/09-oop-pengenalan.md" class="md-nav__link">
         
   
   
@@ -2306,7 +2552,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/10-inheritance.md" class="md-nav__link">
+      <a href="../../java/10-inheritance.md" class="md-nav__link">
         
   
   
@@ -2329,7 +2575,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/11-encapsulation.md" class="md-nav__link">
+      <a href="../../java/11-encapsulation.md" class="md-nav__link">
         
   
   
@@ -2352,7 +2598,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/12-polymorphism.md" class="md-nav__link">
+      <a href="../../java/12-polymorphism.md" class="md-nav__link">
         
   
   
@@ -2375,7 +2621,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/13-abstraction.md" class="md-nav__link">
+      <a href="../../java/13-abstraction.md" class="md-nav__link">
         
   
   
@@ -2444,7 +2690,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/14-collection-framework.md" class="md-nav__link">
+      <a href="../../java/14-collection-framework.md" class="md-nav__link">
         
   
   
@@ -2467,7 +2713,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/15-exception-handling.md" class="md-nav__link">
+      <a href="../../java/15-exception-handling.md" class="md-nav__link">
         
   
   
@@ -2490,7 +2736,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/16-multi-threading.md" class="md-nav__link">
+      <a href="../../java/16-multi-threading.md" class="md-nav__link">
         
   
   
@@ -2513,7 +2759,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/17-file-io.md" class="md-nav__link">
+      <a href="../../java/17-file-io.md" class="md-nav__link">
         
   
   
@@ -2536,7 +2782,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/18-serialization.md" class="md-nav__link">
+      <a href="../../java/18-serialization.md" class="md-nav__link">
         
   
   
@@ -2559,7 +2805,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/19-database-jdbc.md" class="md-nav__link">
+      <a href="../../java/19-database-jdbc.md" class="md-nav__link">
         
   
   
@@ -2628,7 +2874,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/20-lambda.md" class="md-nav__link">
+      <a href="../../java/20-lambda.md" class="md-nav__link">
         
   
   
@@ -2651,7 +2897,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/21-stream-api.md" class="md-nav__link">
+      <a href="../../java/21-stream-api.md" class="md-nav__link">
         
   
   
@@ -2674,7 +2920,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/22-optional.md" class="md-nav__link">
+      <a href="../../java/22-optional.md" class="md-nav__link">
         
   
   
@@ -2697,7 +2943,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/23-functional-interface.md" class="md-nav__link">
+      <a href="../../java/23-functional-interface.md" class="md-nav__link">
         
   
   
@@ -2720,7 +2966,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/24-modular-system.md" class="md-nav__link">
+      <a href="../../java/24-modular-system.md" class="md-nav__link">
         
   
   
@@ -2743,7 +2989,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/25-record-class.md" class="md-nav__link">
+      <a href="../../java/25-record-class.md" class="md-nav__link">
         
   
   
@@ -2812,7 +3058,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/26-gradle.md" class="md-nav__link">
+      <a href="../../java/26-gradle.md" class="md-nav__link">
         
   
   
@@ -2835,7 +3081,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/27-maven.md" class="md-nav__link">
+      <a href="../../java/27-maven.md" class="md-nav__link">
         
   
   
@@ -2858,7 +3104,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/28-ide-setup.md" class="md-nav__link">
+      <a href="../../java/28-ide-setup.md" class="md-nav__link">
         
   
   
@@ -2927,7 +3173,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/29-clean-code.md" class="md-nav__link">
+      <a href="../../java/29-clean-code.md" class="md-nav__link">
         
   
   
@@ -2950,7 +3196,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/30-unit-testing.md" class="md-nav__link">
+      <a href="../../java/30-unit-testing.md" class="md-nav__link">
         
   
   
@@ -2973,7 +3219,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/31-tdd.md" class="md-nav__link">
+      <a href="../../java/31-tdd.md" class="md-nav__link">
         
   
   
@@ -2996,7 +3242,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/32-performance.md" class="md-nav__link">
+      <a href="../../java/32-performance.md" class="md-nav__link">
         
   
   
@@ -3019,7 +3265,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/33-security.md" class="md-nav__link">
+      <a href="../../java/33-security.md" class="md-nav__link">
         
   
   
@@ -3088,7 +3334,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/34-intro.md" class="md-nav__link">
+      <a href="../../java/34-intro.md" class="md-nav__link">
         
   
   
@@ -3111,7 +3357,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/35-viewmodel.md" class="md-nav__link">
+      <a href="../../java/35-viewmodel.md" class="md-nav__link">
         
   
   
@@ -3134,7 +3380,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/36-intentservice.md" class="md-nav__link">
+      <a href="../../java/36-intentservice.md" class="md-nav__link">
         
   
   
@@ -3157,7 +3403,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/dokumentasi-javascript-dari-nol/java/37-firebase.md" class="md-nav__link">
+      <a href="../../java/37-firebase.md" class="md-nav__link">
         
   
   
@@ -3205,6 +3451,205 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Daftar isi
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-apa-itu-fetch-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Apa itu Fetch API?
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Apa itu Fetch API?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fetch-api-dan-promise" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Fetch API dan Promise
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-sintaks-dasar-fetch" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Sintaks Dasar fetch()
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Sintaks Dasar fetch()">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#contoh-penggunaan-fetch" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Contoh Penggunaan fetch()
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-metode-http-di-fetch-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Metode HTTP di Fetch API
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Metode HTTP di Fetch API">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#contoh-permintaan-get" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Contoh Permintaan GET
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contoh-permintaan-post" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Contoh Permintaan POST
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contoh-permintaan-put" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Contoh Permintaan PUT
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contoh-permintaan-delete" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Contoh Permintaan DELETE
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-menangani-respons" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Menangani Respons
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Menangani Respons">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#respons-status-dan-status-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Respons Status dan Status Code
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-menggunakan-asyncawait-dengan-fetch" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Menggunakan Async/Await dengan Fetch
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Menggunakan Async/Await dengan Fetch">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#contoh-asyncawait-dengan-fetch" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Contoh Async/Await dengan Fetch
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-menangani-error-dalam-fetch-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Menangani Error dalam Fetch API
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Menangani Error dalam Fetch API">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#error-yang-dapat-terjadi" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Error yang Dapat Terjadi
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contoh-error-handling" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Contoh Error Handling
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kesimpulan" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎯 Kesimpulan
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -3216,8 +3661,186 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+
+  
+  
+
+
+<h1 id="fetch-api-di-javascript">🌐 Fetch API di JavaScript</h1>
+<p><strong>Fetch API</strong> adalah cara modern untuk melakukan permintaan HTTP (seperti GET, POST, PUT, DELETE) ke server. Fetch menggantikan metode lama seperti <code>XMLHttpRequest</code> dan memberikan cara yang lebih bersih dan mudah dibaca untuk menangani permintaan dan respons HTTP secara asinkronus. Fetch API juga mengembalikan <strong>Promise</strong>, yang memungkinkan kita untuk menangani hasil permintaan HTTP dengan menggunakan <code>then()</code> atau <code>async/await</code>.</p>
+<hr />
+<h2 id="1-apa-itu-fetch-api">1. Apa itu Fetch API?</h2>
+<p><strong>Fetch API</strong> menyediakan antarmuka untuk melakukan permintaan HTTP dan mengambil respons dari server. Dengan menggunakan <strong>Promise</strong>, Fetch memungkinkan kita untuk bekerja dengan kode asinkron dengan cara yang lebih elegan.</p>
+<h3 id="fetch-api-dan-promise">📌 Fetch API dan Promise</h3>
+<ul>
+<li><strong><code>fetch()</code></strong>: Metode utama dari Fetch API yang digunakan untuk membuat permintaan HTTP.</li>
+<li><strong><code>then()</code></strong>: Digunakan untuk menangani respons yang diterima setelah permintaan selesai.</li>
+<li><strong><code>catch()</code></strong>: Digunakan untuk menangani error yang terjadi selama permintaan.</li>
+</ul>
+<hr />
+<h2 id="2-sintaks-dasar-fetch">2. Sintaks Dasar <code>fetch()</code></h2>
+<p>Berikut adalah sintaks dasar dari <code>fetch()</code>:</p>
+<pre><code class="language-js">fetch(url, options)
+  .then(response =&gt; response.json())  // Mengonversi respons menjadi format JSON
+  .then(data =&gt; console.log(data))     // Menampilkan data yang diterima
+  .catch(error =&gt; console.log(error)); // Menangani error jika ada
+</code></pre>
+<ul>
+<li><strong><code>url</code></strong>: URL tempat kita mengirim permintaan.</li>
+<li><strong><code>options</code></strong>: (Opsional) Opsi tambahan untuk permintaan seperti metode HTTP, headers, body, dll.</li>
+</ul>
+<h3 id="contoh-penggunaan-fetch">📌 Contoh Penggunaan <code>fetch()</code></h3>
+<pre><code class="language-js">fetch(&quot;https://jsonplaceholder.typicode.com/posts&quot;)
+  .then(response =&gt; response.json())  // Mengonversi respons JSON
+  .then(data =&gt; console.log(data))     // Menampilkan data yang diterima
+  .catch(error =&gt; console.log(error)); // Menangani error
+</code></pre>
+<p>Pada contoh ini, kita mengirimkan permintaan GET ke URL <code>https://jsonplaceholder.typicode.com/posts</code> dan menampilkan data yang diterima dalam format JSON.</p>
+<hr />
+<h2 id="3-metode-http-di-fetch-api">3. Metode HTTP di Fetch API</h2>
+<p><strong>Fetch API</strong> mendukung berbagai metode HTTP seperti <code>GET</code>, <code>POST</code>, <code>PUT</code>, <code>DELETE</code>, dan lainnya. Kita bisa menambahkan metode ini melalui opsi <code>method</code> dalam objek <code>options</code>.</p>
+<h3 id="contoh-permintaan-get">📌 Contoh Permintaan GET</h3>
+<p>Permintaan <strong>GET</strong> digunakan untuk mengambil data dari server.</p>
+<pre><code class="language-js">fetch(&quot;https://jsonplaceholder.typicode.com/posts&quot;)
+  .then(response =&gt; response.json())
+  .then(data =&gt; console.log(data))
+  .catch(error =&gt; console.log(error));
+</code></pre>
+<h3 id="contoh-permintaan-post">📌 Contoh Permintaan POST</h3>
+<p>Permintaan <strong>POST</strong> digunakan untuk mengirimkan data ke server. Biasanya digunakan saat mengirim formulir atau data dalam format JSON.</p>
+<pre><code class="language-js">const postData = {
+  title: &quot;Post Baru&quot;,
+  body: &quot;Ini adalah konten dari post baru.&quot;,
+  userId: 1
+};
+
+fetch(&quot;https://jsonplaceholder.typicode.com/posts&quot;, {
+  method: &quot;POST&quot;, // Menggunakan metode POST
+  headers: {
+    &quot;Content-Type&quot;: &quot;application/json&quot;  // Menyatakan bahwa data yang dikirimkan adalah JSON
+  },
+  body: JSON.stringify(postData)  // Mengonversi data menjadi format JSON
+})
+  .then(response =&gt; response.json())  // Mengonversi respons menjadi JSON
+  .then(data =&gt; console.log(data))     // Menampilkan data yang diterima
+  .catch(error =&gt; console.log(error)); // Menangani error
+</code></pre>
+<p>Di sini, kita mengirimkan data JSON menggunakan metode <strong>POST</strong> ke server.</p>
+<h3 id="contoh-permintaan-put">📌 Contoh Permintaan PUT</h3>
+<p>Permintaan <strong>PUT</strong> digunakan untuk memperbarui data yang ada di server.</p>
+<pre><code class="language-js">const updateData = {
+  title: &quot;Post Diperbarui&quot;,
+  body: &quot;Ini adalah konten post yang telah diperbarui.&quot;,
+  userId: 1
+};
+
+fetch(&quot;https://jsonplaceholder.typicode.com/posts/1&quot;, {
+  method: &quot;PUT&quot;, // Menggunakan metode PUT
+  headers: {
+    &quot;Content-Type&quot;: &quot;application/json&quot;  // Menyatakan bahwa data yang dikirimkan adalah JSON
+  },
+  body: JSON.stringify(updateData)  // Mengonversi data menjadi format JSON
+})
+  .then(response =&gt; response.json())  // Mengonversi respons menjadi JSON
+  .then(data =&gt; console.log(data))     // Menampilkan data yang diterima
+  .catch(error =&gt; console.log(error)); // Menangani error
+</code></pre>
+<h3 id="contoh-permintaan-delete">📌 Contoh Permintaan DELETE</h3>
+<p>Permintaan <strong>DELETE</strong> digunakan untuk menghapus data dari server.</p>
+<pre><code class="language-js">fetch(&quot;https://jsonplaceholder.typicode.com/posts/1&quot;, {
+  method: &quot;DELETE&quot;, // Menggunakan metode DELETE
+})
+  .then(response =&gt; {
+    if (response.ok) {
+      console.log(&quot;Data berhasil dihapus&quot;);
+    } else {
+      console.log(&quot;Gagal menghapus data&quot;);
+    }
+  })
+  .catch(error =&gt; console.log(error)); // Menangani error
+</code></pre>
+<hr />
+<h2 id="4-menangani-respons">4. Menangani Respons</h2>
+<p>Setelah permintaan selesai, kita perlu menangani respons yang diterima dari server. Respons dari <code>fetch()</code> bukanlah data yang langsung bisa digunakan, tetapi sebuah objek <code>Response</code> yang perlu diproses lebih lanjut.</p>
+<h3 id="respons-status-dan-status-code">📌 Respons Status dan Status Code</h3>
+<p>Sebelum kita memproses data, kita bisa memeriksa status dari respons menggunakan properti <code>ok</code> atau <code>status</code> dari objek <code>Response</code>.</p>
+<pre><code class="language-js">fetch(&quot;https://jsonplaceholder.typicode.com/posts&quot;)
+  .then(response =&gt; {
+    if (response.ok) {
+      return response.json(); // Mengonversi ke format JSON jika respons berhasil
+    } else {
+      throw new Error(&quot;Gagal mendapatkan data&quot;);
+    }
+  })
+  .then(data =&gt; console.log(data))
+  .catch(error =&gt; console.log(error)); // Menangani error
+</code></pre>
+<p>Di sini, kita memeriksa apakah respons berhasil dengan memeriksa properti <code>response.ok</code>. Jika respons berhasil, kita mengonversinya menjadi JSON.</p>
+<hr />
+<h2 id="5-menggunakan-asyncawait-dengan-fetch">5. Menggunakan Async/Await dengan Fetch</h2>
+<p>Selain menggunakan <code>then()</code> untuk menangani <code>Promise</code>, kita juga bisa menggunakan <strong>async/await</strong> untuk menulis kode yang lebih bersih dan mudah dibaca.</p>
+<h3 id="contoh-asyncawait-dengan-fetch">📌 Contoh Async/Await dengan Fetch</h3>
+<pre><code class="language-js">async function fetchData() {
+  try {
+    const response = await fetch(&quot;https://jsonplaceholder.typicode.com/posts&quot;);
+    if (!response.ok) {
+      throw new Error(&quot;Gagal mendapatkan data&quot;);
+    }
+    const data = await response.json();
+    console.log(data);
+  } catch (error) {
+    console.log(error);
+  }
+}
+
+fetchData();
+</code></pre>
+<p>Dengan <strong>async/await</strong>, kita menulis kode yang lebih mirip dengan kode synchronous meskipun masih menangani operasi asinkronus.</p>
+<hr />
+<h2 id="6-menangani-error-dalam-fetch-api">6. Menangani Error dalam Fetch API</h2>
+<p>Jika terjadi kesalahan selama permintaan HTTP, kita bisa menangani error menggunakan <strong><code>catch()</code></strong> atau dengan menggunakan blok <strong><code>try/catch</code></strong> ketika menggunakan async/await.</p>
+<h3 id="error-yang-dapat-terjadi">📌 Error yang Dapat Terjadi</h3>
+<ul>
+<li><strong>Kesalahan jaringan</strong>: Jika ada masalah dengan koneksi internet atau server tidak dapat dijangkau.</li>
+<li><strong>Status HTTP yang tidak berhasil</strong>: Jika server mengembalikan status selain 2xx, seperti 404 atau 500.</li>
+</ul>
+<h3 id="contoh-error-handling">📌 Contoh Error Handling</h3>
+<pre><code class="language-js">fetch(&quot;https://jsonplaceholder.typicode.com/invalid-url&quot;)
+  .then(response =&gt; {
+    if (!response.ok) {
+      throw new Error(&quot;Gagal mendapatkan data&quot;);
+    }
+    return response.json();
+  })
+  .then(data =&gt; console.log(data))
+  .catch(error =&gt; console.log(&quot;Terjadi error: &quot;, error)); // Menangani error
+</code></pre>
+<hr />
+<h2 id="kesimpulan">🎯 Kesimpulan</h2>
+<ul>
+<li><strong>Fetch API</strong> adalah cara modern untuk melakukan permintaan HTTP dan menangani respons di JavaScript.</li>
+<li>Menggunakan <strong><code>fetch()</code></strong>, kita bisa mengirimkan permintaan HTTP dengan metode seperti GET, POST, PUT, dan DELETE.</li>
+<li>Respons dari <code>fetch()</code> perlu diproses lebih lanjut untuk mengonversi data menjadi format yang dapat digunakan.</li>
+<li>Dengan menggunakan <strong>async/await</strong>, kita bisa menulis kode yang lebih bersih dan mudah dipahami.</li>
+<li><strong>Error handling</strong> sangat penting untuk menangani masalah yang terjadi selama permintaan HTTP.</li>
+</ul>
+<p>Dengan memahami Fetch API, kamu bisa berinteraksi dengan server secara asinkronus dan mengambil atau mengirim data dengan cara yang efisien dan terstruktur. Selanjutnya, kita akan bahas tentang <strong>AJAX</strong> dan bagaimana cara mengirim permintaan HTTP menggunakan teknik yang lebih lama namun masih banyak digunakan di banyak aplikasi web.
+```</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
               </article>
             </div>
           
@@ -3253,10 +3876,10 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "/dokumentasi-javascript-dari-nol/", "features": [], "search": "/dokumentasi-javascript-dari-nol/assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Tersalin ke clipboard", "clipboard.copy": "Salin ke clipboard", "search.result.more.one": "1 lagi di halaman ini", "search.result.more.other": "# lagi di halaman ini", "search.result.none": "Tidak ada dokumen yang sesuai", "search.result.one": "1 dokumen ditemukan", "search.result.other": "# dokumen ditemukan", "search.result.placeholder": "Ketik untuk mulai pencarian", "search.result.term.missing": "Tidak ada", "select.version": "Pilih versi"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Tersalin ke clipboard", "clipboard.copy": "Salin ke clipboard", "search.result.more.one": "1 lagi di halaman ini", "search.result.more.other": "# lagi di halaman ini", "search.result.none": "Tidak ada dokumen yang sesuai", "search.result.one": "1 dokumen ditemukan", "search.result.other": "# dokumen ditemukan", "search.result.placeholder": "Ketik untuk mulai pencarian", "search.result.term.missing": "Tidak ada", "select.version": "Pilih versi"}, "version": null}</script>
     
     
-      <script src="/dokumentasi-javascript-dari-nol/assets/javascripts/bundle.c8b220af.min.js"></script>
+      <script src="../../assets/javascripts/bundle.c8b220af.min.js"></script>
       
     
   </body>
