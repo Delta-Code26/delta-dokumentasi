@@ -1,0 +1,86 @@
+site_name: Dokumentasi JavaScript dari Nol
+site_url: https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol
+repo_url: https://github.com/Delta-Code26/dokumentasi-javascript-dari-nol.git
+theme:
+  name: 'material'  # Kamu bisa memilih tema lainnya juga
+  language: 'id'
+nav:
+  - Home: index.md
+  - JavaScript:
+    - Pemula:
+      - Intro: javascript/01-intro.md
+      - Variabel: javascript/02-variabel.md
+      - Tipe Data: javascript/03-tipe-data.md
+      - Operator: javascript/04-operator.md
+      - Control Flow: javascript/05-control-flow.md
+      - Array & Object: javascript/06-array-object.md
+      - Fungsi: javascript/07-fungsi.md
+    - Menengah:
+      - Struktur Data: javascript/08-struktur-data.md
+      - Higher-Order Functions: javascript/09-higher-order.md
+      - ASYNC: javascript/10-async.md
+      - Modularisasi: javascript/11-modularisasi.md
+      - DOM EVENT: javascript/12-dom-event.md
+      - FETCH API: javascript/13-fetch-api.md
+    - Mahir:
+      - Konsep Lanjutan: javascript/14-konsep-lanjut.md
+      - OOP: javascript/15-oop.md
+      - Functional Programming: javascript/16-functional.md
+      - Event Loop: javascript/17-event-loop.md
+      - Tools: javascript/18-tools.md
+      - Keamanan: javascript/19-keamanan.md
+    - Best Practices:
+      - Clean Code: javascript/20-clean-code.md
+      - Debugging: javascript/21-debugging.md
+      - Komentar: javascript/22-komentar.md
+      - Refactor: javascript/23-refactor.md
+      - Style Guide: javascript/24-style-guide.md
+      - Testing: javascript/25-testing.md
+      - error-handling: javascript/26-error-handling.md
+      - Performance: javascript/27-performance.md
+      - Eslintcr & Prettier: javascript/28-eslintrc-prettierrc.md
+  - PYTHON:
+    - Pemula:
+      - Intro: python/01-intro.md
+      - Variabel: python/02-variabel.md
+      - Tipe Data: python/03-tipe-data.md
+      - Operator: python/04-operator.md
+      - Control Flow: python/05-control-flow.md
+      - Array & Object: python/06-array-object.md
+      - Fungsi: python/07-fungsi.md
+    - Menengah:
+      - Struktur Data: python/08-struktur-data.md
+      - Higher-Order Functions: python/09-higher-order.md
+      - ASYNC: python/10-async.md
+      - Modularisasi: python/11-modularisasi.md
+      - DOM EVENT: python/12-dom-event.md
+      - FETCH API: python/13-fetch-api.md
+    - Mahir:
+      - Konsep Lanjutan: python/14-konsep-lanjut.md
+      - OOP: python/15-oop.md
+      - Functional Programming: python/16-functional.md
+      - Event Loop: python/17-event-loop.md
+      - Tools: python/18-tools.md
+      - Keamanan: python/19-keamanan.md
+    - Best Practices:
+      - Clean Code: python/20-clean-code.md 
+      - Debugging: python/21-debugging.md
+      - Komentar: python/22-komentar.md
+      - Refactor: python/23-refactor.md
+      - Style Guide: python/24-style-guide.md
+      - Testing: python/25-testing.md
+      - error-handling: python/26-error-handling.md
+      - Performance: python/27-performance.md
+      - Eslintcr & Prettier: python/28-eslintrc-prettierrc.md
+  - JAVA:
+    - Pemula:
+      - Intro: 01-pemula/intro.md
+      - Variabel: 02-variabel.md
+      - Tipe Data: 03-tipe-data.md
+      - Operator: 04-operator.md
+      - Control Flow: 05-control-flow.md
+      - 
+
+
+repo_url: https://github.com/Delta-Code26/dokumentasi-javascript-dari-nol
+edit_uri: main/docs/
