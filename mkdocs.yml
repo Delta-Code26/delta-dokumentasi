@@ -74,13 +74,49 @@ nav:
       - Eslintcr & Prettier: python/28-eslintrc-prettierrc.md
   - JAVA:
     - Pemula:
-      - Intro: 01-pemula/intro.md
-      - Variabel: 02-variabel.md
-      - Tipe Data: 03-tipe-data.md
-      - Operator: 04-operator.md
-      - Control Flow: 05-control-flow.md
-      - 
-
+      - Intro: java/01-intro.md
+      - Array: java/02-array.md
+      - Variabel: java/03-variabel.md
+      - Tipe Data: java/04-tipe-data.md
+      - Operator: java/05-operator.md
+      - String: java/06-string.md
+      - Method: java/07-method.md
+      - Control Flow: java/08-control-flow.md
+      - OOP: java/09-oop-pengenalan.md
+    - OOP:
+      - Inheritance: java/10-inheritance.md
+      - Encapsulation: java/11-encapsulation.md
+      - Polymorphism: java/12-polymorphism.md
+      - Abstraction Interface: java/13-abstraction.md
+    - Lanjutan:
+      - Collection Framework: java/14-collection-framework.md
+      - Exception Handling: java/15-exception-handling.md
+      - Multithreading: java/16-multi-threading.md
+      - File I/O: java/17-file-io.md
+      - Serialization: java/18-serialization.md
+      - Database JDBC: java/19-database-jdbc.md
+    - Modern:
+      - Lambda Expression: java/20-lambda.md
+      - Stream API: java/21-stream-api.md
+      - Optional: java/22-optional.md
+      - Functional Interface: java/23-functional-interface.md
+      - Modular System: java/24-modular-system.md
+      - Record Class: java/25-record-class.md
+    - Tools:
+      - Gradle: java/26-gradle.md
+      - Maven: java/27-maven.md
+      - IDE Setup: java/28-ide-setup.md
+    - Best Practices:
+      - Clean Code: java/29-clean-code.md
+      - Unit Testing: java/30-unit-testing.md
+      - TTD: java/31-tdd.md
+      - Performance: java/32-performance.md
+      - Security: java/33-security.md
+    - Android:
+      - Intro: java/34-intro.md
+      - View Model: java/35-viewmodel.md
+      - Intent Service: java/36-intentservice.md
+      - Firebase: java/37-firebase.md
 
 repo_url: https://github.com/Delta-Code26/dokumentasi-javascript-dari-nol
 edit_uri: main/docs/
