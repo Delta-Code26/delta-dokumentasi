@@ -1,6 +1,9 @@
-site_name: Dokumentasi JavaScript
+site_name: Dokumentasi JavaScript dari Nol
+site_url: https://Delta_Code26.github.io/Javascript-dari-nol
+repo_url: https://github.com/Delta-Code26/dokumentasi-javascript-dari-nol.git
 theme:
-  name: material
+  name: 'material'  # Kamu bisa memilih tema lainnya juga
+  language: 'id'
 nav:
   - Home: index.md
   - Pemula:
@@ -38,4 +41,4 @@ nav:
 
       
 repo_url: https://github.com/Delta-Code26/dokumentasi-javascript-dari-nol
-edit_uri: edit/main/docs/
+edit_uri: main/docs/
