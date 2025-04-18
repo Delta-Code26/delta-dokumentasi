@@ -1,0 +1,40 @@
+name: Auto Lint
+
+on:
+  push:
+    branches:
+      - main  # Ganti dengan nama branch utama proyek kamu jika berbeda
+  pull_request:
+    branches:
+      - main  # Ganti dengan nama branch utama proyek kamu jika berbeda
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '16'  # Ganti dengan versi Node.js yang sesuai
+
+    - name: Install dependencies
+      run: |
+        npm install
+        npm install eslint prettier --save-dev
+
+    - name: Run ESLint and Prettier
+      run: |
+        npx eslint . --fix
+        npx prettier --write .
+
+    - name: Commit Lint Fixes (Optional)
+      run: |
+        git config --global Delta-Code26 "GitHub Actions"
+        git config --global delta.m412@gmail.com "actions@github.com"
+        git add .
+        git commit -m "Auto-lint fixes" || echo "No changes to commit"
+        git push
