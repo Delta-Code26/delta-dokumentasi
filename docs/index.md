@@ -22,7 +22,7 @@ Dokumentasi dibagi ke dalam tiga bagian besar:
 ### 1. 🐣 Pemula
 > Cocok untuk kamu yang baru kenalan dengan JavaScript
 
-- Pengantar dan Setup ➡️ [Buka](./01-pemula/intro.md)
+- Pengantar dan Setup
 - Tipe Data & Variabel
 - Operator
 - Fungsi
@@ -41,7 +41,6 @@ Dokumentasi dibagi ke dalam tiga bagian besar:
 - Higher-Order Function
 - Struktur Data Lanjut (Set, Map, dsb)
 
-➡️ Lihat: [JavaScript Menengah](02-menengah/async.md)
 
 ---
 
@@ -55,7 +54,6 @@ Dokumentasi dibagi ke dalam tiga bagian besar:
 - Tools & Ekosistem
 - Testing & Optimasi
 
-➡️ Lihat: [JavaScript Mahir](03-mahir/event-loop.md)
 
 ---
 

@@ -6,7 +6,8 @@ theme:
   language: 'id'
 nav:
   - Home: index.md
-  - Pemula:
+  - JavaScript:
+    - Pemula:
       - Intro: javascript/01-pemula/intro.md
       - Variabel: javascript/01-pemula/variabel.md
       - Tipe Data: javascript/01-pemula/tipe-data.md
@@ -14,21 +15,21 @@ nav:
       - Control Flow: javascript/01-pemula/control-flow.md
       - Array & Object: javascript/01-pemula/array-object.md
       - Fungsi: javascript/01-pemula/fungsi.md
-  - Menengah:
+    - Menengah:
       - Struktur Data: javascript/02-menengah/struktur-data.md
       - Higher-Order Functions: javascript/02-menengah/higher-order.md
       - ASYNC: javascript/02-menengah/async.md
       - Modularisasi: javascript/02-menengah/modularisasi.md
       - DOM EVENT: javascript/02-menengah/dom-event.md
       - FETCH API: javascript/02-menengah/fetch-api.md
-  - Mahir:
+    - Mahir:
       - Konsep Lanjutan: javascript/03-mahir/konsep-lanjut.md
       - OOP: javascript/03-mahir/oop.md
       - Functional Programming: javascript/03-mahir/functional.md
       - Event Loop: javascript/03-mahir/event-loop.md
       - Tools: javascript/03-mahir/tools.md
       - Keamanan: javascript/03-mahir/keamanan.md
-  - Best Practices:
+    - Best Practices:
       - Clean Code: javascript/04-best-practices/clean-code.md
       - Debugging: javascript/04-best-practices/debugging.md
       - Komentar: javascript/04-best-practices/komentar.md
