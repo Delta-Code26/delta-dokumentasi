@@ -8,23 +8,25 @@
       
       
       
-        <link rel="canonical" href="https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/">
+        <link rel="canonical" href="https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/javascript/01-pemula/control-flow/">
       
       
+        <link rel="prev" href="../operator/">
       
-        <link rel="next" href="javascript/01-pemula/intro/">
+      
+        <link rel="next" href="../array-object/">
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.11">
     
     
       
-        <title>Dokumentasi JavaScript dari Nol</title>
+        <title>Control Flow - Dokumentasi JavaScript dari Nol</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.4af4bdda.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.4af4bdda.min.css">
       
       
 
@@ -43,7 +45,7 @@
       
     
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -62,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#dokumentasi-javascript-dari-nol-sampai-mahir" class="md-skip">
+        <a href="#struktur-kontrol-di-javascript" class="md-skip">
           Lewati ke isi
         </a>
       
@@ -78,7 +80,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="Dokumentasi JavaScript dari Nol" class="md-header__button md-logo" aria-label="Dokumentasi JavaScript dari Nol" data-md-component="logo">
+    <a href="../../.." title="Dokumentasi JavaScript dari Nol" class="md-header__button md-logo" aria-label="Dokumentasi JavaScript dari Nol" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -98,7 +100,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Home
+              Control Flow
             
           </span>
         </div>
@@ -188,7 +190,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigasi" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="Dokumentasi JavaScript dari Nol" class="md-nav__button md-logo" aria-label="Dokumentasi JavaScript dari Nol" data-md-component="logo">
+    <a href="../../.." title="Dokumentasi JavaScript dari Nol" class="md-nav__button md-logo" aria-label="Dokumentasi JavaScript dari Nol" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -215,32 +217,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    Home
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
         
   
   
@@ -251,113 +231,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Daftar isi">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Daftar isi
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#tujuan-dokumentasi" class="md-nav__link">
-    <span class="md-ellipsis">
-      🎯 Tujuan Dokumentasi
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#struktur-materi" class="md-nav__link">
-    <span class="md-ellipsis">
-      📚 Struktur Materi
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="📚 Struktur Materi">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#1-pemula" class="md-nav__link">
-    <span class="md-ellipsis">
-      1. 🐣 Pemula
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#2-menengah" class="md-nav__link">
-    <span class="md-ellipsis">
-      2. 🚀 Menengah
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#3-mahir" class="md-nav__link">
-    <span class="md-ellipsis">
-      3. 🧠 Mahir
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tools-yang-digunakan" class="md-nav__link">
-    <span class="md-ellipsis">
-      🛠 Tools yang Digunakan
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#cara-build-jalankan-dokumentasi" class="md-nav__link">
-    <span class="md-ellipsis">
-      📦 Cara Build &amp; Jalankan Dokumentasi
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#kontribusi" class="md-nav__link">
-    <span class="md-ellipsis">
-      ❤️ Kontribusi
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#terima-kasih" class="md-nav__link">
-    <span class="md-ellipsis">
-      🙌 Terima Kasih
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -366,18 +239,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
@@ -393,7 +268,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Pemula
@@ -407,7 +282,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/01-pemula/intro/" class="md-nav__link">
+      <a href="../intro/" class="md-nav__link">
         
   
   
@@ -430,7 +305,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/01-pemula/variabel/" class="md-nav__link">
+      <a href="../variabel/" class="md-nav__link">
         
   
   
@@ -453,7 +328,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/01-pemula/tipe-data/" class="md-nav__link">
+      <a href="../tipe-data/" class="md-nav__link">
         
   
   
@@ -476,7 +351,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/01-pemula/operator/" class="md-nav__link">
+      <a href="../operator/" class="md-nav__link">
         
   
   
@@ -496,10 +371,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="javascript/01-pemula/control-flow/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Control Flow
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -510,6 +407,227 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Daftar isi">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Daftar isi
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-percabangan-conditional-statements" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Percabangan (Conditional Statements)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Percabangan (Conditional Statements)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#if-statement" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 If Statement
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#if-else-statement" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 If-Else Statement
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#if-else-if-else-statement" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 If-Else If-Else Statement
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-operator-logika-untuk-percabangan" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Operator Logika untuk Percabangan
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Operator Logika untuk Percabangan">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#and" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 AND (&amp;&amp;)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#or" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 OR (||)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#not" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 NOT (!)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-switch-statement" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Switch Statement
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Switch Statement">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sintaks-switch" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Sintaks Switch
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#penjelasan" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Penjelasan:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-perulangan-loops" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Perulangan (Loops)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Perulangan (Loops)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#for-loop" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 For Loop
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#while-loop" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 While Loop
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#do-while-loop" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Do-While Loop
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-break-dan-continue" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Break dan Continue
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Break dan Continue">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#break" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Break
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#continue" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Continue
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kesimpulan" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎯 Kesimpulan
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -522,7 +640,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/01-pemula/array-object/" class="md-nav__link">
+      <a href="../array-object/" class="md-nav__link">
         
   
   
@@ -545,7 +663,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/01-pemula/fungsi/" class="md-nav__link">
+      <a href="../fungsi/" class="md-nav__link">
         
   
   
@@ -613,7 +731,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/02-menengah/struktur-data/" class="md-nav__link">
+      <a href="../../02-menengah/struktur-data/" class="md-nav__link">
         
   
   
@@ -636,7 +754,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/02-menengah/higher-order/" class="md-nav__link">
+      <a href="../../02-menengah/higher-order/" class="md-nav__link">
         
   
   
@@ -659,7 +777,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/02-menengah/async/" class="md-nav__link">
+      <a href="../../02-menengah/async/" class="md-nav__link">
         
   
   
@@ -682,7 +800,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/02-menengah/modularisasi/" class="md-nav__link">
+      <a href="../../02-menengah/modularisasi/" class="md-nav__link">
         
   
   
@@ -705,7 +823,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/02-menengah/dom-event/" class="md-nav__link">
+      <a href="../../02-menengah/dom-event/" class="md-nav__link">
         
   
   
@@ -728,7 +846,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/02-menengah/fetch-api/" class="md-nav__link">
+      <a href="../../02-menengah/fetch-api/" class="md-nav__link">
         
   
   
@@ -796,7 +914,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/03-mahir/konsep-lanjut/" class="md-nav__link">
+      <a href="../../03-mahir/konsep-lanjut/" class="md-nav__link">
         
   
   
@@ -819,7 +937,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/03-mahir/oop/" class="md-nav__link">
+      <a href="../../03-mahir/oop/" class="md-nav__link">
         
   
   
@@ -842,7 +960,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/03-mahir/functional/" class="md-nav__link">
+      <a href="../../03-mahir/functional/" class="md-nav__link">
         
   
   
@@ -865,7 +983,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/03-mahir/event-loop/" class="md-nav__link">
+      <a href="../../03-mahir/event-loop/" class="md-nav__link">
         
   
   
@@ -888,7 +1006,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/03-mahir/tools/" class="md-nav__link">
+      <a href="../../03-mahir/tools/" class="md-nav__link">
         
   
   
@@ -911,7 +1029,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/03-mahir/keamanan/" class="md-nav__link">
+      <a href="../../03-mahir/keamanan/" class="md-nav__link">
         
   
   
@@ -979,7 +1097,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/04-best-practices/clean-code/" class="md-nav__link">
+      <a href="../../04-best-practices/clean-code/" class="md-nav__link">
         
   
   
@@ -1002,7 +1120,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/04-best-practices/debugging/" class="md-nav__link">
+      <a href="../../04-best-practices/debugging/" class="md-nav__link">
         
   
   
@@ -1025,7 +1143,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/04-best-practices/komentar/" class="md-nav__link">
+      <a href="../../04-best-practices/komentar/" class="md-nav__link">
         
   
   
@@ -1048,7 +1166,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/04-best-practices/refactor/" class="md-nav__link">
+      <a href="../../04-best-practices/refactor/" class="md-nav__link">
         
   
   
@@ -1071,7 +1189,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/04-best-practices/style-guide/" class="md-nav__link">
+      <a href="../../04-best-practices/style-guide/" class="md-nav__link">
         
   
   
@@ -1094,7 +1212,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/04-best-practices/testing/" class="md-nav__link">
+      <a href="../../04-best-practices/testing/" class="md-nav__link">
         
   
   
@@ -1117,7 +1235,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/04-best-practices/error-handling/" class="md-nav__link">
+      <a href="../../04-best-practices/error-handling/" class="md-nav__link">
         
   
   
@@ -1140,7 +1258,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/04-best-practices/performance/" class="md-nav__link">
+      <a href="../../04-best-practices/performance/" class="md-nav__link">
         
   
   
@@ -1163,7 +1281,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/04-best-practices/eslintrc-prettierrc/" class="md-nav__link">
+      <a href="../../04-best-practices/eslintrc-prettierrc/" class="md-nav__link">
         
   
   
@@ -1213,46 +1331,37 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#tujuan-dokumentasi" class="md-nav__link">
+  <a href="#1-percabangan-conditional-statements" class="md-nav__link">
     <span class="md-ellipsis">
-      🎯 Tujuan Dokumentasi
+      1. Percabangan (Conditional Statements)
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#struktur-materi" class="md-nav__link">
-    <span class="md-ellipsis">
-      📚 Struktur Materi
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="📚 Struktur Materi">
+    <nav class="md-nav" aria-label="1. Percabangan (Conditional Statements)">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#1-pemula" class="md-nav__link">
+  <a href="#if-statement" class="md-nav__link">
     <span class="md-ellipsis">
-      1. 🐣 Pemula
+      📌 If Statement
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#2-menengah" class="md-nav__link">
+  <a href="#if-else-statement" class="md-nav__link">
     <span class="md-ellipsis">
-      2. 🚀 Menengah
+      📌 If-Else Statement
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#3-mahir" class="md-nav__link">
+  <a href="#if-else-if-else-statement" class="md-nav__link">
     <span class="md-ellipsis">
-      3. 🧠 Mahir
+      📌 If-Else If-Else Statement
     </span>
   </a>
   
@@ -1264,36 +1373,159 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#tools-yang-digunakan" class="md-nav__link">
+  <a href="#2-operator-logika-untuk-percabangan" class="md-nav__link">
     <span class="md-ellipsis">
-      🛠 Tools yang Digunakan
+      2. Operator Logika untuk Percabangan
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Operator Logika untuk Percabangan">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#and" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 AND (&amp;&amp;)
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#cara-build-jalankan-dokumentasi" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#or" class="md-nav__link">
     <span class="md-ellipsis">
-      📦 Cara Build &amp; Jalankan Dokumentasi
+      📌 OR (||)
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#kontribusi" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#not" class="md-nav__link">
     <span class="md-ellipsis">
-      ❤️ Kontribusi
+      📌 NOT (!)
     </span>
   </a>
   
 </li>
+        
+      </ul>
+    </nav>
+  
+</li>
       
         <li class="md-nav__item">
-  <a href="#terima-kasih" class="md-nav__link">
+  <a href="#3-switch-statement" class="md-nav__link">
     <span class="md-ellipsis">
-      🙌 Terima Kasih
+      3. Switch Statement
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Switch Statement">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sintaks-switch" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Sintaks Switch
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#penjelasan" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Penjelasan:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-perulangan-loops" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Perulangan (Loops)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Perulangan (Loops)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#for-loop" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 For Loop
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#while-loop" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 While Loop
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#do-while-loop" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Do-While Loop
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-break-dan-continue" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Break dan Continue
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Break dan Continue">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#break" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Break
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#continue" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Continue
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kesimpulan" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎯 Kesimpulan
     </span>
   </a>
   
@@ -1318,98 +1550,146 @@
   
 
 
-<h1 id="dokumentasi-javascript-dari-nol-sampai-mahir">📘 Dokumentasi JavaScript dari Nol sampai Mahir</h1>
-<p>Selamat datang di dokumentasi <strong>JavaScript dari Nol</strong> — panduan lengkap untuk siapa saja yang ingin memulai perjalanan dengan JavaScript, dari yang belum pernah ngoding sampai yang pengen jadi master JS sejati. 🚀</p>
+<h1 id="struktur-kontrol-di-javascript">🛠️ Struktur Kontrol di JavaScript</h1>
+<p>Struktur kontrol adalah cara untuk menentukan jalannya eksekusi program berdasarkan kondisi tertentu atau mengulangi operasi. Di JavaScript, ada beberapa jenis struktur kontrol seperti percabangan dan perulangan.</p>
 <hr />
-<h2 id="tujuan-dokumentasi">🎯 Tujuan Dokumentasi</h2>
-<p>Dokumentasi ini dibuat untuk:</p>
-<p>✅ Membantu <strong>pemula</strong> memahami dasar-dasar JavaScript<br />
-✅ Memberikan landasan <strong>kuat di level menengah</strong> seperti DOM, modul, dan async<br />
-✅ Menjadi panduan <strong>tingkat mahir</strong> dalam memahami konsep seperti event loop, OOP, functional programming, hingga keamanan</p>
-<hr />
-<h2 id="struktur-materi">📚 Struktur Materi</h2>
-<p>Dokumentasi dibagi ke dalam tiga bagian besar:</p>
-<h3 id="1-pemula">1. 🐣 Pemula</h3>
-<blockquote>
-<p>Cocok untuk kamu yang baru kenalan dengan JavaScript</p>
-</blockquote>
-<ul>
-<li>Pengantar dan Setup ➡️ <a href="./01-pemula/intro.md">Buka</a></li>
-<li>Tipe Data &amp; Variabel</li>
-<li>Operator</li>
-<li>Fungsi</li>
-<li>Control Flow (if, loop, switch)</li>
-<li>Array &amp; Object</li>
-</ul>
-<hr />
-<h3 id="2-menengah">2. 🚀 Menengah</h3>
-<blockquote>
-<p>Setelah ngerti dasar, saatnya eksplor fitur-fitur modern</p>
-</blockquote>
-<ul>
-<li>DOM &amp; Event Handling</li>
-<li>Fetch API &amp; Async/Await</li>
-<li>Modularisasi JavaScript</li>
-<li>Higher-Order Function</li>
-<li>Struktur Data Lanjut (Set, Map, dsb)</li>
-</ul>
-<p>➡️ Lihat: <a href="02-menengah/async.md">JavaScript Menengah</a></p>
-<hr />
-<h3 id="3-mahir">3. 🧠 Mahir</h3>
-<blockquote>
-<p>Level ninja. Cocok buat yang mau jadi frontend/backend developer serius</p>
-</blockquote>
-<ul>
-<li>Event Loop &amp; Asynchronous Engine</li>
-<li>OOP (Object-Oriented Programming)</li>
-<li>Functional Programming</li>
-<li>Keamanan di JavaScript</li>
-<li>Tools &amp; Ekosistem</li>
-<li>Testing &amp; Optimasi</li>
-</ul>
-<p>➡️ Lihat: <a href="03-mahir/event-loop.md">JavaScript Mahir</a></p>
-<hr />
-<h2 id="tools-yang-digunakan">🛠 Tools yang Digunakan</h2>
-<ul>
-<li><a href="https://www.mkdocs.org/">MkDocs</a> untuk dokumentasi</li>
-<li><a href="https://squidfunk.github.io/mkdocs-material/">Material for MkDocs</a> untuk tampilan yang modern dan bersih</li>
-<li><a href="https://pages.github.com/">GitHub Pages</a> untuk hosting</li>
-</ul>
-<hr />
-<h2 id="cara-build-jalankan-dokumentasi">📦 Cara Build &amp; Jalankan Dokumentasi</h2>
-<pre><code class="language-bash"># Clone repositori
-git clone https://github.com/username/dokumentasi-javascript-dari-nol.git
-cd dokumentasi-javascript-dari-nol
-
-# Install dependencies
-pip install mkdocs mkdocs-material
-
-# Jalankan lokal
-mkdocs serve
-
-# Deploy ke GitHub Pages
-mkdocs gh-deploy
+<h2 id="1-percabangan-conditional-statements">1. Percabangan (Conditional Statements)</h2>
+<p>Percabangan memungkinkan kita untuk mengevaluasi kondisi dan mengeksekusi kode berdasarkan hasil evaluasi tersebut.</p>
+<h3 id="if-statement">📌 <strong>If Statement</strong></h3>
+<p><code>if</code> digunakan untuk mengevaluasi sebuah kondisi. Jika kondisi tersebut benar (true), maka kode di dalam blok <code>if</code> akan dieksekusi.</p>
+<pre><code class="language-js">let angka = 10;
+if (angka &gt; 5) {
+  console.log(&quot;Angka lebih besar dari 5&quot;);
+}
 </code></pre>
-<blockquote>
-<p>Pastikan kamu sudah install Python &amp; pip ya!</p>
-</blockquote>
+<h3 id="if-else-statement">📌 <strong>If-Else Statement</strong></h3>
+<p><code>if-else</code> memungkinkan kita untuk mengevaluasi kondisi dan memberikan alternatif jika kondisi tersebut tidak benar (false).</p>
+<pre><code class="language-js">let angka = 3;
+if (angka &gt; 5) {
+  console.log(&quot;Angka lebih besar dari 5&quot;);
+} else {
+  console.log(&quot;Angka tidak lebih besar dari 5&quot;);
+}
+</code></pre>
+<h3 id="if-else-if-else-statement">📌 <strong>If-Else If-Else Statement</strong></h3>
+<p>Jika kamu memiliki lebih dari dua kondisi yang perlu dievaluasi, kamu bisa menggunakan <code>else if</code> untuk memeriksa kondisi lain.</p>
+<pre><code class="language-js">let angka = 7;
+if (angka &gt; 10) {
+  console.log(&quot;Angka lebih besar dari 10&quot;);
+} else if (angka &gt; 5) {
+  console.log(&quot;Angka lebih besar dari 5 tapi kurang dari atau sama dengan 10&quot;);
+} else {
+  console.log(&quot;Angka kurang dari atau sama dengan 5&quot;);
+}
+</code></pre>
 <hr />
-<h2 id="kontribusi">❤️ Kontribusi</h2>
-<p>Dokumentasi ini open-source dan bebas dikembangkan bareng. Kalau kamu punya ide, kritik, atau ingin nambahin materi, feel free buat:</p>
+<h2 id="2-operator-logika-untuk-percabangan">2. Operator Logika untuk Percabangan</h2>
+<p>Operator logika sering digunakan dalam kondisi <code>if</code> untuk mengevaluasi beberapa kondisi sekaligus.</p>
+<h3 id="and">📌 <strong>AND (&amp;&amp;)</strong></h3>
+<p><code>&amp;&amp;</code> digunakan untuk memastikan semua kondisi dalam <code>if</code> bernilai <code>true</code>.</p>
+<pre><code class="language-js">let a = 5;
+let b = 10;
+if (a &gt; 0 &amp;&amp; b &gt; 5) {
+  console.log(&quot;Kedua kondisi benar&quot;);
+}
+</code></pre>
+<h3 id="or">📌 <strong>OR (||)</strong></h3>
+<p><code>||</code> digunakan untuk memastikan salah satu kondisi dalam <code>if</code> bernilai <code>true</code>.</p>
+<pre><code class="language-js">let a = 3;
+let b = 10;
+if (a &gt; 0 || b &gt; 5) {
+  console.log(&quot;Salah satu kondisi benar&quot;);
+}
+</code></pre>
+<h3 id="not">📌 <strong>NOT (!)</strong></h3>
+<p><code>!</code> digunakan untuk membalikkan nilai dari kondisi.</p>
+<pre><code class="language-js">let a = true;
+if (!a) {
+  console.log(&quot;Kondisi a adalah false&quot;);
+} else {
+  console.log(&quot;Kondisi a adalah true&quot;);
+}
+</code></pre>
+<hr />
+<h2 id="3-switch-statement">3. Switch Statement</h2>
+<p><code>switch</code> digunakan untuk memeriksa nilai dari suatu ekspresi terhadap beberapa kemungkinan nilai yang disebut dengan <em>case</em>. Jika nilai ekspresi cocok dengan salah satu <code>case</code>, maka kode dalam blok <code>case</code> tersebut akan dieksekusi.</p>
+<h3 id="sintaks-switch">📌 <strong>Sintaks Switch</strong></h3>
+<pre><code class="language-js">let warna = &quot;merah&quot;;
+switch (warna) {
+  case &quot;merah&quot;:
+    console.log(&quot;Ini adalah warna merah&quot;);
+    break;
+  case &quot;biru&quot;:
+    console.log(&quot;Ini adalah warna biru&quot;);
+    break;
+  default:
+    console.log(&quot;Warna tidak dikenali&quot;);
+}
+</code></pre>
+<h3 id="penjelasan">📌 <strong>Penjelasan:</strong></h3>
 <ul>
-<li>Fork repo</li>
-<li>Bikin branch baru</li>
-<li>Commit perubahan</li>
-<li>Buat Pull Request ✨</li>
+<li><strong><code>case</code></strong>: Mengecek apakah ekspresi cocok dengan nilai tersebut.</li>
+<li><strong><code>break</code></strong>: Menghentikan eksekusi setelah menemukan kecocokan.</li>
+<li><strong><code>default</code></strong>: Jika tidak ada yang cocok dengan <code>case</code>, maka blok kode di <code>default</code> yang akan dieksekusi.</li>
 </ul>
 <hr />
-<h2 id="terima-kasih">🙌 Terima Kasih</h2>
-<p>Dokumentasi ini didedikasikan untuk para pejuang kode di seluruh penjuru dunia, terutama kamu yang lagi belajar, nyoba, gagal, lalu bangkit lagi. 🔥</p>
-<blockquote>
-<p>"JavaScript itu bukan tentang seberapa cepat kamu paham, tapi seberapa gigih kamu mencoba."</p>
-</blockquote>
-<p>Selamat belajar dan... semoga sukses! 🌈</p>
-<p>```</p>
+<h2 id="4-perulangan-loops">4. Perulangan (Loops)</h2>
+<p>Perulangan digunakan untuk mengulangi eksekusi kode beberapa kali berdasarkan kondisi tertentu.</p>
+<h3 id="for-loop">📌 <strong>For Loop</strong></h3>
+<p><code>for</code> digunakan ketika kita tahu jumlah iterasi yang pasti. Biasanya digunakan untuk perulangan dengan angka yang terstruktur.</p>
+<pre><code class="language-js">for (let i = 0; i &lt; 5; i++) {
+  console.log(i);  // Output: 0 1 2 3 4
+}
+</code></pre>
+<h3 id="while-loop">📌 <strong>While Loop</strong></h3>
+<p><code>while</code> digunakan ketika kita tidak tahu berapa kali perulangan yang akan dilakukan, tapi ingin melanjutkan selama kondisi tertentu terpenuhi.</p>
+<pre><code class="language-js">let i = 0;
+while (i &lt; 5) {
+  console.log(i);  // Output: 0 1 2 3 4
+  i++;
+}
+</code></pre>
+<h3 id="do-while-loop">📌 <strong>Do-While Loop</strong></h3>
+<p><code>do-while</code> mirip dengan <code>while</code>, tetapi perbedaan utamanya adalah kode di dalam blok <code>do</code> akan dijalankan setidaknya sekali, bahkan jika kondisinya salah.</p>
+<pre><code class="language-js">let i = 0;
+do {
+  console.log(i);  // Output: 0 1 2 3 4
+  i++;
+} while (i &lt; 5);
+</code></pre>
+<hr />
+<h2 id="5-break-dan-continue">5. Break dan Continue</h2>
+<p><code>break</code> dan <code>continue</code> adalah dua perintah yang dapat digunakan untuk mengontrol alur perulangan.</p>
+<h3 id="break">📌 <strong>Break</strong></h3>
+<p><code>break</code> digunakan untuk keluar dari perulangan, meskipun kondisi perulangan masih memenuhi.</p>
+<pre><code class="language-js">for (let i = 0; i &lt; 5; i++) {
+  if (i === 3) {
+    break;  // Menghentikan perulangan saat i = 3
+  }
+  console.log(i);  // Output: 0 1 2
+}
+</code></pre>
+<h3 id="continue">📌 <strong>Continue</strong></h3>
+<p><code>continue</code> digunakan untuk melewati sisa iterasi saat kondisi tertentu dipenuhi dan melanjutkan ke iterasi berikutnya.</p>
+<pre><code class="language-js">for (let i = 0; i &lt; 5; i++) {
+  if (i === 3) {
+    continue;  // Melewati iterasi saat i = 3
+  }
+  console.log(i);  // Output: 0 1 2 4
+}
+</code></pre>
+<hr />
+<h2 id="kesimpulan">🎯 Kesimpulan</h2>
+<ul>
+<li><strong>Percabangan</strong>: Gunakan <code>if</code>, <code>else if</code>, dan <code>else</code> untuk mengevaluasi kondisi dan membuat keputusan.</li>
+<li><strong>Switch</strong>: Digunakan untuk memilih antara banyak kondisi dengan cara yang lebih terstruktur.</li>
+<li><strong>Perulangan</strong>: Gunakan <code>for</code>, <code>while</code>, atau <code>do-while</code> untuk mengulangi kode berdasarkan kondisi.</li>
+<li><strong>Break dan Continue</strong>: Kontrol alur perulangan dengan <code>break</code> (keluar dari perulangan) dan <code>continue</code> (melanjutkan ke iterasi berikutnya).</li>
+</ul>
+<p>Sekarang, kamu sudah siap untuk mulai mengendalikan alur program menggunakan percabangan dan perulangan! Selanjutnya, kita akan belajar tentang <strong>Array</strong> dan bagaimana cara menyimpan dan mengelola data dalam JavaScript.
+```</p>
+<hr />
+<p>Itu dia, penjelasan lengkap tentang <strong>Control Flow</strong> di JavaScript! Kalau sudah oke, aku siap untuk lanjut ke materi berikutnya, atau kalau ada bagian yang perlu diubah atau ditambah, tinggal kasih tahu!</p>
 
 
 
@@ -1458,10 +1738,10 @@ mkdocs gh-deploy
     
     
       
-      <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Tersalin ke clipboard", "clipboard.copy": "Salin ke clipboard", "search.result.more.one": "1 lagi di halaman ini", "search.result.more.other": "# lagi di halaman ini", "search.result.none": "Tidak ada dokumen yang sesuai", "search.result.one": "1 dokumen ditemukan", "search.result.other": "# dokumen ditemukan", "search.result.placeholder": "Ketik untuk mulai pencarian", "search.result.term.missing": "Tidak ada", "select.version": "Pilih versi"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Tersalin ke clipboard", "clipboard.copy": "Salin ke clipboard", "search.result.more.one": "1 lagi di halaman ini", "search.result.more.other": "# lagi di halaman ini", "search.result.none": "Tidak ada dokumen yang sesuai", "search.result.one": "1 dokumen ditemukan", "search.result.other": "# dokumen ditemukan", "search.result.placeholder": "Ketik untuk mulai pencarian", "search.result.term.missing": "Tidak ada", "select.version": "Pilih versi"}, "version": null}</script>
     
     
-      <script src="assets/javascripts/bundle.c8b220af.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.c8b220af.min.js"></script>
       
     
   </body>

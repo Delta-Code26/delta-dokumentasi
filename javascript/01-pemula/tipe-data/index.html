@@ -8,23 +8,25 @@
       
       
       
-        <link rel="canonical" href="https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/">
+        <link rel="canonical" href="https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/javascript/01-pemula/tipe-data/">
       
       
+        <link rel="prev" href="../variabel/">
       
-        <link rel="next" href="javascript/01-pemula/intro/">
+      
+        <link rel="next" href="../operator/">
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.11">
     
     
       
-        <title>Dokumentasi JavaScript dari Nol</title>
+        <title>Tipe Data - Dokumentasi JavaScript dari Nol</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.4af4bdda.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.4af4bdda.min.css">
       
       
 
@@ -43,7 +45,7 @@
       
     
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -62,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#dokumentasi-javascript-dari-nol-sampai-mahir" class="md-skip">
+        <a href="#tipe-data-di-javascript" class="md-skip">
           Lewati ke isi
         </a>
       
@@ -78,7 +80,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="Dokumentasi JavaScript dari Nol" class="md-header__button md-logo" aria-label="Dokumentasi JavaScript dari Nol" data-md-component="logo">
+    <a href="../../.." title="Dokumentasi JavaScript dari Nol" class="md-header__button md-logo" aria-label="Dokumentasi JavaScript dari Nol" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -98,7 +100,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Home
+              Tipe Data
             
           </span>
         </div>
@@ -188,7 +190,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigasi" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="Dokumentasi JavaScript dari Nol" class="md-nav__button md-logo" aria-label="Dokumentasi JavaScript dari Nol" data-md-component="logo">
+    <a href="../../.." title="Dokumentasi JavaScript dari Nol" class="md-nav__button md-logo" aria-label="Dokumentasi JavaScript dari Nol" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -215,32 +217,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    Home
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
         
   
   
@@ -251,113 +231,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Daftar isi">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Daftar isi
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#tujuan-dokumentasi" class="md-nav__link">
-    <span class="md-ellipsis">
-      🎯 Tujuan Dokumentasi
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#struktur-materi" class="md-nav__link">
-    <span class="md-ellipsis">
-      📚 Struktur Materi
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="📚 Struktur Materi">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#1-pemula" class="md-nav__link">
-    <span class="md-ellipsis">
-      1. 🐣 Pemula
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#2-menengah" class="md-nav__link">
-    <span class="md-ellipsis">
-      2. 🚀 Menengah
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#3-mahir" class="md-nav__link">
-    <span class="md-ellipsis">
-      3. 🧠 Mahir
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tools-yang-digunakan" class="md-nav__link">
-    <span class="md-ellipsis">
-      🛠 Tools yang Digunakan
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#cara-build-jalankan-dokumentasi" class="md-nav__link">
-    <span class="md-ellipsis">
-      📦 Cara Build &amp; Jalankan Dokumentasi
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#kontribusi" class="md-nav__link">
-    <span class="md-ellipsis">
-      ❤️ Kontribusi
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#terima-kasih" class="md-nav__link">
-    <span class="md-ellipsis">
-      🙌 Terima Kasih
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -366,18 +239,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
@@ -393,7 +268,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Pemula
@@ -407,7 +282,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/01-pemula/intro/" class="md-nav__link">
+      <a href="../intro/" class="md-nav__link">
         
   
   
@@ -430,7 +305,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/01-pemula/variabel/" class="md-nav__link">
+      <a href="../variabel/" class="md-nav__link">
         
   
   
@@ -450,10 +325,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="javascript/01-pemula/tipe-data/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Tipe Data
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -464,6 +361,221 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Daftar isi">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Daftar isi
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-tipe-data-primitif" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Tipe Data Primitif
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Tipe Data Primitif">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#number-angka" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔢 Number (Angka)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#string-teks" class="md-nav__link">
+    <span class="md-ellipsis">
+      🅰️ String (Teks)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#boolean-benarsalah" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⚖️ Boolean (Benar/Salah)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#null" class="md-nav__link">
+    <span class="md-ellipsis">
+      🏆 Null
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#undefined" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔲 Undefined
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#symbol-es6" class="md-nav__link">
+    <span class="md-ellipsis">
+      💥 Symbol (ES6)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bigint-es11" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧩 BigInt (ES11)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-tipe-data-non-primitif-referensi" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Tipe Data Non-Primitif (Referensi)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Tipe Data Non-Primitif (Referensi)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#object" class="md-nav__link">
+    <span class="md-ellipsis">
+      📦 Object
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#array" class="md-nav__link">
+    <span class="md-ellipsis">
+      📚 Array
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-tipe-data-lainnya" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Tipe Data Lainnya
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Tipe Data Lainnya">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#nan-not-a-number" class="md-nav__link">
+    <span class="md-ellipsis">
+      NaN (Not a Number)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#infinity-dan-infinity" class="md-nav__link">
+    <span class="md-ellipsis">
+      Infinity dan -Infinity
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-konversi-tipe-data-type-conversion" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Konversi Tipe Data (Type Conversion)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Konversi Tipe Data (Type Conversion)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#string-ke-number" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔄 String ke Number
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#number-ke-string" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔄 Number ke String
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-tips-best-practice" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Tips &amp; Best Practice
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kesimpulan" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎯 Kesimpulan
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -476,7 +588,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/01-pemula/operator/" class="md-nav__link">
+      <a href="../operator/" class="md-nav__link">
         
   
   
@@ -499,7 +611,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/01-pemula/control-flow/" class="md-nav__link">
+      <a href="../control-flow/" class="md-nav__link">
         
   
   
@@ -522,7 +634,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/01-pemula/array-object/" class="md-nav__link">
+      <a href="../array-object/" class="md-nav__link">
         
   
   
@@ -545,7 +657,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/01-pemula/fungsi/" class="md-nav__link">
+      <a href="../fungsi/" class="md-nav__link">
         
   
   
@@ -613,7 +725,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/02-menengah/struktur-data/" class="md-nav__link">
+      <a href="../../02-menengah/struktur-data/" class="md-nav__link">
         
   
   
@@ -636,7 +748,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/02-menengah/higher-order/" class="md-nav__link">
+      <a href="../../02-menengah/higher-order/" class="md-nav__link">
         
   
   
@@ -659,7 +771,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/02-menengah/async/" class="md-nav__link">
+      <a href="../../02-menengah/async/" class="md-nav__link">
         
   
   
@@ -682,7 +794,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/02-menengah/modularisasi/" class="md-nav__link">
+      <a href="../../02-menengah/modularisasi/" class="md-nav__link">
         
   
   
@@ -705,7 +817,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/02-menengah/dom-event/" class="md-nav__link">
+      <a href="../../02-menengah/dom-event/" class="md-nav__link">
         
   
   
@@ -728,7 +840,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/02-menengah/fetch-api/" class="md-nav__link">
+      <a href="../../02-menengah/fetch-api/" class="md-nav__link">
         
   
   
@@ -796,7 +908,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/03-mahir/konsep-lanjut/" class="md-nav__link">
+      <a href="../../03-mahir/konsep-lanjut/" class="md-nav__link">
         
   
   
@@ -819,7 +931,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/03-mahir/oop/" class="md-nav__link">
+      <a href="../../03-mahir/oop/" class="md-nav__link">
         
   
   
@@ -842,7 +954,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/03-mahir/functional/" class="md-nav__link">
+      <a href="../../03-mahir/functional/" class="md-nav__link">
         
   
   
@@ -865,7 +977,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/03-mahir/event-loop/" class="md-nav__link">
+      <a href="../../03-mahir/event-loop/" class="md-nav__link">
         
   
   
@@ -888,7 +1000,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/03-mahir/tools/" class="md-nav__link">
+      <a href="../../03-mahir/tools/" class="md-nav__link">
         
   
   
@@ -911,7 +1023,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/03-mahir/keamanan/" class="md-nav__link">
+      <a href="../../03-mahir/keamanan/" class="md-nav__link">
         
   
   
@@ -979,7 +1091,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/04-best-practices/clean-code/" class="md-nav__link">
+      <a href="../../04-best-practices/clean-code/" class="md-nav__link">
         
   
   
@@ -1002,7 +1114,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/04-best-practices/debugging/" class="md-nav__link">
+      <a href="../../04-best-practices/debugging/" class="md-nav__link">
         
   
   
@@ -1025,7 +1137,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/04-best-practices/komentar/" class="md-nav__link">
+      <a href="../../04-best-practices/komentar/" class="md-nav__link">
         
   
   
@@ -1048,7 +1160,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/04-best-practices/refactor/" class="md-nav__link">
+      <a href="../../04-best-practices/refactor/" class="md-nav__link">
         
   
   
@@ -1071,7 +1183,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/04-best-practices/style-guide/" class="md-nav__link">
+      <a href="../../04-best-practices/style-guide/" class="md-nav__link">
         
   
   
@@ -1094,7 +1206,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/04-best-practices/testing/" class="md-nav__link">
+      <a href="../../04-best-practices/testing/" class="md-nav__link">
         
   
   
@@ -1117,7 +1229,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/04-best-practices/error-handling/" class="md-nav__link">
+      <a href="../../04-best-practices/error-handling/" class="md-nav__link">
         
   
   
@@ -1140,7 +1252,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/04-best-practices/performance/" class="md-nav__link">
+      <a href="../../04-best-practices/performance/" class="md-nav__link">
         
   
   
@@ -1163,7 +1275,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/04-best-practices/eslintrc-prettierrc/" class="md-nav__link">
+      <a href="../../04-best-practices/eslintrc-prettierrc/" class="md-nav__link">
         
   
   
@@ -1213,46 +1325,73 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#tujuan-dokumentasi" class="md-nav__link">
+  <a href="#1-tipe-data-primitif" class="md-nav__link">
     <span class="md-ellipsis">
-      🎯 Tujuan Dokumentasi
+      1. Tipe Data Primitif
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#struktur-materi" class="md-nav__link">
-    <span class="md-ellipsis">
-      📚 Struktur Materi
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="📚 Struktur Materi">
+    <nav class="md-nav" aria-label="1. Tipe Data Primitif">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#1-pemula" class="md-nav__link">
+  <a href="#number-angka" class="md-nav__link">
     <span class="md-ellipsis">
-      1. 🐣 Pemula
+      🔢 Number (Angka)
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#2-menengah" class="md-nav__link">
+  <a href="#string-teks" class="md-nav__link">
     <span class="md-ellipsis">
-      2. 🚀 Menengah
+      🅰️ String (Teks)
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#3-mahir" class="md-nav__link">
+  <a href="#boolean-benarsalah" class="md-nav__link">
     <span class="md-ellipsis">
-      3. 🧠 Mahir
+      ⚖️ Boolean (Benar/Salah)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#null" class="md-nav__link">
+    <span class="md-ellipsis">
+      🏆 Null
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#undefined" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔲 Undefined
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#symbol-es6" class="md-nav__link">
+    <span class="md-ellipsis">
+      💥 Symbol (ES6)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bigint-es11" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧩 BigInt (ES11)
     </span>
   </a>
   
@@ -1264,36 +1403,117 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#tools-yang-digunakan" class="md-nav__link">
+  <a href="#2-tipe-data-non-primitif-referensi" class="md-nav__link">
     <span class="md-ellipsis">
-      🛠 Tools yang Digunakan
+      2. Tipe Data Non-Primitif (Referensi)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Tipe Data Non-Primitif (Referensi)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#object" class="md-nav__link">
+    <span class="md-ellipsis">
+      📦 Object
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#array" class="md-nav__link">
+    <span class="md-ellipsis">
+      📚 Array
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-tipe-data-lainnya" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Tipe Data Lainnya
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Tipe Data Lainnya">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#nan-not-a-number" class="md-nav__link">
+    <span class="md-ellipsis">
+      NaN (Not a Number)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#infinity-dan-infinity" class="md-nav__link">
+    <span class="md-ellipsis">
+      Infinity dan -Infinity
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-konversi-tipe-data-type-conversion" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Konversi Tipe Data (Type Conversion)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Konversi Tipe Data (Type Conversion)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#string-ke-number" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔄 String ke Number
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#number-ke-string" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔄 Number ke String
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-tips-best-practice" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Tips &amp; Best Practice
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#cara-build-jalankan-dokumentasi" class="md-nav__link">
+  <a href="#kesimpulan" class="md-nav__link">
     <span class="md-ellipsis">
-      📦 Cara Build &amp; Jalankan Dokumentasi
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#kontribusi" class="md-nav__link">
-    <span class="md-ellipsis">
-      ❤️ Kontribusi
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#terima-kasih" class="md-nav__link">
-    <span class="md-ellipsis">
-      🙌 Terima Kasih
+      🎯 Kesimpulan
     </span>
   </a>
   
@@ -1318,98 +1538,115 @@
   
 
 
-<h1 id="dokumentasi-javascript-dari-nol-sampai-mahir">📘 Dokumentasi JavaScript dari Nol sampai Mahir</h1>
-<p>Selamat datang di dokumentasi <strong>JavaScript dari Nol</strong> — panduan lengkap untuk siapa saja yang ingin memulai perjalanan dengan JavaScript, dari yang belum pernah ngoding sampai yang pengen jadi master JS sejati. 🚀</p>
+<h1 id="tipe-data-di-javascript">🧮 Tipe Data di JavaScript</h1>
+<p>Tipe data (atau <em>data types</em>) menentukan jenis informasi yang bisa disimpan dalam variabel. Misalnya, apakah itu angka, teks, atau bahkan objek kompleks. Di JavaScript, ada beberapa tipe data yang perlu kamu kenal.</p>
 <hr />
-<h2 id="tujuan-dokumentasi">🎯 Tujuan Dokumentasi</h2>
-<p>Dokumentasi ini dibuat untuk:</p>
-<p>✅ Membantu <strong>pemula</strong> memahami dasar-dasar JavaScript<br />
-✅ Memberikan landasan <strong>kuat di level menengah</strong> seperti DOM, modul, dan async<br />
-✅ Menjadi panduan <strong>tingkat mahir</strong> dalam memahami konsep seperti event loop, OOP, functional programming, hingga keamanan</p>
-<hr />
-<h2 id="struktur-materi">📚 Struktur Materi</h2>
-<p>Dokumentasi dibagi ke dalam tiga bagian besar:</p>
-<h3 id="1-pemula">1. 🐣 Pemula</h3>
-<blockquote>
-<p>Cocok untuk kamu yang baru kenalan dengan JavaScript</p>
-</blockquote>
-<ul>
-<li>Pengantar dan Setup ➡️ <a href="./01-pemula/intro.md">Buka</a></li>
-<li>Tipe Data &amp; Variabel</li>
-<li>Operator</li>
-<li>Fungsi</li>
-<li>Control Flow (if, loop, switch)</li>
-<li>Array &amp; Object</li>
-</ul>
-<hr />
-<h3 id="2-menengah">2. 🚀 Menengah</h3>
-<blockquote>
-<p>Setelah ngerti dasar, saatnya eksplor fitur-fitur modern</p>
-</blockquote>
-<ul>
-<li>DOM &amp; Event Handling</li>
-<li>Fetch API &amp; Async/Await</li>
-<li>Modularisasi JavaScript</li>
-<li>Higher-Order Function</li>
-<li>Struktur Data Lanjut (Set, Map, dsb)</li>
-</ul>
-<p>➡️ Lihat: <a href="02-menengah/async.md">JavaScript Menengah</a></p>
-<hr />
-<h3 id="3-mahir">3. 🧠 Mahir</h3>
-<blockquote>
-<p>Level ninja. Cocok buat yang mau jadi frontend/backend developer serius</p>
-</blockquote>
-<ul>
-<li>Event Loop &amp; Asynchronous Engine</li>
-<li>OOP (Object-Oriented Programming)</li>
-<li>Functional Programming</li>
-<li>Keamanan di JavaScript</li>
-<li>Tools &amp; Ekosistem</li>
-<li>Testing &amp; Optimasi</li>
-</ul>
-<p>➡️ Lihat: <a href="03-mahir/event-loop.md">JavaScript Mahir</a></p>
-<hr />
-<h2 id="tools-yang-digunakan">🛠 Tools yang Digunakan</h2>
-<ul>
-<li><a href="https://www.mkdocs.org/">MkDocs</a> untuk dokumentasi</li>
-<li><a href="https://squidfunk.github.io/mkdocs-material/">Material for MkDocs</a> untuk tampilan yang modern dan bersih</li>
-<li><a href="https://pages.github.com/">GitHub Pages</a> untuk hosting</li>
-</ul>
-<hr />
-<h2 id="cara-build-jalankan-dokumentasi">📦 Cara Build &amp; Jalankan Dokumentasi</h2>
-<pre><code class="language-bash"># Clone repositori
-git clone https://github.com/username/dokumentasi-javascript-dari-nol.git
-cd dokumentasi-javascript-dari-nol
-
-# Install dependencies
-pip install mkdocs mkdocs-material
-
-# Jalankan lokal
-mkdocs serve
-
-# Deploy ke GitHub Pages
-mkdocs gh-deploy
+<h2 id="1-tipe-data-primitif">1. Tipe Data Primitif</h2>
+<p>Tipe data primitif adalah tipe data dasar yang tidak dapat diubah setelah dideklarasikan. Berikut tipe data primitif di JavaScript:</p>
+<h3 id="number-angka">🔢 <strong>Number</strong> (Angka)</h3>
+<p>Untuk menyimpan angka, baik bulat maupun desimal.</p>
+<pre><code class="language-js">let umur = 25;           // Integer
+let harga = 100.50;      // Float
+let pi = 3.14159;        // Pi, decimal
 </code></pre>
-<blockquote>
-<p>Pastikan kamu sudah install Python &amp; pip ya!</p>
-</blockquote>
+<h3 id="string-teks">🅰️ <strong>String</strong> (Teks)</h3>
+<p>Untuk menyimpan teks. String bisa menggunakan tanda kutip ganda (<code>"</code>) atau kutip tunggal (<code>'</code>).</p>
+<pre><code class="language-js">let nama = &quot;Marno&quot;;
+let alamat = 'Malaysia';
+let kalimat = &quot;Halo, apa kabar?&quot;;
+</code></pre>
+<h3 id="boolean-benarsalah">⚖️ <strong>Boolean</strong> (Benar/Salah)</h3>
+<p>Hanya ada dua nilai: <code>true</code> atau <code>false</code>.</p>
+<pre><code class="language-js">let isAdmin = true;
+let isLoggedIn = false;
+</code></pre>
+<h3 id="null">🏆 <strong>Null</strong></h3>
+<p>Tipe data ini menunjukkan bahwa variabel sengaja dikosongkan atau tidak memiliki nilai.</p>
+<pre><code class="language-js">let dataKosong = null;
+</code></pre>
+<h3 id="undefined">🔲 <strong>Undefined</strong></h3>
+<p>Tipe data ini berarti variabel belum diberi nilai sama sekali.</p>
+<pre><code class="language-js">let belumDitetapkan;
+console.log(belumDitetapkan); // Output: undefined
+</code></pre>
+<h3 id="symbol-es6">💥 <strong>Symbol</strong> (ES6)</h3>
+<p>Digunakan untuk membuat nilai unik. Biasanya digunakan dalam aplikasi yang lebih kompleks.</p>
+<pre><code class="language-js">let id = Symbol(&quot;id&quot;);
+console.log(id); // Output: Symbol(id)
+</code></pre>
+<h3 id="bigint-es11">🧩 <strong>BigInt</strong> (ES11)</h3>
+<p>Tipe data untuk angka yang sangat besar (lebih besar dari <code>Number.MAX_SAFE_INTEGER</code>).</p>
+<pre><code class="language-js">let angkaBesar = 1234567890123456789012345678901234567890n;
+console.log(angkaBesar); // Output: 1234567890123456789012345678901234567890n
+</code></pre>
 <hr />
-<h2 id="kontribusi">❤️ Kontribusi</h2>
-<p>Dokumentasi ini open-source dan bebas dikembangkan bareng. Kalau kamu punya ide, kritik, atau ingin nambahin materi, feel free buat:</p>
+<h2 id="2-tipe-data-non-primitif-referensi">2. Tipe Data Non-Primitif (Referensi)</h2>
+<p>Tipe data non-primitif adalah tipe data yang bisa diubah, dan nilainya bisa mengacu ke tempat lain. Contohnya adalah <strong>Object</strong> dan <strong>Array</strong>.</p>
+<h3 id="object">📦 <strong>Object</strong></h3>
+<p>Digunakan untuk menyimpan pasangan key-value (seperti dictionary).</p>
+<pre><code class="language-js">let person = {
+  nama: &quot;Marno&quot;,
+  umur: 25,
+  alamat: &quot;Malaysia&quot;
+};
+
+console.log(person.nama); // Output: Marno
+console.log(person.umur); // Output: 25
+</code></pre>
+<h3 id="array">📚 <strong>Array</strong></h3>
+<p>Digunakan untuk menyimpan beberapa nilai dalam satu variabel.</p>
+<pre><code class="language-js">let warna = [&quot;merah&quot;, &quot;biru&quot;, &quot;hijau&quot;];
+console.log(warna[0]); // Output: merah
+console.log(warna[1]); // Output: biru
+</code></pre>
+<hr />
+<h2 id="3-tipe-data-lainnya">3. Tipe Data Lainnya</h2>
+<h3 id="nan-not-a-number"><strong>NaN</strong> (Not a Number)</h3>
+<p>Tipe data ini muncul ketika operasi yang dilakukan menghasilkan nilai yang tidak valid untuk angka, seperti pembagian dengan nol.</p>
+<pre><code class="language-js">let hasil = 0 / 0;
+console.log(hasil); // Output: NaN
+</code></pre>
+<h3 id="infinity-dan-infinity"><strong>Infinity</strong> dan <strong>-Infinity</strong></h3>
+<p>Representasi angka yang lebih besar dari angka terbesar yang bisa ditangani oleh JavaScript (positif atau negatif).</p>
+<pre><code class="language-js">let angkaPositif = 1 / 0;
+let angkaNegatif = -1 / 0;
+
+console.log(angkaPositif); // Output: Infinity
+console.log(angkaNegatif); // Output: -Infinity
+</code></pre>
+<hr />
+<h2 id="4-konversi-tipe-data-type-conversion">4. Konversi Tipe Data (Type Conversion)</h2>
+<p>JavaScript bisa otomatis mengonversi tipe data saat diperlukan. Namun, kamu juga bisa melakukan konversi manual:</p>
+<h3 id="string-ke-number">🔄 <strong>String ke Number</strong></h3>
+<pre><code class="language-js">let angka = &quot;123&quot;;
+let angkaKeNumber = Number(angka);  // Konversi ke Number
+console.log(angkaKeNumber); // Output: 123
+</code></pre>
+<h3 id="number-ke-string">🔄 <strong>Number ke String</strong></h3>
+<pre><code class="language-js">let angka = 123;
+let angkaKeString = String(angka);  // Konversi ke String
+console.log(angkaKeString); // Output: &quot;123&quot;
+</code></pre>
+<hr />
+<h2 id="5-tips-best-practice">5. Tips &amp; Best Practice</h2>
 <ul>
-<li>Fork repo</li>
-<li>Bikin branch baru</li>
-<li>Commit perubahan</li>
-<li>Buat Pull Request ✨</li>
+<li><strong>Gunakan tipe data yang tepat</strong>: Pilih <code>Number</code> untuk angka, <code>String</code> untuk teks, dan <code>Boolean</code> untuk kondisi (true/false).</li>
+<li><strong>Pahami perbedaan antara <code>null</code> dan <code>undefined</code></strong>: <code>null</code> adalah nilai yang sengaja dihilangkan, sedangkan <code>undefined</code> berarti variabel belum diberi nilai.</li>
+<li><strong>Cek tipe data menggunakan <code>typeof</code></strong>:
+  <code>js
+  console.log(typeof "Hello");   // Output: string
+  console.log(typeof 25);        // Output: number
+  console.log(typeof true);      // Output: boolean</code></li>
 </ul>
 <hr />
-<h2 id="terima-kasih">🙌 Terima Kasih</h2>
-<p>Dokumentasi ini didedikasikan untuk para pejuang kode di seluruh penjuru dunia, terutama kamu yang lagi belajar, nyoba, gagal, lalu bangkit lagi. 🔥</p>
-<blockquote>
-<p>"JavaScript itu bukan tentang seberapa cepat kamu paham, tapi seberapa gigih kamu mencoba."</p>
-</blockquote>
-<p>Selamat belajar dan... semoga sukses! 🌈</p>
-<p>```</p>
+<h2 id="kesimpulan">🎯 Kesimpulan</h2>
+<ul>
+<li>Tipe data adalah jenis informasi yang disimpan dalam variabel.</li>
+<li>JavaScript memiliki berbagai tipe data, baik yang primitif (Number, String, Boolean) maupun non-primitif (Object, Array).</li>
+<li>Pahami dan gunakan tipe data yang sesuai dengan kebutuhanmu.</li>
+</ul>
+<p>Selanjutnya, kita akan bahas tentang <strong>Operator</strong>. Siap untuk operasi matematika dan logika? Yuk lanjut!
+```</p>
 
 
 
@@ -1458,10 +1695,10 @@ mkdocs gh-deploy
     
     
       
-      <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Tersalin ke clipboard", "clipboard.copy": "Salin ke clipboard", "search.result.more.one": "1 lagi di halaman ini", "search.result.more.other": "# lagi di halaman ini", "search.result.none": "Tidak ada dokumen yang sesuai", "search.result.one": "1 dokumen ditemukan", "search.result.other": "# dokumen ditemukan", "search.result.placeholder": "Ketik untuk mulai pencarian", "search.result.term.missing": "Tidak ada", "select.version": "Pilih versi"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Tersalin ke clipboard", "clipboard.copy": "Salin ke clipboard", "search.result.more.one": "1 lagi di halaman ini", "search.result.more.other": "# lagi di halaman ini", "search.result.none": "Tidak ada dokumen yang sesuai", "search.result.one": "1 dokumen ditemukan", "search.result.other": "# dokumen ditemukan", "search.result.placeholder": "Ketik untuk mulai pencarian", "search.result.term.missing": "Tidak ada", "select.version": "Pilih versi"}, "version": null}</script>
     
     
-      <script src="assets/javascripts/bundle.c8b220af.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.c8b220af.min.js"></script>
       
     
   </body>

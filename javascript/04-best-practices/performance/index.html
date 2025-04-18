@@ -8,23 +8,25 @@
       
       
       
-        <link rel="canonical" href="https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/">
+        <link rel="canonical" href="https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/javascript/04-best-practices/performance/">
       
       
+        <link rel="prev" href="../error-handling/">
       
-        <link rel="next" href="javascript/01-pemula/intro/">
+      
+        <link rel="next" href="../eslintrc-prettierrc/">
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.11">
     
     
       
-        <title>Dokumentasi JavaScript dari Nol</title>
+        <title>Performance - Dokumentasi JavaScript dari Nol</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.4af4bdda.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.4af4bdda.min.css">
       
       
 
@@ -43,7 +45,7 @@
       
     
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -62,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#dokumentasi-javascript-dari-nol-sampai-mahir" class="md-skip">
+        <a href="#2-debounce-dan-throttle" class="md-skip">
           Lewati ke isi
         </a>
       
@@ -78,7 +80,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="Dokumentasi JavaScript dari Nol" class="md-header__button md-logo" aria-label="Dokumentasi JavaScript dari Nol" data-md-component="logo">
+    <a href="../../.." title="Dokumentasi JavaScript dari Nol" class="md-header__button md-logo" aria-label="Dokumentasi JavaScript dari Nol" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -98,7 +100,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Home
+              Performance
             
           </span>
         </div>
@@ -188,7 +190,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigasi" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="Dokumentasi JavaScript dari Nol" class="md-nav__button md-logo" aria-label="Dokumentasi JavaScript dari Nol" data-md-component="logo">
+    <a href="../../.." title="Dokumentasi JavaScript dari Nol" class="md-nav__button md-logo" aria-label="Dokumentasi JavaScript dari Nol" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -215,32 +217,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    Home
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
         
   
   
@@ -251,113 +231,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Daftar isi">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Daftar isi
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#tujuan-dokumentasi" class="md-nav__link">
-    <span class="md-ellipsis">
-      🎯 Tujuan Dokumentasi
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#struktur-materi" class="md-nav__link">
-    <span class="md-ellipsis">
-      📚 Struktur Materi
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="📚 Struktur Materi">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#1-pemula" class="md-nav__link">
-    <span class="md-ellipsis">
-      1. 🐣 Pemula
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#2-menengah" class="md-nav__link">
-    <span class="md-ellipsis">
-      2. 🚀 Menengah
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#3-mahir" class="md-nav__link">
-    <span class="md-ellipsis">
-      3. 🧠 Mahir
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tools-yang-digunakan" class="md-nav__link">
-    <span class="md-ellipsis">
-      🛠 Tools yang Digunakan
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#cara-build-jalankan-dokumentasi" class="md-nav__link">
-    <span class="md-ellipsis">
-      📦 Cara Build &amp; Jalankan Dokumentasi
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#kontribusi" class="md-nav__link">
-    <span class="md-ellipsis">
-      ❤️ Kontribusi
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#terima-kasih" class="md-nav__link">
-    <span class="md-ellipsis">
-      🙌 Terima Kasih
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -407,7 +280,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/01-pemula/intro/" class="md-nav__link">
+      <a href="../../01-pemula/intro/" class="md-nav__link">
         
   
   
@@ -430,7 +303,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/01-pemula/variabel/" class="md-nav__link">
+      <a href="../../01-pemula/variabel/" class="md-nav__link">
         
   
   
@@ -453,7 +326,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/01-pemula/tipe-data/" class="md-nav__link">
+      <a href="../../01-pemula/tipe-data/" class="md-nav__link">
         
   
   
@@ -476,7 +349,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/01-pemula/operator/" class="md-nav__link">
+      <a href="../../01-pemula/operator/" class="md-nav__link">
         
   
   
@@ -499,7 +372,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/01-pemula/control-flow/" class="md-nav__link">
+      <a href="../../01-pemula/control-flow/" class="md-nav__link">
         
   
   
@@ -522,7 +395,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/01-pemula/array-object/" class="md-nav__link">
+      <a href="../../01-pemula/array-object/" class="md-nav__link">
         
   
   
@@ -545,7 +418,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/01-pemula/fungsi/" class="md-nav__link">
+      <a href="../../01-pemula/fungsi/" class="md-nav__link">
         
   
   
@@ -613,7 +486,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/02-menengah/struktur-data/" class="md-nav__link">
+      <a href="../../02-menengah/struktur-data/" class="md-nav__link">
         
   
   
@@ -636,7 +509,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/02-menengah/higher-order/" class="md-nav__link">
+      <a href="../../02-menengah/higher-order/" class="md-nav__link">
         
   
   
@@ -659,7 +532,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/02-menengah/async/" class="md-nav__link">
+      <a href="../../02-menengah/async/" class="md-nav__link">
         
   
   
@@ -682,7 +555,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/02-menengah/modularisasi/" class="md-nav__link">
+      <a href="../../02-menengah/modularisasi/" class="md-nav__link">
         
   
   
@@ -705,7 +578,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/02-menengah/dom-event/" class="md-nav__link">
+      <a href="../../02-menengah/dom-event/" class="md-nav__link">
         
   
   
@@ -728,7 +601,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/02-menengah/fetch-api/" class="md-nav__link">
+      <a href="../../02-menengah/fetch-api/" class="md-nav__link">
         
   
   
@@ -796,7 +669,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/03-mahir/konsep-lanjut/" class="md-nav__link">
+      <a href="../../03-mahir/konsep-lanjut/" class="md-nav__link">
         
   
   
@@ -819,7 +692,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/03-mahir/oop/" class="md-nav__link">
+      <a href="../../03-mahir/oop/" class="md-nav__link">
         
   
   
@@ -842,7 +715,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/03-mahir/functional/" class="md-nav__link">
+      <a href="../../03-mahir/functional/" class="md-nav__link">
         
   
   
@@ -865,7 +738,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/03-mahir/event-loop/" class="md-nav__link">
+      <a href="../../03-mahir/event-loop/" class="md-nav__link">
         
   
   
@@ -888,7 +761,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/03-mahir/tools/" class="md-nav__link">
+      <a href="../../03-mahir/tools/" class="md-nav__link">
         
   
   
@@ -911,7 +784,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/03-mahir/keamanan/" class="md-nav__link">
+      <a href="../../03-mahir/keamanan/" class="md-nav__link">
         
   
   
@@ -938,18 +811,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
         
           
           <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
@@ -965,7 +840,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             Best Practices
@@ -979,7 +854,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/04-best-practices/clean-code/" class="md-nav__link">
+      <a href="../clean-code/" class="md-nav__link">
         
   
   
@@ -1002,7 +877,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/04-best-practices/debugging/" class="md-nav__link">
+      <a href="../debugging/" class="md-nav__link">
         
   
   
@@ -1025,7 +900,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/04-best-practices/komentar/" class="md-nav__link">
+      <a href="../komentar/" class="md-nav__link">
         
   
   
@@ -1048,7 +923,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/04-best-practices/refactor/" class="md-nav__link">
+      <a href="../refactor/" class="md-nav__link">
         
   
   
@@ -1071,7 +946,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/04-best-practices/style-guide/" class="md-nav__link">
+      <a href="../style-guide/" class="md-nav__link">
         
   
   
@@ -1094,7 +969,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/04-best-practices/testing/" class="md-nav__link">
+      <a href="../testing/" class="md-nav__link">
         
   
   
@@ -1117,7 +992,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/04-best-practices/error-handling/" class="md-nav__link">
+      <a href="../error-handling/" class="md-nav__link">
         
   
   
@@ -1137,10 +1012,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="javascript/04-best-practices/performance/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Performance
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -1151,6 +1046,105 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Daftar isi">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Daftar isi
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#2-debounce-dan-throttle" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Debounce dan Throttle
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-gunakan-variabel-secukupnya" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Gunakan Variabel Secukupnya
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-optimalkan-loop-dan-array" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Optimalkan Loop dan Array
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-lazy-load-gambar-script" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Lazy Load Gambar &amp; Script
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-gunakan-web-worker-untuk-proses-berat" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Gunakan Web Worker untuk Proses Berat
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tips-advance" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧠 Tips Advance
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#alat-analisis-performa" class="md-nav__link">
+    <span class="md-ellipsis">
+      📊 Alat Analisis Performa
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#checklist-optimasi" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅ Checklist Optimasi
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kesimpulan" class="md-nav__link">
+    <span class="md-ellipsis">
+      🚀 Kesimpulan
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1163,7 +1157,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/04-best-practices/eslintrc-prettierrc/" class="md-nav__link">
+      <a href="../eslintrc-prettierrc/" class="md-nav__link">
         
   
   
@@ -1203,8 +1197,6 @@
   
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -1213,87 +1205,81 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#tujuan-dokumentasi" class="md-nav__link">
+  <a href="#2-debounce-dan-throttle" class="md-nav__link">
     <span class="md-ellipsis">
-      🎯 Tujuan Dokumentasi
+      2. Debounce dan Throttle
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#struktur-materi" class="md-nav__link">
+  <a href="#3-gunakan-variabel-secukupnya" class="md-nav__link">
     <span class="md-ellipsis">
-      📚 Struktur Materi
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="📚 Struktur Materi">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#1-pemula" class="md-nav__link">
-    <span class="md-ellipsis">
-      1. 🐣 Pemula
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#2-menengah" class="md-nav__link">
-    <span class="md-ellipsis">
-      2. 🚀 Menengah
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#3-mahir" class="md-nav__link">
-    <span class="md-ellipsis">
-      3. 🧠 Mahir
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tools-yang-digunakan" class="md-nav__link">
-    <span class="md-ellipsis">
-      🛠 Tools yang Digunakan
+      3. Gunakan Variabel Secukupnya
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#cara-build-jalankan-dokumentasi" class="md-nav__link">
+  <a href="#4-optimalkan-loop-dan-array" class="md-nav__link">
     <span class="md-ellipsis">
-      📦 Cara Build &amp; Jalankan Dokumentasi
+      4. Optimalkan Loop dan Array
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#kontribusi" class="md-nav__link">
+  <a href="#5-lazy-load-gambar-script" class="md-nav__link">
     <span class="md-ellipsis">
-      ❤️ Kontribusi
+      5. Lazy Load Gambar &amp; Script
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#terima-kasih" class="md-nav__link">
+  <a href="#6-gunakan-web-worker-untuk-proses-berat" class="md-nav__link">
     <span class="md-ellipsis">
-      🙌 Terima Kasih
+      6. Gunakan Web Worker untuk Proses Berat
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tips-advance" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧠 Tips Advance
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#alat-analisis-performa" class="md-nav__link">
+    <span class="md-ellipsis">
+      📊 Alat Analisis Performa
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#checklist-optimasi" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅ Checklist Optimasi
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kesimpulan" class="md-nav__link">
+    <span class="md-ellipsis">
+      🚀 Kesimpulan
     </span>
   </a>
   
@@ -1318,98 +1304,175 @@
   
 
 
-<h1 id="dokumentasi-javascript-dari-nol-sampai-mahir">📘 Dokumentasi JavaScript dari Nol sampai Mahir</h1>
-<p>Selamat datang di dokumentasi <strong>JavaScript dari Nol</strong> — panduan lengkap untuk siapa saja yang ingin memulai perjalanan dengan JavaScript, dari yang belum pernah ngoding sampai yang pengen jadi master JS sejati. 🚀</p>
-<hr />
-<h2 id="tujuan-dokumentasi">🎯 Tujuan Dokumentasi</h2>
-<p>Dokumentasi ini dibuat untuk:</p>
-<p>✅ Membantu <strong>pemula</strong> memahami dasar-dasar JavaScript<br />
-✅ Memberikan landasan <strong>kuat di level menengah</strong> seperti DOM, modul, dan async<br />
-✅ Menjadi panduan <strong>tingkat mahir</strong> dalam memahami konsep seperti event loop, OOP, functional programming, hingga keamanan</p>
-<hr />
-<h2 id="struktur-materi">📚 Struktur Materi</h2>
-<p>Dokumentasi dibagi ke dalam tiga bagian besar:</p>
-<h3 id="1-pemula">1. 🐣 Pemula</h3>
-<blockquote>
-<p>Cocok untuk kamu yang baru kenalan dengan JavaScript</p>
-</blockquote>
-<ul>
-<li>Pengantar dan Setup ➡️ <a href="./01-pemula/intro.md">Buka</a></li>
-<li>Tipe Data &amp; Variabel</li>
-<li>Operator</li>
-<li>Fungsi</li>
-<li>Control Flow (if, loop, switch)</li>
-<li>Array &amp; Object</li>
-</ul>
-<hr />
-<h3 id="2-menengah">2. 🚀 Menengah</h3>
-<blockquote>
-<p>Setelah ngerti dasar, saatnya eksplor fitur-fitur modern</p>
-</blockquote>
-<ul>
-<li>DOM &amp; Event Handling</li>
-<li>Fetch API &amp; Async/Await</li>
-<li>Modularisasi JavaScript</li>
-<li>Higher-Order Function</li>
-<li>Struktur Data Lanjut (Set, Map, dsb)</li>
-</ul>
-<p>➡️ Lihat: <a href="02-menengah/async.md">JavaScript Menengah</a></p>
-<hr />
-<h3 id="3-mahir">3. 🧠 Mahir</h3>
-<blockquote>
-<p>Level ninja. Cocok buat yang mau jadi frontend/backend developer serius</p>
-</blockquote>
-<ul>
-<li>Event Loop &amp; Asynchronous Engine</li>
-<li>OOP (Object-Oriented Programming)</li>
-<li>Functional Programming</li>
-<li>Keamanan di JavaScript</li>
-<li>Tools &amp; Ekosistem</li>
-<li>Testing &amp; Optimasi</li>
-</ul>
-<p>➡️ Lihat: <a href="03-mahir/event-loop.md">JavaScript Mahir</a></p>
-<hr />
-<h2 id="tools-yang-digunakan">🛠 Tools yang Digunakan</h2>
-<ul>
-<li><a href="https://www.mkdocs.org/">MkDocs</a> untuk dokumentasi</li>
-<li><a href="https://squidfunk.github.io/mkdocs-material/">Material for MkDocs</a> untuk tampilan yang modern dan bersih</li>
-<li><a href="https://pages.github.com/">GitHub Pages</a> untuk hosting</li>
-</ul>
-<hr />
-<h2 id="cara-build-jalankan-dokumentasi">📦 Cara Build &amp; Jalankan Dokumentasi</h2>
-<pre><code class="language-bash"># Clone repositori
-git clone https://github.com/username/dokumentasi-javascript-dari-nol.git
-cd dokumentasi-javascript-dari-nol
+  <h1>Performance</h1>
 
-# Install dependencies
-pip install mkdocs mkdocs-material
+<pre><code class="language-markdown"># ⚡ Optimasi Performa JavaScript: Biar Ngebut Kayak Mobil F1
 
-# Jalankan lokal
-mkdocs serve
+Performa adalah hal krusial, terutama saat web/app kamu harus responsif, cepat, dan gak bikin user ngantuk nungguin loading. Semakin efisien kodenya, semakin bahagia user-nya (dan servernya juga). 😎
 
-# Deploy ke GitHub Pages
-mkdocs gh-deploy
+---
+
+## 🚦 Kenapa Performa Penting?
+
+- ⏱️ Loading lambat = user kabur
+- 🔁 Operasi berat = browser freeze
+- 🧠 Kode boros = RAM browser nangis
+- 📉 SEO bisa terdampak dari kecepatan situs
+
+---
+
+## 🔍 Teknik Dasar Optimasi
+
+### 1. Hindari Reflow dan Repaint Berlebihan (DOM Manipulasi)
+
+Manipulasi DOM yang sering bisa memperlambat render halaman:
+
+❌ Buruk:
+```javascript
+for (let i = 0; i &lt; 1000; i++) {
+  const div = document.createElement(&quot;div&quot;);
+  document.body.appendChild(div);
+}
 </code></pre>
-<blockquote>
-<p>Pastikan kamu sudah install Python &amp; pip ya!</p>
-</blockquote>
+<p>✅ Lebih baik:</p>
+<pre><code class="language-javascript">const fragment = document.createDocumentFragment();
+for (let i = 0; i &lt; 1000; i++) {
+  const div = document.createElement(&quot;div&quot;);
+  fragment.appendChild(div);
+}
+document.body.appendChild(fragment);
+</code></pre>
 <hr />
-<h2 id="kontribusi">❤️ Kontribusi</h2>
-<p>Dokumentasi ini open-source dan bebas dikembangkan bareng. Kalau kamu punya ide, kritik, atau ingin nambahin materi, feel free buat:</p>
+<h3 id="2-debounce-dan-throttle">2. Debounce dan Throttle</h3>
+<p>Buat event seperti scroll atau resize gak nembak terus-terusan.</p>
+<p>📌 Debounce:</p>
+<pre><code class="language-javascript">function debounce(fn, delay) {
+  let timeout;
+  return function () {
+    clearTimeout(timeout);
+    timeout = setTimeout(fn, delay);
+  };
+}
+</code></pre>
+<p>📌 Throttle:</p>
+<pre><code class="language-javascript">function throttle(fn, limit) {
+  let waiting = false;
+  return function () {
+    if (!waiting) {
+      fn();
+      waiting = true;
+      setTimeout(() =&gt; waiting = false, limit);
+    }
+  };
+}
+</code></pre>
+<hr />
+<h3 id="3-gunakan-variabel-secukupnya">3. Gunakan Variabel Secukupnya</h3>
+<p>Jangan bikin variabel yang gak dipakai. Dan jangan ngeloop data besar kalau gak perlu.</p>
+<pre><code class="language-javascript">// Jangan
+let unusedVar = &quot;ini gak dipakai&quot;;
+
+// Hindari nested loop berat:
+for (let i = 0; i &lt; users.length; i++) {
+  for (let j = 0; j &lt; orders.length; j++) {
+    // 🐌 lambat banget
+  }
+}
+</code></pre>
+<hr />
+<h3 id="4-optimalkan-loop-dan-array">4. Optimalkan Loop dan Array</h3>
+<p>❌ Lambat:</p>
+<pre><code class="language-javascript">for (let i = 0; i &lt; arr.length; i++) { ... }
+</code></pre>
+<p>✅ Lebih optimal:</p>
+<pre><code class="language-javascript">for (let i = 0, len = arr.length; i &lt; len; i++) { ... }
+</code></pre>
+<p>Atau gunakan <code>.forEach()</code> untuk lebih bersih.</p>
+<hr />
+<h3 id="5-lazy-load-gambar-script">5. Lazy Load Gambar &amp; Script</h3>
+<p>Tunda load resource yang gak langsung dibutuhkan.</p>
+<pre><code class="language-html">&lt;img src=&quot;foto.jpg&quot; loading=&quot;lazy&quot; /&gt;
+&lt;script async src=&quot;script.js&quot;&gt;&lt;/script&gt;
+</code></pre>
+<hr />
+<h3 id="6-gunakan-web-worker-untuk-proses-berat">6. Gunakan Web Worker untuk Proses Berat</h3>
+<p>Pisahkan proses berat dari main thread biar UI gak freeze:</p>
+<pre><code class="language-javascript">const worker = new Worker(&quot;worker.js&quot;);
+worker.postMessage(&quot;data&quot;);
+
+worker.onmessage = function (e) {
+  console.log(&quot;Dari worker:&quot;, e.data);
+};
+</code></pre>
+<hr />
+<h2 id="tips-advance">🧠 Tips Advance</h2>
 <ul>
-<li>Fork repo</li>
-<li>Bikin branch baru</li>
-<li>Commit perubahan</li>
-<li>Buat Pull Request ✨</li>
+<li>Cache hasil fetch atau perhitungan berat</li>
+<li>Gunakan pagination &amp; virtual scrolling untuk data besar</li>
+<li>Compress data JSON (pakai gzip di backend)</li>
+<li>Gunakan framework/library ringan</li>
+<li>Hindari deep cloning berlebihan (<code>JSON.parse(JSON.stringify(...))</code> itu berat!)</li>
 </ul>
 <hr />
-<h2 id="terima-kasih">🙌 Terima Kasih</h2>
-<p>Dokumentasi ini didedikasikan untuk para pejuang kode di seluruh penjuru dunia, terutama kamu yang lagi belajar, nyoba, gagal, lalu bangkit lagi. 🔥</p>
+<h2 id="alat-analisis-performa">📊 Alat Analisis Performa</h2>
+<ul>
+<li><strong>Lighthouse</strong> (Chrome DevTools)</li>
+<li><strong>Performance tab</strong> (Chrome DevTools)</li>
+<li><strong>WebPageTest.org</strong></li>
+<li><strong>JSPerf.com</strong> (benchmarking)</li>
+</ul>
+<hr />
+<h2 id="checklist-optimasi">✅ Checklist Optimasi</h2>
+<table>
+<thead>
+<tr>
+<th>Checklist</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Gunakan <code>let</code>/<code>const</code> dengan tepat</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Hindari DOM manipulasi berulang</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Gunakan debounce/throttle</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Gunakan fragment untuk batch DOM</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Gunakan lazy loading</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Hindari nested loop</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Gunakan cache</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Analisis performa secara rutin</td>
+<td>✅</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="kesimpulan">🚀 Kesimpulan</h2>
+<p>Optimasi performa bukan cuma soal nulis kode yang jalan, tapi kode yang <strong>jalan cepat dan efisien</strong>. Di dunia nyata, user gak mau nunggu. Dan kamu gak mau bikin browser crash, kan?</p>
 <blockquote>
-<p>"JavaScript itu bukan tentang seberapa cepat kamu paham, tapi seberapa gigih kamu mencoba."</p>
+<p>"Fast code is clean code. Clean code is happy dev. Happy dev = peaceful world." — Orang bijak JavaScript 🌍</p>
 </blockquote>
-<p>Selamat belajar dan... semoga sukses! 🌈</p>
-<p>```</p>
+<p>Tulis kode se-efisien mungkin. Minimal, jangan bikin laptop user nyalain kipas jet 🚀
+```</p>
 
 
 
@@ -1458,10 +1521,10 @@ mkdocs gh-deploy
     
     
       
-      <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Tersalin ke clipboard", "clipboard.copy": "Salin ke clipboard", "search.result.more.one": "1 lagi di halaman ini", "search.result.more.other": "# lagi di halaman ini", "search.result.none": "Tidak ada dokumen yang sesuai", "search.result.one": "1 dokumen ditemukan", "search.result.other": "# dokumen ditemukan", "search.result.placeholder": "Ketik untuk mulai pencarian", "search.result.term.missing": "Tidak ada", "select.version": "Pilih versi"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Tersalin ke clipboard", "clipboard.copy": "Salin ke clipboard", "search.result.more.one": "1 lagi di halaman ini", "search.result.more.other": "# lagi di halaman ini", "search.result.none": "Tidak ada dokumen yang sesuai", "search.result.one": "1 dokumen ditemukan", "search.result.other": "# dokumen ditemukan", "search.result.placeholder": "Ketik untuk mulai pencarian", "search.result.term.missing": "Tidak ada", "select.version": "Pilih versi"}, "version": null}</script>
     
     
-      <script src="assets/javascripts/bundle.c8b220af.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.c8b220af.min.js"></script>
       
     
   </body>

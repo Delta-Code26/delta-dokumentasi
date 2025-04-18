@@ -8,23 +8,25 @@
       
       
       
-        <link rel="canonical" href="https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/">
+        <link rel="canonical" href="https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/javascript/02-menengah/modularisasi/">
       
       
+        <link rel="prev" href="../async/">
       
-        <link rel="next" href="javascript/01-pemula/intro/">
+      
+        <link rel="next" href="../dom-event/">
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.11">
     
     
       
-        <title>Dokumentasi JavaScript dari Nol</title>
+        <title>Modularisasi - Dokumentasi JavaScript dari Nol</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.4af4bdda.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.4af4bdda.min.css">
       
       
 
@@ -43,7 +45,7 @@
       
     
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -62,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#dokumentasi-javascript-dari-nol-sampai-mahir" class="md-skip">
+        <a href="#modularisasi-di-javascript" class="md-skip">
           Lewati ke isi
         </a>
       
@@ -78,7 +80,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="Dokumentasi JavaScript dari Nol" class="md-header__button md-logo" aria-label="Dokumentasi JavaScript dari Nol" data-md-component="logo">
+    <a href="../../.." title="Dokumentasi JavaScript dari Nol" class="md-header__button md-logo" aria-label="Dokumentasi JavaScript dari Nol" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -98,7 +100,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Home
+              Modularisasi
             
           </span>
         </div>
@@ -188,7 +190,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigasi" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="Dokumentasi JavaScript dari Nol" class="md-nav__button md-logo" aria-label="Dokumentasi JavaScript dari Nol" data-md-component="logo">
+    <a href="../../.." title="Dokumentasi JavaScript dari Nol" class="md-nav__button md-logo" aria-label="Dokumentasi JavaScript dari Nol" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -215,32 +217,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    Home
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
         
   
   
@@ -251,113 +231,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Daftar isi">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Daftar isi
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#tujuan-dokumentasi" class="md-nav__link">
-    <span class="md-ellipsis">
-      🎯 Tujuan Dokumentasi
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#struktur-materi" class="md-nav__link">
-    <span class="md-ellipsis">
-      📚 Struktur Materi
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="📚 Struktur Materi">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#1-pemula" class="md-nav__link">
-    <span class="md-ellipsis">
-      1. 🐣 Pemula
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#2-menengah" class="md-nav__link">
-    <span class="md-ellipsis">
-      2. 🚀 Menengah
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#3-mahir" class="md-nav__link">
-    <span class="md-ellipsis">
-      3. 🧠 Mahir
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tools-yang-digunakan" class="md-nav__link">
-    <span class="md-ellipsis">
-      🛠 Tools yang Digunakan
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#cara-build-jalankan-dokumentasi" class="md-nav__link">
-    <span class="md-ellipsis">
-      📦 Cara Build &amp; Jalankan Dokumentasi
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#kontribusi" class="md-nav__link">
-    <span class="md-ellipsis">
-      ❤️ Kontribusi
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#terima-kasih" class="md-nav__link">
-    <span class="md-ellipsis">
-      🙌 Terima Kasih
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -407,7 +280,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/01-pemula/intro/" class="md-nav__link">
+      <a href="../../01-pemula/intro/" class="md-nav__link">
         
   
   
@@ -430,7 +303,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/01-pemula/variabel/" class="md-nav__link">
+      <a href="../../01-pemula/variabel/" class="md-nav__link">
         
   
   
@@ -453,7 +326,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/01-pemula/tipe-data/" class="md-nav__link">
+      <a href="../../01-pemula/tipe-data/" class="md-nav__link">
         
   
   
@@ -476,7 +349,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/01-pemula/operator/" class="md-nav__link">
+      <a href="../../01-pemula/operator/" class="md-nav__link">
         
   
   
@@ -499,7 +372,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/01-pemula/control-flow/" class="md-nav__link">
+      <a href="../../01-pemula/control-flow/" class="md-nav__link">
         
   
   
@@ -522,7 +395,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/01-pemula/array-object/" class="md-nav__link">
+      <a href="../../01-pemula/array-object/" class="md-nav__link">
         
   
   
@@ -545,7 +418,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/01-pemula/fungsi/" class="md-nav__link">
+      <a href="../../01-pemula/fungsi/" class="md-nav__link">
         
   
   
@@ -572,18 +445,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
@@ -599,7 +474,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Menengah
@@ -613,7 +488,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/02-menengah/struktur-data/" class="md-nav__link">
+      <a href="../struktur-data/" class="md-nav__link">
         
   
   
@@ -636,7 +511,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/02-menengah/higher-order/" class="md-nav__link">
+      <a href="../higher-order/" class="md-nav__link">
         
   
   
@@ -659,7 +534,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/02-menengah/async/" class="md-nav__link">
+      <a href="../async/" class="md-nav__link">
         
   
   
@@ -679,10 +554,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="javascript/02-menengah/modularisasi/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Modularisasi
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -693,6 +590,218 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Daftar isi">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Daftar isi
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-mengapa-perlu-modularisasi" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Mengapa Perlu Modularisasi?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-modularisasi-tradisional-iife-namespace" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Modularisasi Tradisional: IIFE &amp; Namespace
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Modularisasi Tradisional: IIFE &amp; Namespace">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#iife-immediately-invoked-function-expression" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 IIFE (Immediately Invoked Function Expression)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#namespace-objek-global" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Namespace (Objek Global)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-modularisasi-modern-dengan-es-modules-esm" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Modularisasi Modern dengan ES Modules (ESM)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Modularisasi Modern dengan ES Modules (ESM)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#export" class="md-nav__link">
+    <span class="md-ellipsis">
+      🛠️ Export
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🛠️ Export">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#named-export" class="md-nav__link">
+    <span class="md-ellipsis">
+      Named Export
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#default-export" class="md-nav__link">
+    <span class="md-ellipsis">
+      Default Export
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#import" class="md-nav__link">
+    <span class="md-ellipsis">
+      📥 Import
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📥 Import">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#import-named" class="md-nav__link">
+    <span class="md-ellipsis">
+      Import Named
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#import-default" class="md-nav__link">
+    <span class="md-ellipsis">
+      Import Default
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#import-semua" class="md-nav__link">
+    <span class="md-ellipsis">
+      Import Semua
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-struktur-proyek-modular" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Struktur Proyek Modular
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-modularisasi-di-nodejs-commonjs" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Modularisasi di Node.js (CommonJS)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Modularisasi di Node.js (CommonJS)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#export_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      📦 Export
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#import_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      📥 Import
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-tips-modularisasi" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Tips Modularisasi
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-kesimpulan" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Kesimpulan
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -705,7 +814,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/02-menengah/dom-event/" class="md-nav__link">
+      <a href="../dom-event/" class="md-nav__link">
         
   
   
@@ -728,7 +837,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/02-menengah/fetch-api/" class="md-nav__link">
+      <a href="../fetch-api/" class="md-nav__link">
         
   
   
@@ -796,7 +905,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/03-mahir/konsep-lanjut/" class="md-nav__link">
+      <a href="../../03-mahir/konsep-lanjut/" class="md-nav__link">
         
   
   
@@ -819,7 +928,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/03-mahir/oop/" class="md-nav__link">
+      <a href="../../03-mahir/oop/" class="md-nav__link">
         
   
   
@@ -842,7 +951,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/03-mahir/functional/" class="md-nav__link">
+      <a href="../../03-mahir/functional/" class="md-nav__link">
         
   
   
@@ -865,7 +974,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/03-mahir/event-loop/" class="md-nav__link">
+      <a href="../../03-mahir/event-loop/" class="md-nav__link">
         
   
   
@@ -888,7 +997,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/03-mahir/tools/" class="md-nav__link">
+      <a href="../../03-mahir/tools/" class="md-nav__link">
         
   
   
@@ -911,7 +1020,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/03-mahir/keamanan/" class="md-nav__link">
+      <a href="../../03-mahir/keamanan/" class="md-nav__link">
         
   
   
@@ -979,7 +1088,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/04-best-practices/clean-code/" class="md-nav__link">
+      <a href="../../04-best-practices/clean-code/" class="md-nav__link">
         
   
   
@@ -1002,7 +1111,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/04-best-practices/debugging/" class="md-nav__link">
+      <a href="../../04-best-practices/debugging/" class="md-nav__link">
         
   
   
@@ -1025,7 +1134,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/04-best-practices/komentar/" class="md-nav__link">
+      <a href="../../04-best-practices/komentar/" class="md-nav__link">
         
   
   
@@ -1048,7 +1157,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/04-best-practices/refactor/" class="md-nav__link">
+      <a href="../../04-best-practices/refactor/" class="md-nav__link">
         
   
   
@@ -1071,7 +1180,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/04-best-practices/style-guide/" class="md-nav__link">
+      <a href="../../04-best-practices/style-guide/" class="md-nav__link">
         
   
   
@@ -1094,7 +1203,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/04-best-practices/testing/" class="md-nav__link">
+      <a href="../../04-best-practices/testing/" class="md-nav__link">
         
   
   
@@ -1117,7 +1226,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/04-best-practices/error-handling/" class="md-nav__link">
+      <a href="../../04-best-practices/error-handling/" class="md-nav__link">
         
   
   
@@ -1140,7 +1249,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/04-best-practices/performance/" class="md-nav__link">
+      <a href="../../04-best-practices/performance/" class="md-nav__link">
         
   
   
@@ -1163,7 +1272,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/04-best-practices/eslintrc-prettierrc/" class="md-nav__link">
+      <a href="../../04-best-practices/eslintrc-prettierrc/" class="md-nav__link">
         
   
   
@@ -1213,46 +1322,37 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#tujuan-dokumentasi" class="md-nav__link">
+  <a href="#1-mengapa-perlu-modularisasi" class="md-nav__link">
     <span class="md-ellipsis">
-      🎯 Tujuan Dokumentasi
+      1. Mengapa Perlu Modularisasi?
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#struktur-materi" class="md-nav__link">
+  <a href="#2-modularisasi-tradisional-iife-namespace" class="md-nav__link">
     <span class="md-ellipsis">
-      📚 Struktur Materi
+      2. Modularisasi Tradisional: IIFE &amp; Namespace
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="📚 Struktur Materi">
+    <nav class="md-nav" aria-label="2. Modularisasi Tradisional: IIFE &amp; Namespace">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#1-pemula" class="md-nav__link">
+  <a href="#iife-immediately-invoked-function-expression" class="md-nav__link">
     <span class="md-ellipsis">
-      1. 🐣 Pemula
+      📌 IIFE (Immediately Invoked Function Expression)
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#2-menengah" class="md-nav__link">
+  <a href="#namespace-objek-global" class="md-nav__link">
     <span class="md-ellipsis">
-      2. 🚀 Menengah
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#3-mahir" class="md-nav__link">
-    <span class="md-ellipsis">
-      3. 🧠 Mahir
+      📌 Namespace (Objek Global)
     </span>
   </a>
   
@@ -1264,36 +1364,150 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#tools-yang-digunakan" class="md-nav__link">
+  <a href="#3-modularisasi-modern-dengan-es-modules-esm" class="md-nav__link">
     <span class="md-ellipsis">
-      🛠 Tools yang Digunakan
+      3. Modularisasi Modern dengan ES Modules (ESM)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Modularisasi Modern dengan ES Modules (ESM)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#export" class="md-nav__link">
+    <span class="md-ellipsis">
+      🛠️ Export
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🛠️ Export">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#named-export" class="md-nav__link">
+    <span class="md-ellipsis">
+      Named Export
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#default-export" class="md-nav__link">
+    <span class="md-ellipsis">
+      Default Export
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#import" class="md-nav__link">
+    <span class="md-ellipsis">
+      📥 Import
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📥 Import">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#import-named" class="md-nav__link">
+    <span class="md-ellipsis">
+      Import Named
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#import-default" class="md-nav__link">
+    <span class="md-ellipsis">
+      Import Default
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#import-semua" class="md-nav__link">
+    <span class="md-ellipsis">
+      Import Semua
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-struktur-proyek-modular" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Struktur Proyek Modular
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#cara-build-jalankan-dokumentasi" class="md-nav__link">
+  <a href="#5-modularisasi-di-nodejs-commonjs" class="md-nav__link">
     <span class="md-ellipsis">
-      📦 Cara Build &amp; Jalankan Dokumentasi
+      5. Modularisasi di Node.js (CommonJS)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Modularisasi di Node.js (CommonJS)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#export_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      📦 Export
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#import_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      📥 Import
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-tips-modularisasi" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Tips Modularisasi
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#kontribusi" class="md-nav__link">
+  <a href="#7-kesimpulan" class="md-nav__link">
     <span class="md-ellipsis">
-      ❤️ Kontribusi
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#terima-kasih" class="md-nav__link">
-    <span class="md-ellipsis">
-      🙌 Terima Kasih
+      7. Kesimpulan
     </span>
   </a>
   
@@ -1318,98 +1532,149 @@
   
 
 
-<h1 id="dokumentasi-javascript-dari-nol-sampai-mahir">📘 Dokumentasi JavaScript dari Nol sampai Mahir</h1>
-<p>Selamat datang di dokumentasi <strong>JavaScript dari Nol</strong> — panduan lengkap untuk siapa saja yang ingin memulai perjalanan dengan JavaScript, dari yang belum pernah ngoding sampai yang pengen jadi master JS sejati. 🚀</p>
+<h1 id="modularisasi-di-javascript">🧩 Modularisasi di JavaScript</h1>
+<p>Modularisasi adalah teknik memecah program besar menjadi bagian-bagian kecil (modul) yang terpisah dan mandiri. Setiap modul memiliki tanggung jawab spesifik dan bisa digunakan kembali. Konsep ini sangat penting untuk menjaga kode tetap rapi, terorganisir, dan mudah dipelihara.</p>
 <hr />
-<h2 id="tujuan-dokumentasi">🎯 Tujuan Dokumentasi</h2>
-<p>Dokumentasi ini dibuat untuk:</p>
-<p>✅ Membantu <strong>pemula</strong> memahami dasar-dasar JavaScript<br />
-✅ Memberikan landasan <strong>kuat di level menengah</strong> seperti DOM, modul, dan async<br />
-✅ Menjadi panduan <strong>tingkat mahir</strong> dalam memahami konsep seperti event loop, OOP, functional programming, hingga keamanan</p>
-<hr />
-<h2 id="struktur-materi">📚 Struktur Materi</h2>
-<p>Dokumentasi dibagi ke dalam tiga bagian besar:</p>
-<h3 id="1-pemula">1. 🐣 Pemula</h3>
-<blockquote>
-<p>Cocok untuk kamu yang baru kenalan dengan JavaScript</p>
-</blockquote>
+<h2 id="1-mengapa-perlu-modularisasi">1. Mengapa Perlu Modularisasi?</h2>
+<p>Tanpa modularisasi, kode JavaScript bisa jadi seperti mi instan yang kebanyakan bumbu—berantakan dan susah dipisah. Modularisasi membantu:</p>
 <ul>
-<li>Pengantar dan Setup ➡️ <a href="./01-pemula/intro.md">Buka</a></li>
-<li>Tipe Data &amp; Variabel</li>
-<li>Operator</li>
-<li>Fungsi</li>
-<li>Control Flow (if, loop, switch)</li>
-<li>Array &amp; Object</li>
+<li>Memecah kode menjadi bagian kecil yang terpisah.</li>
+<li>Menghindari penulisan ulang kode (reusability).</li>
+<li>Memudahkan testing, debugging, dan pengembangan tim.</li>
+<li>Meningkatkan keterbacaan dan maintainability.</li>
 </ul>
 <hr />
-<h3 id="2-menengah">2. 🚀 Menengah</h3>
-<blockquote>
-<p>Setelah ngerti dasar, saatnya eksplor fitur-fitur modern</p>
-</blockquote>
-<ul>
-<li>DOM &amp; Event Handling</li>
-<li>Fetch API &amp; Async/Await</li>
-<li>Modularisasi JavaScript</li>
-<li>Higher-Order Function</li>
-<li>Struktur Data Lanjut (Set, Map, dsb)</li>
-</ul>
-<p>➡️ Lihat: <a href="02-menengah/async.md">JavaScript Menengah</a></p>
-<hr />
-<h3 id="3-mahir">3. 🧠 Mahir</h3>
-<blockquote>
-<p>Level ninja. Cocok buat yang mau jadi frontend/backend developer serius</p>
-</blockquote>
-<ul>
-<li>Event Loop &amp; Asynchronous Engine</li>
-<li>OOP (Object-Oriented Programming)</li>
-<li>Functional Programming</li>
-<li>Keamanan di JavaScript</li>
-<li>Tools &amp; Ekosistem</li>
-<li>Testing &amp; Optimasi</li>
-</ul>
-<p>➡️ Lihat: <a href="03-mahir/event-loop.md">JavaScript Mahir</a></p>
-<hr />
-<h2 id="tools-yang-digunakan">🛠 Tools yang Digunakan</h2>
-<ul>
-<li><a href="https://www.mkdocs.org/">MkDocs</a> untuk dokumentasi</li>
-<li><a href="https://squidfunk.github.io/mkdocs-material/">Material for MkDocs</a> untuk tampilan yang modern dan bersih</li>
-<li><a href="https://pages.github.com/">GitHub Pages</a> untuk hosting</li>
-</ul>
-<hr />
-<h2 id="cara-build-jalankan-dokumentasi">📦 Cara Build &amp; Jalankan Dokumentasi</h2>
-<pre><code class="language-bash"># Clone repositori
-git clone https://github.com/username/dokumentasi-javascript-dari-nol.git
-cd dokumentasi-javascript-dari-nol
+<h2 id="2-modularisasi-tradisional-iife-namespace">2. Modularisasi Tradisional: IIFE &amp; Namespace</h2>
+<p>Sebelum ES6, kita menggunakan <strong>IIFE</strong> (Immediately Invoked Function Expression) dan objek global sebagai "namespace".</p>
+<h3 id="iife-immediately-invoked-function-expression">📌 IIFE (Immediately Invoked Function Expression)</h3>
+<pre><code class="language-js">const MyModule = (function() {
+  const privateVar = &quot;Rahasia&quot;;
 
-# Install dependencies
-pip install mkdocs mkdocs-material
+  function privateFunc() {
+    console.log(&quot;Fungsi private&quot;);
+  }
 
-# Jalankan lokal
-mkdocs serve
+  return {
+    publicFunc: function() {
+      console.log(&quot;Fungsi public&quot;);
+    }
+  };
+})();
 
-# Deploy ke GitHub Pages
-mkdocs gh-deploy
+MyModule.publicFunc(); // Fungsi public
+</code></pre>
+<h3 id="namespace-objek-global">📌 Namespace (Objek Global)</h3>
+<pre><code class="language-js">const App = {};
+App.sayHello = function(name) {
+  console.log(`Hello, ${name}`);
+};
+App.sayHello(&quot;Marno&quot;);
+</code></pre>
+<p>Kelemahannya: bisa terjadi konflik jika banyak modul memakai nama yang sama di global scope.</p>
+<hr />
+<h2 id="3-modularisasi-modern-dengan-es-modules-esm">3. Modularisasi Modern dengan ES Modules (ESM)</h2>
+<p>Sejak ES6, JavaScript mendukung modularisasi native lewat <strong><code>import</code></strong> dan <strong><code>export</code></strong>.</p>
+<h3 id="export">🛠️ Export</h3>
+<p>Ada dua jenis export: <strong>named export</strong> dan <strong>default export</strong>.</p>
+<h4 id="named-export">Named Export</h4>
+<pre><code class="language-js">// file: math.js
+export const PI = 3.14;
+export function tambah(a, b) {
+  return a + b;
+}
+</code></pre>
+<h4 id="default-export">Default Export</h4>
+<pre><code class="language-js">// file: greet.js
+export default function(name) {
+  console.log(`Hello, ${name}`);
+}
+</code></pre>
+<h3 id="import">📥 Import</h3>
+<h4 id="import-named">Import Named</h4>
+<pre><code class="language-js">// file: main.js
+import { PI, tambah } from './math.js';
+
+console.log(tambah(2, 3)); // 5
+</code></pre>
+<h4 id="import-default">Import Default</h4>
+<pre><code class="language-js">// file: main.js
+import greet from './greet.js';
+
+greet('Marno'); // Hello, Marno
+</code></pre>
+<h4 id="import-semua">Import Semua</h4>
+<pre><code class="language-js">import * as MathUtils from './math.js';
+
+console.log(MathUtils.PI);
+</code></pre>
+<hr />
+<h2 id="4-struktur-proyek-modular">4. Struktur Proyek Modular</h2>
+<p>Struktur folder modular sangat membantu dalam skala besar:</p>
+<pre><code>📦project
+ ┣ 📂modules
+ ┃ ┣ 📜math.js
+ ┃ ┣ 📜user.js
+ ┣ 📜main.js
+</code></pre>
+<p>Contoh isi <code>math.js</code>:</p>
+<pre><code class="language-js">export function tambah(a, b) {
+  return a + b;
+}
+
+export function kurang(a, b) {
+  return a - b;
+}
+</code></pre>
+<p>Lalu digunakan di <code>main.js</code>:</p>
+<pre><code class="language-js">import { tambah, kurang } from './modules/math.js';
+
+console.log(tambah(10, 5)); // 15
+</code></pre>
+<hr />
+<h2 id="5-modularisasi-di-nodejs-commonjs">5. Modularisasi di Node.js (CommonJS)</h2>
+<p>Jika kamu menggunakan Node.js, format modul sedikit berbeda (CommonJS).</p>
+<h3 id="export_1">📦 Export</h3>
+<pre><code class="language-js">// file: utils.js
+const sayHello = (name) =&gt; {
+  console.log(`Hi, ${name}`);
+};
+
+module.exports = { sayHello };
+</code></pre>
+<h3 id="import_1">📥 Import</h3>
+<pre><code class="language-js">// file: index.js
+const { sayHello } = require('./utils');
+sayHello('Marno');
 </code></pre>
 <blockquote>
-<p>Pastikan kamu sudah install Python &amp; pip ya!</p>
+<p>Catatan: CommonJS masih dominan di banyak proyek Node.js, tapi bisa diganti ke ES Module (<code>"type": "module"</code> di <code>package.json</code>) jika dibutuhkan.</p>
 </blockquote>
 <hr />
-<h2 id="kontribusi">❤️ Kontribusi</h2>
-<p>Dokumentasi ini open-source dan bebas dikembangkan bareng. Kalau kamu punya ide, kritik, atau ingin nambahin materi, feel free buat:</p>
+<h2 id="6-tips-modularisasi">6. Tips Modularisasi</h2>
 <ul>
-<li>Fork repo</li>
-<li>Bikin branch baru</li>
-<li>Commit perubahan</li>
-<li>Buat Pull Request ✨</li>
+<li>💡 Satu file, satu tanggung jawab. Jangan gabung semua fungsi dalam satu file.</li>
+<li>📁 Gunakan folder untuk memisahkan domain aplikasi.</li>
+<li>✨ Gunakan <code>index.js</code> untuk ekspor ulang semua modul dari folder.</li>
 </ul>
+<p>Contoh:</p>
+<pre><code class="language-js">// file: modules/index.js
+export * from './math.js';
+export * from './user.js';
+</code></pre>
 <hr />
-<h2 id="terima-kasih">🙌 Terima Kasih</h2>
-<p>Dokumentasi ini didedikasikan untuk para pejuang kode di seluruh penjuru dunia, terutama kamu yang lagi belajar, nyoba, gagal, lalu bangkit lagi. 🔥</p>
+<h2 id="7-kesimpulan">7. Kesimpulan</h2>
+<p>Modularisasi bikin hidup (dan ngoding) lebih damai. Dengan memecah kode jadi bagian-bagian kecil dan terpisah, kita bisa:</p>
+<ul>
+<li>Bekerja lebih cepat</li>
+<li>Menulis kode lebih bersih</li>
+<li>Mengelola proyek besar tanpa stres</li>
+</ul>
+<p>Mulai biasakan diri untuk menulis kode yang modular, karena ini jadi fondasi utama dalam membangun aplikasi modern, baik di frontend maupun backend.</p>
+<hr />
 <blockquote>
-<p>"JavaScript itu bukan tentang seberapa cepat kamu paham, tapi seberapa gigih kamu mencoba."</p>
+<p>📚 Selanjutnya kita akan belajar tentang <code>NPM</code> dan cara menggunakan package pihak ketiga untuk memperkuat modul kita layaknya upgrade karakter di game RPG. Stay tuned!
+```</p>
 </blockquote>
-<p>Selamat belajar dan... semoga sukses! 🌈</p>
-<p>```</p>
 
 
 
@@ -1458,10 +1723,10 @@ mkdocs gh-deploy
     
     
       
-      <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Tersalin ke clipboard", "clipboard.copy": "Salin ke clipboard", "search.result.more.one": "1 lagi di halaman ini", "search.result.more.other": "# lagi di halaman ini", "search.result.none": "Tidak ada dokumen yang sesuai", "search.result.one": "1 dokumen ditemukan", "search.result.other": "# dokumen ditemukan", "search.result.placeholder": "Ketik untuk mulai pencarian", "search.result.term.missing": "Tidak ada", "select.version": "Pilih versi"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Tersalin ke clipboard", "clipboard.copy": "Salin ke clipboard", "search.result.more.one": "1 lagi di halaman ini", "search.result.more.other": "# lagi di halaman ini", "search.result.none": "Tidak ada dokumen yang sesuai", "search.result.one": "1 dokumen ditemukan", "search.result.other": "# dokumen ditemukan", "search.result.placeholder": "Ketik untuk mulai pencarian", "search.result.term.missing": "Tidak ada", "select.version": "Pilih versi"}, "version": null}</script>
     
     
-      <script src="assets/javascripts/bundle.c8b220af.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.c8b220af.min.js"></script>
       
     
   </body>

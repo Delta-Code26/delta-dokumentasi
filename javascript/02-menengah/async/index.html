@@ -8,23 +8,25 @@
       
       
       
-        <link rel="canonical" href="https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/">
+        <link rel="canonical" href="https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/javascript/02-menengah/async/">
       
       
+        <link rel="prev" href="../higher-order/">
       
-        <link rel="next" href="javascript/01-pemula/intro/">
+      
+        <link rel="next" href="../modularisasi/">
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.11">
     
     
       
-        <title>Dokumentasi JavaScript dari Nol</title>
+        <title>ASYNC - Dokumentasi JavaScript dari Nol</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.4af4bdda.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.4af4bdda.min.css">
       
       
 
@@ -43,7 +45,7 @@
       
     
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -62,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#dokumentasi-javascript-dari-nol-sampai-mahir" class="md-skip">
+        <a href="#async-programming-di-javascript" class="md-skip">
           Lewati ke isi
         </a>
       
@@ -78,7 +80,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="Dokumentasi JavaScript dari Nol" class="md-header__button md-logo" aria-label="Dokumentasi JavaScript dari Nol" data-md-component="logo">
+    <a href="../../.." title="Dokumentasi JavaScript dari Nol" class="md-header__button md-logo" aria-label="Dokumentasi JavaScript dari Nol" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -98,7 +100,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Home
+              ASYNC
             
           </span>
         </div>
@@ -188,7 +190,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigasi" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="Dokumentasi JavaScript dari Nol" class="md-nav__button md-logo" aria-label="Dokumentasi JavaScript dari Nol" data-md-component="logo">
+    <a href="../../.." title="Dokumentasi JavaScript dari Nol" class="md-nav__button md-logo" aria-label="Dokumentasi JavaScript dari Nol" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -215,32 +217,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    Home
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
         
   
   
@@ -251,113 +231,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Daftar isi">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Daftar isi
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#tujuan-dokumentasi" class="md-nav__link">
-    <span class="md-ellipsis">
-      🎯 Tujuan Dokumentasi
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#struktur-materi" class="md-nav__link">
-    <span class="md-ellipsis">
-      📚 Struktur Materi
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="📚 Struktur Materi">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#1-pemula" class="md-nav__link">
-    <span class="md-ellipsis">
-      1. 🐣 Pemula
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#2-menengah" class="md-nav__link">
-    <span class="md-ellipsis">
-      2. 🚀 Menengah
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#3-mahir" class="md-nav__link">
-    <span class="md-ellipsis">
-      3. 🧠 Mahir
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tools-yang-digunakan" class="md-nav__link">
-    <span class="md-ellipsis">
-      🛠 Tools yang Digunakan
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#cara-build-jalankan-dokumentasi" class="md-nav__link">
-    <span class="md-ellipsis">
-      📦 Cara Build &amp; Jalankan Dokumentasi
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#kontribusi" class="md-nav__link">
-    <span class="md-ellipsis">
-      ❤️ Kontribusi
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#terima-kasih" class="md-nav__link">
-    <span class="md-ellipsis">
-      🙌 Terima Kasih
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -407,7 +280,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/01-pemula/intro/" class="md-nav__link">
+      <a href="../../01-pemula/intro/" class="md-nav__link">
         
   
   
@@ -430,7 +303,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/01-pemula/variabel/" class="md-nav__link">
+      <a href="../../01-pemula/variabel/" class="md-nav__link">
         
   
   
@@ -453,7 +326,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/01-pemula/tipe-data/" class="md-nav__link">
+      <a href="../../01-pemula/tipe-data/" class="md-nav__link">
         
   
   
@@ -476,7 +349,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/01-pemula/operator/" class="md-nav__link">
+      <a href="../../01-pemula/operator/" class="md-nav__link">
         
   
   
@@ -499,7 +372,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/01-pemula/control-flow/" class="md-nav__link">
+      <a href="../../01-pemula/control-flow/" class="md-nav__link">
         
   
   
@@ -522,7 +395,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/01-pemula/array-object/" class="md-nav__link">
+      <a href="../../01-pemula/array-object/" class="md-nav__link">
         
   
   
@@ -545,7 +418,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/01-pemula/fungsi/" class="md-nav__link">
+      <a href="../../01-pemula/fungsi/" class="md-nav__link">
         
   
   
@@ -572,18 +445,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
@@ -599,7 +474,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Menengah
@@ -613,7 +488,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/02-menengah/struktur-data/" class="md-nav__link">
+      <a href="../struktur-data/" class="md-nav__link">
         
   
   
@@ -636,7 +511,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/02-menengah/higher-order/" class="md-nav__link">
+      <a href="../higher-order/" class="md-nav__link">
         
   
   
@@ -656,10 +531,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="javascript/02-menengah/async/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    ASYNC
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -670,6 +567,206 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Daftar isi">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Daftar isi
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-apa-itu-asynchronous-programming" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Apa itu Asynchronous Programming?
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Apa itu Asynchronous Programming?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#synchronous-vs-asynchronous" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Synchronous vs Asynchronous
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contoh-synchronous" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Contoh Synchronous
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contoh-asynchronous" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Contoh Asynchronous
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-callback-functions" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Callback Functions
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Callback Functions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#contoh-callback" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Contoh Callback
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-promises" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Promises
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Promises">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#membuat-promise" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Membuat Promise
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#menggunakan-then-dan-catch" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Menggunakan .then() dan .catch()
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-asyncawait" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Async/Await
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Async/Await">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#menggunakan-asyncawait" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Menggunakan async/await
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-error-handling-dengan-trycatch" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Error Handling dengan try/catch
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Error Handling dengan try/catch">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#contoh-penggunaan-trycatch" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Contoh Penggunaan try/catch
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-menggunakan-multiple-async-functions" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Menggunakan Multiple Async Functions
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Menggunakan Multiple Async Functions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#contoh-promiseall" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Contoh Promise.all
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kesimpulan" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎯 Kesimpulan
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -682,7 +779,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/02-menengah/modularisasi/" class="md-nav__link">
+      <a href="../modularisasi/" class="md-nav__link">
         
   
   
@@ -705,7 +802,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/02-menengah/dom-event/" class="md-nav__link">
+      <a href="../dom-event/" class="md-nav__link">
         
   
   
@@ -728,7 +825,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/02-menengah/fetch-api/" class="md-nav__link">
+      <a href="../fetch-api/" class="md-nav__link">
         
   
   
@@ -796,7 +893,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/03-mahir/konsep-lanjut/" class="md-nav__link">
+      <a href="../../03-mahir/konsep-lanjut/" class="md-nav__link">
         
   
   
@@ -819,7 +916,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/03-mahir/oop/" class="md-nav__link">
+      <a href="../../03-mahir/oop/" class="md-nav__link">
         
   
   
@@ -842,7 +939,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/03-mahir/functional/" class="md-nav__link">
+      <a href="../../03-mahir/functional/" class="md-nav__link">
         
   
   
@@ -865,7 +962,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/03-mahir/event-loop/" class="md-nav__link">
+      <a href="../../03-mahir/event-loop/" class="md-nav__link">
         
   
   
@@ -888,7 +985,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/03-mahir/tools/" class="md-nav__link">
+      <a href="../../03-mahir/tools/" class="md-nav__link">
         
   
   
@@ -911,7 +1008,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/03-mahir/keamanan/" class="md-nav__link">
+      <a href="../../03-mahir/keamanan/" class="md-nav__link">
         
   
   
@@ -979,7 +1076,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/04-best-practices/clean-code/" class="md-nav__link">
+      <a href="../../04-best-practices/clean-code/" class="md-nav__link">
         
   
   
@@ -1002,7 +1099,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/04-best-practices/debugging/" class="md-nav__link">
+      <a href="../../04-best-practices/debugging/" class="md-nav__link">
         
   
   
@@ -1025,7 +1122,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/04-best-practices/komentar/" class="md-nav__link">
+      <a href="../../04-best-practices/komentar/" class="md-nav__link">
         
   
   
@@ -1048,7 +1145,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/04-best-practices/refactor/" class="md-nav__link">
+      <a href="../../04-best-practices/refactor/" class="md-nav__link">
         
   
   
@@ -1071,7 +1168,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/04-best-practices/style-guide/" class="md-nav__link">
+      <a href="../../04-best-practices/style-guide/" class="md-nav__link">
         
   
   
@@ -1094,7 +1191,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/04-best-practices/testing/" class="md-nav__link">
+      <a href="../../04-best-practices/testing/" class="md-nav__link">
         
   
   
@@ -1117,7 +1214,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/04-best-practices/error-handling/" class="md-nav__link">
+      <a href="../../04-best-practices/error-handling/" class="md-nav__link">
         
   
   
@@ -1140,7 +1237,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/04-best-practices/performance/" class="md-nav__link">
+      <a href="../../04-best-practices/performance/" class="md-nav__link">
         
   
   
@@ -1163,7 +1260,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/04-best-practices/eslintrc-prettierrc/" class="md-nav__link">
+      <a href="../../04-best-practices/eslintrc-prettierrc/" class="md-nav__link">
         
   
   
@@ -1213,46 +1310,37 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#tujuan-dokumentasi" class="md-nav__link">
+  <a href="#1-apa-itu-asynchronous-programming" class="md-nav__link">
     <span class="md-ellipsis">
-      🎯 Tujuan Dokumentasi
+      1. Apa itu Asynchronous Programming?
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#struktur-materi" class="md-nav__link">
-    <span class="md-ellipsis">
-      📚 Struktur Materi
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="📚 Struktur Materi">
+    <nav class="md-nav" aria-label="1. Apa itu Asynchronous Programming?">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#1-pemula" class="md-nav__link">
+  <a href="#synchronous-vs-asynchronous" class="md-nav__link">
     <span class="md-ellipsis">
-      1. 🐣 Pemula
+      📌 Synchronous vs Asynchronous
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#2-menengah" class="md-nav__link">
+  <a href="#contoh-synchronous" class="md-nav__link">
     <span class="md-ellipsis">
-      2. 🚀 Menengah
+      📌 Contoh Synchronous
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#3-mahir" class="md-nav__link">
+  <a href="#contoh-asynchronous" class="md-nav__link">
     <span class="md-ellipsis">
-      3. 🧠 Mahir
+      📌 Contoh Asynchronous
     </span>
   </a>
   
@@ -1264,36 +1352,138 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#tools-yang-digunakan" class="md-nav__link">
+  <a href="#2-callback-functions" class="md-nav__link">
     <span class="md-ellipsis">
-      🛠 Tools yang Digunakan
+      2. Callback Functions
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Callback Functions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#contoh-callback" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Contoh Callback
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#cara-build-jalankan-dokumentasi" class="md-nav__link">
-    <span class="md-ellipsis">
-      📦 Cara Build &amp; Jalankan Dokumentasi
-    </span>
-  </a>
+        
+      </ul>
+    </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#kontribusi" class="md-nav__link">
+  <a href="#3-promises" class="md-nav__link">
     <span class="md-ellipsis">
-      ❤️ Kontribusi
+      3. Promises
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Promises">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#membuat-promise" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Membuat Promise
     </span>
   </a>
   
 </li>
+        
+          <li class="md-nav__item">
+  <a href="#menggunakan-then-dan-catch" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Menggunakan .then() dan .catch()
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
       
         <li class="md-nav__item">
-  <a href="#terima-kasih" class="md-nav__link">
+  <a href="#4-asyncawait" class="md-nav__link">
     <span class="md-ellipsis">
-      🙌 Terima Kasih
+      4. Async/Await
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Async/Await">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#menggunakan-asyncawait" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Menggunakan async/await
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-error-handling-dengan-trycatch" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Error Handling dengan try/catch
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Error Handling dengan try/catch">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#contoh-penggunaan-trycatch" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Contoh Penggunaan try/catch
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-menggunakan-multiple-async-functions" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Menggunakan Multiple Async Functions
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Menggunakan Multiple Async Functions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#contoh-promiseall" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Contoh Promise.all
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kesimpulan" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎯 Kesimpulan
     </span>
   </a>
   
@@ -1318,98 +1508,167 @@
   
 
 
-<h1 id="dokumentasi-javascript-dari-nol-sampai-mahir">📘 Dokumentasi JavaScript dari Nol sampai Mahir</h1>
-<p>Selamat datang di dokumentasi <strong>JavaScript dari Nol</strong> — panduan lengkap untuk siapa saja yang ingin memulai perjalanan dengan JavaScript, dari yang belum pernah ngoding sampai yang pengen jadi master JS sejati. 🚀</p>
+<h1 id="async-programming-di-javascript">⏳ Async Programming di JavaScript</h1>
+<p>Di JavaScript, beberapa operasi seperti pengambilan data dari server atau pembacaan file tidak dapat dilakukan secara langsung karena memerlukan waktu. Untuk itu, JavaScript menawarkan cara untuk menangani operasi-operasi tersebut secara <strong>asynchronous</strong>. Ini memungkinkan aplikasi tetap responsif dan tidak terblokir saat menjalankan operasi berat.</p>
 <hr />
-<h2 id="tujuan-dokumentasi">🎯 Tujuan Dokumentasi</h2>
-<p>Dokumentasi ini dibuat untuk:</p>
-<p>✅ Membantu <strong>pemula</strong> memahami dasar-dasar JavaScript<br />
-✅ Memberikan landasan <strong>kuat di level menengah</strong> seperti DOM, modul, dan async<br />
-✅ Menjadi panduan <strong>tingkat mahir</strong> dalam memahami konsep seperti event loop, OOP, functional programming, hingga keamanan</p>
-<hr />
-<h2 id="struktur-materi">📚 Struktur Materi</h2>
-<p>Dokumentasi dibagi ke dalam tiga bagian besar:</p>
-<h3 id="1-pemula">1. 🐣 Pemula</h3>
-<blockquote>
-<p>Cocok untuk kamu yang baru kenalan dengan JavaScript</p>
-</blockquote>
+<h2 id="1-apa-itu-asynchronous-programming">1. Apa itu Asynchronous Programming?</h2>
+<p><strong>Asynchronous programming</strong> memungkinkan kode untuk dieksekusi secara non-blokir, yang berarti kode berikutnya dapat berjalan tanpa menunggu operasi yang sedang berlangsung selesai. Ini sangat penting ketika kita berurusan dengan tugas-tugas yang memakan waktu seperti membaca file, mengakses API, atau query database.</p>
+<h3 id="synchronous-vs-asynchronous">📌 <strong>Synchronous vs Asynchronous</strong></h3>
 <ul>
-<li>Pengantar dan Setup ➡️ <a href="./01-pemula/intro.md">Buka</a></li>
-<li>Tipe Data &amp; Variabel</li>
-<li>Operator</li>
-<li>Fungsi</li>
-<li>Control Flow (if, loop, switch)</li>
-<li>Array &amp; Object</li>
+<li><strong>Synchronous</strong>: Proses yang dilakukan satu per satu. Kode akan menunggu operasi selesai sebelum melanjutkan ke operasi berikutnya.</li>
+<li><strong>Asynchronous</strong>: Proses yang dapat berjalan secara bersamaan, memungkinkan operasi berikutnya untuk dijalankan tanpa menunggu operasi sebelumnya selesai.</li>
 </ul>
-<hr />
-<h3 id="2-menengah">2. 🚀 Menengah</h3>
-<blockquote>
-<p>Setelah ngerti dasar, saatnya eksplor fitur-fitur modern</p>
-</blockquote>
-<ul>
-<li>DOM &amp; Event Handling</li>
-<li>Fetch API &amp; Async/Await</li>
-<li>Modularisasi JavaScript</li>
-<li>Higher-Order Function</li>
-<li>Struktur Data Lanjut (Set, Map, dsb)</li>
-</ul>
-<p>➡️ Lihat: <a href="02-menengah/async.md">JavaScript Menengah</a></p>
-<hr />
-<h3 id="3-mahir">3. 🧠 Mahir</h3>
-<blockquote>
-<p>Level ninja. Cocok buat yang mau jadi frontend/backend developer serius</p>
-</blockquote>
-<ul>
-<li>Event Loop &amp; Asynchronous Engine</li>
-<li>OOP (Object-Oriented Programming)</li>
-<li>Functional Programming</li>
-<li>Keamanan di JavaScript</li>
-<li>Tools &amp; Ekosistem</li>
-<li>Testing &amp; Optimasi</li>
-</ul>
-<p>➡️ Lihat: <a href="03-mahir/event-loop.md">JavaScript Mahir</a></p>
-<hr />
-<h2 id="tools-yang-digunakan">🛠 Tools yang Digunakan</h2>
-<ul>
-<li><a href="https://www.mkdocs.org/">MkDocs</a> untuk dokumentasi</li>
-<li><a href="https://squidfunk.github.io/mkdocs-material/">Material for MkDocs</a> untuk tampilan yang modern dan bersih</li>
-<li><a href="https://pages.github.com/">GitHub Pages</a> untuk hosting</li>
-</ul>
-<hr />
-<h2 id="cara-build-jalankan-dokumentasi">📦 Cara Build &amp; Jalankan Dokumentasi</h2>
-<pre><code class="language-bash"># Clone repositori
-git clone https://github.com/username/dokumentasi-javascript-dari-nol.git
-cd dokumentasi-javascript-dari-nol
-
-# Install dependencies
-pip install mkdocs mkdocs-material
-
-# Jalankan lokal
-mkdocs serve
-
-# Deploy ke GitHub Pages
-mkdocs gh-deploy
+<h3 id="contoh-synchronous">📌 Contoh Synchronous</h3>
+<pre><code class="language-js">console.log(&quot;Mulai&quot;);
+console.log(&quot;Proses 1 selesai&quot;);
+console.log(&quot;Proses 2 selesai&quot;);
 </code></pre>
-<blockquote>
-<p>Pastikan kamu sudah install Python &amp; pip ya!</p>
-</blockquote>
+<h3 id="contoh-asynchronous">📌 Contoh Asynchronous</h3>
+<pre><code class="language-js">console.log(&quot;Mulai&quot;);
+
+setTimeout(() =&gt; {
+  console.log(&quot;Proses 1 selesai&quot;);
+}, 2000);  // Proses ini terjadi setelah 2 detik
+
+console.log(&quot;Proses 2 selesai&quot;);
+</code></pre>
+<p>Pada contoh di atas, meskipun ada <code>setTimeout</code> yang memerlukan waktu 2 detik, JavaScript tidak menunggu dan langsung menjalankan <code>console.log("Proses 2 selesai")</code>.</p>
 <hr />
-<h2 id="kontribusi">❤️ Kontribusi</h2>
-<p>Dokumentasi ini open-source dan bebas dikembangkan bareng. Kalau kamu punya ide, kritik, atau ingin nambahin materi, feel free buat:</p>
+<h2 id="2-callback-functions">2. Callback Functions</h2>
+<p>Callback adalah fungsi yang diberikan sebagai argumen kepada fungsi lain dan dijalankan setelah operasi asynchronous selesai.</p>
+<h3 id="contoh-callback">📌 Contoh Callback</h3>
+<pre><code class="language-js">function ambilData(callback) {
+  setTimeout(() =&gt; {
+    callback(&quot;Data berhasil diambil&quot;);
+  }, 2000);
+}
+
+ambilData((message) =&gt; {
+  console.log(message);  // Output: &quot;Data berhasil diambil&quot;
+});
+</code></pre>
+<p>Di sini, <code>ambilData</code> adalah fungsi yang menerima sebuah callback yang akan dijalankan setelah 2 detik.</p>
+<hr />
+<h2 id="3-promises">3. Promises</h2>
+<p><strong>Promise</strong> adalah objek yang mewakili penyelesaian atau kegagalan dari sebuah operasi asynchronous. Promise memiliki tiga keadaan:</p>
+<ol>
+<li><strong>Pending</strong>: Janji belum diselesaikan.</li>
+<li><strong>Fulfilled</strong>: Janji berhasil diselesaikan (resolved).</li>
+<li><strong>Rejected</strong>: Janji gagal diselesaikan.</li>
+</ol>
+<h3 id="membuat-promise">📌 Membuat Promise</h3>
+<pre><code class="language-js">let promise = new Promise((resolve, reject) =&gt; {
+  let success = true;
+
+  if (success) {
+    resolve(&quot;Operasi berhasil&quot;);
+  } else {
+    reject(&quot;Operasi gagal&quot;);
+  }
+});
+
+promise.then((message) =&gt; {
+  console.log(message);  // Output: &quot;Operasi berhasil&quot;
+}).catch((message) =&gt; {
+  console.log(message);  // Jika terjadi error, tampilkan &quot;Operasi gagal&quot;
+});
+</code></pre>
 <ul>
-<li>Fork repo</li>
-<li>Bikin branch baru</li>
-<li>Commit perubahan</li>
-<li>Buat Pull Request ✨</li>
+<li><strong><code>resolve()</code></strong> digunakan ketika operasi berhasil.</li>
+<li><strong><code>reject()</code></strong> digunakan ketika operasi gagal.</li>
+</ul>
+<h3 id="menggunakan-then-dan-catch">📌 Menggunakan .then() dan .catch()</h3>
+<p><code>then()</code> digunakan untuk menangani hasil yang berhasil, sementara <code>catch()</code> digunakan untuk menangani error.</p>
+<pre><code class="language-js">let promise = new Promise((resolve, reject) =&gt; {
+  let success = false;
+
+  if (success) {
+    resolve(&quot;Data berhasil diambil&quot;);
+  } else {
+    reject(&quot;Data gagal diambil&quot;);
+  }
+});
+
+promise
+  .then((data) =&gt; {
+    console.log(data);  // Output jika resolve
+  })
+  .catch((error) =&gt; {
+    console.log(error);  // Output jika reject
+  });
+</code></pre>
+<hr />
+<h2 id="4-asyncawait">4. Async/Await</h2>
+<p><code>async/await</code> adalah cara modern untuk menangani operasi asynchronous di JavaScript dengan cara yang lebih mudah dibaca dan ditulis. <code>async</code> digunakan untuk mendeklarasikan fungsi yang akan mengembalikan sebuah <strong>Promise</strong>, dan <code>await</code> digunakan untuk menunggu penyelesaian dari sebuah Promise sebelum melanjutkan ke kode berikutnya.</p>
+<h3 id="menggunakan-asyncawait">📌 Menggunakan async/await</h3>
+<pre><code class="language-js">async function ambilData() {
+  let result = await new Promise((resolve, reject) =&gt; {
+    setTimeout(() =&gt; {
+      resolve(&quot;Data berhasil diambil&quot;);
+    }, 2000);
+  });
+
+  console.log(result);  // Output: &quot;Data berhasil diambil&quot;
+}
+
+ambilData();
+</code></pre>
+<ul>
+<li><code>await</code> hanya bisa digunakan di dalam fungsi yang dideklarasikan dengan <code>async</code>.</li>
+<li><code>await</code> menunggu sampai Promise selesai sebelum melanjutkan ke baris kode berikutnya.</li>
 </ul>
 <hr />
-<h2 id="terima-kasih">🙌 Terima Kasih</h2>
-<p>Dokumentasi ini didedikasikan untuk para pejuang kode di seluruh penjuru dunia, terutama kamu yang lagi belajar, nyoba, gagal, lalu bangkit lagi. 🔥</p>
-<blockquote>
-<p>"JavaScript itu bukan tentang seberapa cepat kamu paham, tapi seberapa gigih kamu mencoba."</p>
-</blockquote>
-<p>Selamat belajar dan... semoga sukses! 🌈</p>
-<p>```</p>
+<h2 id="5-error-handling-dengan-trycatch">5. Error Handling dengan try/catch</h2>
+<p>Ketika menggunakan <code>async/await</code>, kita dapat menangani error dengan menggunakan blok <code>try/catch</code>.</p>
+<h3 id="contoh-penggunaan-trycatch">📌 Contoh Penggunaan try/catch</h3>
+<pre><code class="language-js">async function ambilData() {
+  try {
+    let result = await new Promise((resolve, reject) =&gt; {
+      let success = false;  // Simulasikan error
+      setTimeout(() =&gt; {
+        if (success) {
+          resolve(&quot;Data berhasil diambil&quot;);
+        } else {
+          reject(&quot;Data gagal diambil&quot;);
+        }
+      }, 2000);
+    });
+
+    console.log(result);
+  } catch (error) {
+    console.log(&quot;Error:&quot;, error);  // Output: &quot;Error: Data gagal diambil&quot;
+  }
+}
+
+ambilData();
+</code></pre>
+<p>Dengan <code>try/catch</code>, kita dapat menangani error yang mungkin terjadi selama proses asynchronous.</p>
+<hr />
+<h2 id="6-menggunakan-multiple-async-functions">6. Menggunakan Multiple Async Functions</h2>
+<p>Jika kamu memiliki beberapa operasi asynchronous yang perlu dijalankan secara bersamaan, kamu bisa menggunakan <code>Promise.all()</code> untuk menunggu semua Promise selesai.</p>
+<h3 id="contoh-promiseall">📌 Contoh Promise.all</h3>
+<pre><code class="language-js">async function ambilData() {
+  let promise1 = new Promise((resolve) =&gt; setTimeout(() =&gt; resolve(&quot;Data 1 selesai&quot;), 2000));
+  let promise2 = new Promise((resolve) =&gt; setTimeout(() =&gt; resolve(&quot;Data 2 selesai&quot;), 3000));
+
+  let result = await Promise.all([promise1, promise2]);
+  console.log(result);  // Output: [&quot;Data 1 selesai&quot;, &quot;Data 2 selesai&quot;]
+}
+
+ambilData();
+</code></pre>
+<p><code>Promise.all()</code> akan menunggu hingga semua Promise dalam array selesai sebelum melanjutkan eksekusi.</p>
+<hr />
+<h2 id="kesimpulan">🎯 Kesimpulan</h2>
+<ul>
+<li><strong>Asynchronous Programming</strong>: Menangani operasi yang memerlukan waktu, seperti pengambilan data atau operasi IO, tanpa memblokir eksekusi program.</li>
+<li><strong>Callback</strong>: Fungsi yang diberikan kepada fungsi lain dan dieksekusi setelah operasi asynchronous selesai.</li>
+<li><strong>Promise</strong>: Representasi dari sebuah operasi asynchronous yang bisa berhasil atau gagal.</li>
+<li><strong>async/await</strong>: Cara modern untuk menulis kode asynchronous dengan cara yang lebih mudah dibaca dan ditulis.</li>
+<li><strong>Error Handling</strong>: Gunakan <code>try/catch</code> untuk menangani error yang terjadi pada operasi asynchronous.</li>
+</ul>
+<p>Dengan memahami konsep <strong>Async Programming</strong>, kamu bisa menulis kode JavaScript yang lebih efisien dan mudah dipahami. Selanjutnya, kita akan bahas tentang <strong>Event Loop</strong> dan bagaimana JavaScript mengelola operasi asynchronous di bawah tenda.
+```</p>
 
 
 
@@ -1458,10 +1717,10 @@ mkdocs gh-deploy
     
     
       
-      <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Tersalin ke clipboard", "clipboard.copy": "Salin ke clipboard", "search.result.more.one": "1 lagi di halaman ini", "search.result.more.other": "# lagi di halaman ini", "search.result.none": "Tidak ada dokumen yang sesuai", "search.result.one": "1 dokumen ditemukan", "search.result.other": "# dokumen ditemukan", "search.result.placeholder": "Ketik untuk mulai pencarian", "search.result.term.missing": "Tidak ada", "select.version": "Pilih versi"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Tersalin ke clipboard", "clipboard.copy": "Salin ke clipboard", "search.result.more.one": "1 lagi di halaman ini", "search.result.more.other": "# lagi di halaman ini", "search.result.none": "Tidak ada dokumen yang sesuai", "search.result.one": "1 dokumen ditemukan", "search.result.other": "# dokumen ditemukan", "search.result.placeholder": "Ketik untuk mulai pencarian", "search.result.term.missing": "Tidak ada", "select.version": "Pilih versi"}, "version": null}</script>
     
     
-      <script src="assets/javascripts/bundle.c8b220af.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.c8b220af.min.js"></script>
       
     
   </body>

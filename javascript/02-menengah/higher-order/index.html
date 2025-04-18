@@ -8,23 +8,25 @@
       
       
       
-        <link rel="canonical" href="https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/">
+        <link rel="canonical" href="https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/javascript/02-menengah/higher-order/">
       
       
+        <link rel="prev" href="../struktur-data/">
       
-        <link rel="next" href="javascript/01-pemula/intro/">
+      
+        <link rel="next" href="../async/">
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.11">
     
     
       
-        <title>Dokumentasi JavaScript dari Nol</title>
+        <title>Higher-Order Functions - Dokumentasi JavaScript dari Nol</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.4af4bdda.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.4af4bdda.min.css">
       
       
 
@@ -43,7 +45,7 @@
       
     
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -62,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#dokumentasi-javascript-dari-nol-sampai-mahir" class="md-skip">
+        <a href="#higher-order-functions-di-javascript" class="md-skip">
           Lewati ke isi
         </a>
       
@@ -78,7 +80,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="Dokumentasi JavaScript dari Nol" class="md-header__button md-logo" aria-label="Dokumentasi JavaScript dari Nol" data-md-component="logo">
+    <a href="../../.." title="Dokumentasi JavaScript dari Nol" class="md-header__button md-logo" aria-label="Dokumentasi JavaScript dari Nol" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -98,7 +100,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Home
+              Higher-Order Functions
             
           </span>
         </div>
@@ -188,7 +190,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigasi" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="Dokumentasi JavaScript dari Nol" class="md-nav__button md-logo" aria-label="Dokumentasi JavaScript dari Nol" data-md-component="logo">
+    <a href="../../.." title="Dokumentasi JavaScript dari Nol" class="md-nav__button md-logo" aria-label="Dokumentasi JavaScript dari Nol" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -215,32 +217,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    Home
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
         
   
   
@@ -251,113 +231,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Daftar isi">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Daftar isi
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#tujuan-dokumentasi" class="md-nav__link">
-    <span class="md-ellipsis">
-      🎯 Tujuan Dokumentasi
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#struktur-materi" class="md-nav__link">
-    <span class="md-ellipsis">
-      📚 Struktur Materi
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="📚 Struktur Materi">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#1-pemula" class="md-nav__link">
-    <span class="md-ellipsis">
-      1. 🐣 Pemula
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#2-menengah" class="md-nav__link">
-    <span class="md-ellipsis">
-      2. 🚀 Menengah
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#3-mahir" class="md-nav__link">
-    <span class="md-ellipsis">
-      3. 🧠 Mahir
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tools-yang-digunakan" class="md-nav__link">
-    <span class="md-ellipsis">
-      🛠 Tools yang Digunakan
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#cara-build-jalankan-dokumentasi" class="md-nav__link">
-    <span class="md-ellipsis">
-      📦 Cara Build &amp; Jalankan Dokumentasi
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#kontribusi" class="md-nav__link">
-    <span class="md-ellipsis">
-      ❤️ Kontribusi
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#terima-kasih" class="md-nav__link">
-    <span class="md-ellipsis">
-      🙌 Terima Kasih
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -407,7 +280,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/01-pemula/intro/" class="md-nav__link">
+      <a href="../../01-pemula/intro/" class="md-nav__link">
         
   
   
@@ -430,7 +303,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/01-pemula/variabel/" class="md-nav__link">
+      <a href="../../01-pemula/variabel/" class="md-nav__link">
         
   
   
@@ -453,7 +326,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/01-pemula/tipe-data/" class="md-nav__link">
+      <a href="../../01-pemula/tipe-data/" class="md-nav__link">
         
   
   
@@ -476,7 +349,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/01-pemula/operator/" class="md-nav__link">
+      <a href="../../01-pemula/operator/" class="md-nav__link">
         
   
   
@@ -499,7 +372,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/01-pemula/control-flow/" class="md-nav__link">
+      <a href="../../01-pemula/control-flow/" class="md-nav__link">
         
   
   
@@ -522,7 +395,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/01-pemula/array-object/" class="md-nav__link">
+      <a href="../../01-pemula/array-object/" class="md-nav__link">
         
   
   
@@ -545,7 +418,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/01-pemula/fungsi/" class="md-nav__link">
+      <a href="../../01-pemula/fungsi/" class="md-nav__link">
         
   
   
@@ -572,18 +445,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
@@ -599,7 +474,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Menengah
@@ -613,7 +488,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/02-menengah/struktur-data/" class="md-nav__link">
+      <a href="../struktur-data/" class="md-nav__link">
         
   
   
@@ -633,10 +508,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="javascript/02-menengah/higher-order/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Higher-Order Functions
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -647,6 +544,200 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Daftar isi">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Daftar isi
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-apa-itu-higher-order-functions" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Apa itu Higher-Order Functions?
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Apa itu Higher-Order Functions?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#contoh-fungsi-tingkat-tinggi" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Contoh Fungsi Tingkat Tinggi
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-fungsi-yang-mengembalikan-fungsi" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Fungsi yang Mengembalikan Fungsi
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-fungsi-fungsi-tingkat-tinggi-dalam-javascript" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Fungsi-fungsi Tingkat Tinggi dalam JavaScript
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Fungsi-fungsi Tingkat Tinggi dalam JavaScript">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#map" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 map()
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#filter" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 filter()
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reduce" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 reduce()
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-membuat-fungsi-tingkat-tinggi-sendiri" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Membuat Fungsi Tingkat Tinggi Sendiri
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Membuat Fungsi Tingkat Tinggi Sendiri">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#contoh-fungsi-once" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Contoh: Fungsi once()
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-fungsi-bind-call-dan-apply" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Fungsi bind(), call(), dan apply()
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Fungsi bind(), call(), dan apply()">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bind" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 bind()
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#call-dan-apply" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 call() dan apply()
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-keuntungan-dan-kelemahan-fungsi-tingkat-tinggi" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Keuntungan dan Kelemahan Fungsi Tingkat Tinggi
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Keuntungan dan Kelemahan Fungsi Tingkat Tinggi">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#keuntungan" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅ Keuntungan
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kelemahan" class="md-nav__link">
+    <span class="md-ellipsis">
+      ❌ Kelemahan
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-kesimpulan" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Kesimpulan
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -659,7 +750,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/02-menengah/async/" class="md-nav__link">
+      <a href="../async/" class="md-nav__link">
         
   
   
@@ -682,7 +773,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/02-menengah/modularisasi/" class="md-nav__link">
+      <a href="../modularisasi/" class="md-nav__link">
         
   
   
@@ -705,7 +796,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/02-menengah/dom-event/" class="md-nav__link">
+      <a href="../dom-event/" class="md-nav__link">
         
   
   
@@ -728,7 +819,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/02-menengah/fetch-api/" class="md-nav__link">
+      <a href="../fetch-api/" class="md-nav__link">
         
   
   
@@ -796,7 +887,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/03-mahir/konsep-lanjut/" class="md-nav__link">
+      <a href="../../03-mahir/konsep-lanjut/" class="md-nav__link">
         
   
   
@@ -819,7 +910,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/03-mahir/oop/" class="md-nav__link">
+      <a href="../../03-mahir/oop/" class="md-nav__link">
         
   
   
@@ -842,7 +933,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/03-mahir/functional/" class="md-nav__link">
+      <a href="../../03-mahir/functional/" class="md-nav__link">
         
   
   
@@ -865,7 +956,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/03-mahir/event-loop/" class="md-nav__link">
+      <a href="../../03-mahir/event-loop/" class="md-nav__link">
         
   
   
@@ -888,7 +979,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/03-mahir/tools/" class="md-nav__link">
+      <a href="../../03-mahir/tools/" class="md-nav__link">
         
   
   
@@ -911,7 +1002,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/03-mahir/keamanan/" class="md-nav__link">
+      <a href="../../03-mahir/keamanan/" class="md-nav__link">
         
   
   
@@ -979,7 +1070,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/04-best-practices/clean-code/" class="md-nav__link">
+      <a href="../../04-best-practices/clean-code/" class="md-nav__link">
         
   
   
@@ -1002,7 +1093,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/04-best-practices/debugging/" class="md-nav__link">
+      <a href="../../04-best-practices/debugging/" class="md-nav__link">
         
   
   
@@ -1025,7 +1116,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/04-best-practices/komentar/" class="md-nav__link">
+      <a href="../../04-best-practices/komentar/" class="md-nav__link">
         
   
   
@@ -1048,7 +1139,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/04-best-practices/refactor/" class="md-nav__link">
+      <a href="../../04-best-practices/refactor/" class="md-nav__link">
         
   
   
@@ -1071,7 +1162,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/04-best-practices/style-guide/" class="md-nav__link">
+      <a href="../../04-best-practices/style-guide/" class="md-nav__link">
         
   
   
@@ -1094,7 +1185,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/04-best-practices/testing/" class="md-nav__link">
+      <a href="../../04-best-practices/testing/" class="md-nav__link">
         
   
   
@@ -1117,7 +1208,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/04-best-practices/error-handling/" class="md-nav__link">
+      <a href="../../04-best-practices/error-handling/" class="md-nav__link">
         
   
   
@@ -1140,7 +1231,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/04-best-practices/performance/" class="md-nav__link">
+      <a href="../../04-best-practices/performance/" class="md-nav__link">
         
   
   
@@ -1163,7 +1254,7 @@
   
   
     <li class="md-nav__item">
-      <a href="javascript/04-best-practices/eslintrc-prettierrc/" class="md-nav__link">
+      <a href="../../04-best-practices/eslintrc-prettierrc/" class="md-nav__link">
         
   
   
@@ -1213,46 +1304,19 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#tujuan-dokumentasi" class="md-nav__link">
+  <a href="#1-apa-itu-higher-order-functions" class="md-nav__link">
     <span class="md-ellipsis">
-      🎯 Tujuan Dokumentasi
+      1. Apa itu Higher-Order Functions?
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#struktur-materi" class="md-nav__link">
-    <span class="md-ellipsis">
-      📚 Struktur Materi
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="📚 Struktur Materi">
+    <nav class="md-nav" aria-label="1. Apa itu Higher-Order Functions?">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#1-pemula" class="md-nav__link">
+  <a href="#contoh-fungsi-tingkat-tinggi" class="md-nav__link">
     <span class="md-ellipsis">
-      1. 🐣 Pemula
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#2-menengah" class="md-nav__link">
-    <span class="md-ellipsis">
-      2. 🚀 Menengah
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#3-mahir" class="md-nav__link">
-    <span class="md-ellipsis">
-      3. 🧠 Mahir
+      📌 Contoh Fungsi Tingkat Tinggi
     </span>
   </a>
   
@@ -1264,36 +1328,150 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#tools-yang-digunakan" class="md-nav__link">
+  <a href="#2-fungsi-yang-mengembalikan-fungsi" class="md-nav__link">
     <span class="md-ellipsis">
-      🛠 Tools yang Digunakan
+      2. Fungsi yang Mengembalikan Fungsi
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#cara-build-jalankan-dokumentasi" class="md-nav__link">
+  <a href="#3-fungsi-fungsi-tingkat-tinggi-dalam-javascript" class="md-nav__link">
     <span class="md-ellipsis">
-      📦 Cara Build &amp; Jalankan Dokumentasi
+      3. Fungsi-fungsi Tingkat Tinggi dalam JavaScript
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Fungsi-fungsi Tingkat Tinggi dalam JavaScript">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#map" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 map()
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#kontribusi" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#filter" class="md-nav__link">
     <span class="md-ellipsis">
-      ❤️ Kontribusi
+      📌 filter()
     </span>
   </a>
   
 </li>
+        
+          <li class="md-nav__item">
+  <a href="#reduce" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 reduce()
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
       
         <li class="md-nav__item">
-  <a href="#terima-kasih" class="md-nav__link">
+  <a href="#4-membuat-fungsi-tingkat-tinggi-sendiri" class="md-nav__link">
     <span class="md-ellipsis">
-      🙌 Terima Kasih
+      4. Membuat Fungsi Tingkat Tinggi Sendiri
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Membuat Fungsi Tingkat Tinggi Sendiri">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#contoh-fungsi-once" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Contoh: Fungsi once()
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-fungsi-bind-call-dan-apply" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Fungsi bind(), call(), dan apply()
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Fungsi bind(), call(), dan apply()">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bind" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 bind()
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#call-dan-apply" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 call() dan apply()
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-keuntungan-dan-kelemahan-fungsi-tingkat-tinggi" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Keuntungan dan Kelemahan Fungsi Tingkat Tinggi
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Keuntungan dan Kelemahan Fungsi Tingkat Tinggi">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#keuntungan" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅ Keuntungan
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kelemahan" class="md-nav__link">
+    <span class="md-ellipsis">
+      ❌ Kelemahan
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-kesimpulan" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Kesimpulan
     </span>
   </a>
   
@@ -1318,98 +1496,130 @@
   
 
 
-<h1 id="dokumentasi-javascript-dari-nol-sampai-mahir">📘 Dokumentasi JavaScript dari Nol sampai Mahir</h1>
-<p>Selamat datang di dokumentasi <strong>JavaScript dari Nol</strong> — panduan lengkap untuk siapa saja yang ingin memulai perjalanan dengan JavaScript, dari yang belum pernah ngoding sampai yang pengen jadi master JS sejati. 🚀</p>
+<h1 id="higher-order-functions-di-javascript">🏗️ Higher-Order Functions di JavaScript</h1>
+<p>Fungsi tingkat tinggi (<strong>Higher-Order Functions</strong>) adalah fungsi yang menerima satu atau lebih fungsi sebagai argumen atau mengembalikan fungsi sebagai hasil. Ini adalah konsep dasar dalam pemrograman fungsional dan digunakan secara luas dalam JavaScript untuk menangani koleksi data, manipulasi fungsi, dan banyak lagi.</p>
 <hr />
-<h2 id="tujuan-dokumentasi">🎯 Tujuan Dokumentasi</h2>
-<p>Dokumentasi ini dibuat untuk:</p>
-<p>✅ Membantu <strong>pemula</strong> memahami dasar-dasar JavaScript<br />
-✅ Memberikan landasan <strong>kuat di level menengah</strong> seperti DOM, modul, dan async<br />
-✅ Menjadi panduan <strong>tingkat mahir</strong> dalam memahami konsep seperti event loop, OOP, functional programming, hingga keamanan</p>
-<hr />
-<h2 id="struktur-materi">📚 Struktur Materi</h2>
-<p>Dokumentasi dibagi ke dalam tiga bagian besar:</p>
-<h3 id="1-pemula">1. 🐣 Pemula</h3>
-<blockquote>
-<p>Cocok untuk kamu yang baru kenalan dengan JavaScript</p>
-</blockquote>
-<ul>
-<li>Pengantar dan Setup ➡️ <a href="./01-pemula/intro.md">Buka</a></li>
-<li>Tipe Data &amp; Variabel</li>
-<li>Operator</li>
-<li>Fungsi</li>
-<li>Control Flow (if, loop, switch)</li>
-<li>Array &amp; Object</li>
-</ul>
-<hr />
-<h3 id="2-menengah">2. 🚀 Menengah</h3>
-<blockquote>
-<p>Setelah ngerti dasar, saatnya eksplor fitur-fitur modern</p>
-</blockquote>
-<ul>
-<li>DOM &amp; Event Handling</li>
-<li>Fetch API &amp; Async/Await</li>
-<li>Modularisasi JavaScript</li>
-<li>Higher-Order Function</li>
-<li>Struktur Data Lanjut (Set, Map, dsb)</li>
-</ul>
-<p>➡️ Lihat: <a href="02-menengah/async.md">JavaScript Menengah</a></p>
-<hr />
-<h3 id="3-mahir">3. 🧠 Mahir</h3>
-<blockquote>
-<p>Level ninja. Cocok buat yang mau jadi frontend/backend developer serius</p>
-</blockquote>
-<ul>
-<li>Event Loop &amp; Asynchronous Engine</li>
-<li>OOP (Object-Oriented Programming)</li>
-<li>Functional Programming</li>
-<li>Keamanan di JavaScript</li>
-<li>Tools &amp; Ekosistem</li>
-<li>Testing &amp; Optimasi</li>
-</ul>
-<p>➡️ Lihat: <a href="03-mahir/event-loop.md">JavaScript Mahir</a></p>
-<hr />
-<h2 id="tools-yang-digunakan">🛠 Tools yang Digunakan</h2>
-<ul>
-<li><a href="https://www.mkdocs.org/">MkDocs</a> untuk dokumentasi</li>
-<li><a href="https://squidfunk.github.io/mkdocs-material/">Material for MkDocs</a> untuk tampilan yang modern dan bersih</li>
-<li><a href="https://pages.github.com/">GitHub Pages</a> untuk hosting</li>
-</ul>
-<hr />
-<h2 id="cara-build-jalankan-dokumentasi">📦 Cara Build &amp; Jalankan Dokumentasi</h2>
-<pre><code class="language-bash"># Clone repositori
-git clone https://github.com/username/dokumentasi-javascript-dari-nol.git
-cd dokumentasi-javascript-dari-nol
+<h2 id="1-apa-itu-higher-order-functions">1. Apa itu Higher-Order Functions?</h2>
+<p>Fungsi disebut <strong>higher-order</strong> jika:
+- Fungsi tersebut menerima satu atau lebih fungsi sebagai argumen.
+- Fungsi tersebut mengembalikan fungsi lain.</p>
+<p>Konsep ini memungkinkan kita untuk membuat kode lebih modular dan terstruktur, serta membuat fungsi lebih fleksibel dan dapat digunakan kembali.</p>
+<h3 id="contoh-fungsi-tingkat-tinggi">📌 Contoh Fungsi Tingkat Tinggi</h3>
+<p>Berikut adalah contoh fungsi yang menerima fungsi sebagai argumen:</p>
+<pre><code class="language-js">function greet(name, callback) {
+  return `Hello, ${name}. ${callback()}`;
+}
 
-# Install dependencies
-pip install mkdocs mkdocs-material
+function sayGoodbye() {
+  return &quot;Goodbye!&quot;;
+}
 
-# Jalankan lokal
-mkdocs serve
-
-# Deploy ke GitHub Pages
-mkdocs gh-deploy
+console.log(greet(&quot;John&quot;, sayGoodbye)); // Output: Hello, John. Goodbye!
 </code></pre>
-<blockquote>
-<p>Pastikan kamu sudah install Python &amp; pip ya!</p>
-</blockquote>
+<p>Di sini, fungsi <code>greet()</code> adalah fungsi tingkat tinggi karena menerima fungsi <code>sayGoodbye()</code> sebagai argumen.</p>
 <hr />
-<h2 id="kontribusi">❤️ Kontribusi</h2>
-<p>Dokumentasi ini open-source dan bebas dikembangkan bareng. Kalau kamu punya ide, kritik, atau ingin nambahin materi, feel free buat:</p>
+<h2 id="2-fungsi-yang-mengembalikan-fungsi">2. Fungsi yang Mengembalikan Fungsi</h2>
+<p>Selain menerima fungsi sebagai argumen, fungsi tingkat tinggi juga bisa mengembalikan fungsi sebagai hasil. Berikut adalah contoh sederhana fungsi yang mengembalikan fungsi:</p>
+<pre><code class="language-js">function multiplyBy(factor) {
+  return function(number) {
+    return number * factor;
+  };
+}
+
+const multiplyBy2 = multiplyBy(2);
+console.log(multiplyBy2(5)); // Output: 10
+</code></pre>
+<p>Fungsi <code>multiplyBy()</code> mengembalikan fungsi lain yang kemudian digunakan untuk mengalikan angka dengan faktor yang ditentukan.</p>
+<hr />
+<h2 id="3-fungsi-fungsi-tingkat-tinggi-dalam-javascript">3. Fungsi-fungsi Tingkat Tinggi dalam JavaScript</h2>
+<p>JavaScript memiliki banyak metode built-in yang merupakan contoh dari <strong>higher-order functions</strong>. Beberapa di antaranya adalah metode array seperti <strong>map()</strong>, <strong>filter()</strong>, dan <strong>reduce()</strong>.</p>
+<h3 id="map">📌 <code>map()</code></h3>
+<p>Metode <code>map()</code> digunakan untuk membuat array baru dengan hasil pemanggilan fungsi pada setiap elemen dalam array.</p>
+<pre><code class="language-js">const numbers = [1, 2, 3, 4];
+const doubled = numbers.map(num =&gt; num * 2);
+console.log(doubled); // Output: [2, 4, 6, 8]
+</code></pre>
+<p>Fungsi yang diberikan pada <code>map()</code> dipanggil pada setiap elemen array, menghasilkan array baru dengan nilai yang dimodifikasi.</p>
+<h3 id="filter">📌 <code>filter()</code></h3>
+<p>Metode <code>filter()</code> digunakan untuk membuat array baru yang hanya berisi elemen-elemen yang memenuhi kriteria yang ditentukan dalam fungsi.</p>
+<pre><code class="language-js">const numbers = [1, 2, 3, 4, 5];
+const evenNumbers = numbers.filter(num =&gt; num % 2 === 0);
+console.log(evenNumbers); // Output: [2, 4]
+</code></pre>
+<p>Di sini, fungsi yang diberikan pada <code>filter()</code> akan menyaring elemen-elemen yang genap dari array.</p>
+<h3 id="reduce">📌 <code>reduce()</code></h3>
+<p>Metode <code>reduce()</code> digunakan untuk mengakumulasi nilai array menjadi satu nilai tunggal berdasarkan fungsi yang diberikan.</p>
+<pre><code class="language-js">const numbers = [1, 2, 3, 4];
+const sum = numbers.reduce((acc, num) =&gt; acc + num, 0);
+console.log(sum); // Output: 10
+</code></pre>
+<p>Fungsi yang diberikan pada <code>reduce()</code> menerima dua argumen: akumulator (<code>acc</code>) dan elemen saat ini (<code>num</code>). Setiap iterasi, nilai akumulator akan diperbarui dengan hasil fungsi tersebut.</p>
+<hr />
+<h2 id="4-membuat-fungsi-tingkat-tinggi-sendiri">4. Membuat Fungsi Tingkat Tinggi Sendiri</h2>
+<p>Kita bisa membuat fungsi tingkat tinggi yang lebih kompleks, seperti fungsi yang menggabungkan beberapa fungsi atau fungsi yang memodifikasi perilaku fungsi lain.</p>
+<h3 id="contoh-fungsi-once">📌 Contoh: Fungsi <code>once()</code></h3>
+<p>Fungsi <code>once()</code> memastikan bahwa fungsi yang diberikan hanya akan dipanggil satu kali, tidak lebih.</p>
+<pre><code class="language-js">function once(fn) {
+  let called = false;
+  return function() {
+    if (!called) {
+      fn();
+      called = true;
+    }
+  };
+}
+
+const sayHelloOnce = once(() =&gt; console.log(&quot;Hello!&quot;));
+sayHelloOnce(); // Output: Hello!
+sayHelloOnce(); // Tidak ada output
+</code></pre>
+<p>Fungsi <code>once()</code> adalah contoh dari fungsi tingkat tinggi yang mengembalikan fungsi lain, yang hanya dapat dipanggil sekali.</p>
+<hr />
+<h2 id="5-fungsi-bind-call-dan-apply">5. Fungsi <code>bind()</code>, <code>call()</code>, dan <code>apply()</code></h2>
+<p>Metode <code>bind()</code>, <code>call()</code>, dan <code>apply()</code> adalah contoh fungsi tingkat tinggi yang sering digunakan untuk mengubah konteks eksekusi suatu fungsi.</p>
+<h3 id="bind">📌 <code>bind()</code></h3>
+<p>Metode <code>bind()</code> mengembalikan fungsi baru yang memiliki konteks tertentu (nilai <code>this</code>).</p>
+<pre><code class="language-js">const person = {
+  name: &quot;Alice&quot;,
+  greet() {
+    console.log(`Hello, ${this.name}`);
+  }
+};
+
+const greetAlice = person.greet.bind(person);
+greetAlice(); // Output: Hello, Alice
+</code></pre>
+<p>Dengan <code>bind()</code>, kita dapat mengikat fungsi ke objek tertentu.</p>
+<h3 id="call-dan-apply">📌 <code>call()</code> dan <code>apply()</code></h3>
+<p>Metode <code>call()</code> dan <code>apply()</code> digunakan untuk memanggil fungsi dengan konteks tertentu, tetapi cara pengoperasian argumen berbeda.</p>
+<pre><code class="language-js">function greet(greeting, punctuation) {
+  console.log(`${greeting}, ${this.name}${punctuation}`);
+}
+
+const person = { name: &quot;Bob&quot; };
+
+greet.call(person, &quot;Hello&quot;, &quot;!&quot;); // Output: Hello, Bob!
+greet.apply(person, [&quot;Hello&quot;, &quot;!&quot;]); // Output: Hello, Bob!
+</code></pre>
+<p>Kedua metode ini memungkinkan kita untuk mengubah konteks (<code>this</code>) dan memanggil fungsi dengan parameter yang ditentukan.</p>
+<hr />
+<h2 id="6-keuntungan-dan-kelemahan-fungsi-tingkat-tinggi">6. Keuntungan dan Kelemahan Fungsi Tingkat Tinggi</h2>
+<h3 id="keuntungan">✅ Keuntungan</h3>
 <ul>
-<li>Fork repo</li>
-<li>Bikin branch baru</li>
-<li>Commit perubahan</li>
-<li>Buat Pull Request ✨</li>
+<li><strong>Modularitas</strong>: Fungsi tingkat tinggi memungkinkan kita untuk memecah masalah besar menjadi bagian-bagian kecil yang lebih mudah dikelola.</li>
+<li><strong>Reusable</strong>: Fungsi yang menerima atau mengembalikan fungsi lain dapat digunakan kembali di berbagai tempat.</li>
+<li><strong>Mempermudah Asinkronus</strong>: Fungsi tingkat tinggi sering digunakan dalam penanganan asinkronus seperti callback, promise, dan async/await.</li>
+</ul>
+<h3 id="kelemahan">❌ Kelemahan</h3>
+<ul>
+<li><strong>Kompleksitas</strong>: Terlalu banyak penggunaan fungsi tingkat tinggi bisa membuat kode menjadi lebih sulit dimengerti.</li>
+<li><strong>Performa</strong>: Jika tidak digunakan dengan bijak, fungsi tingkat tinggi bisa berdampak pada performa, terutama dalam operasi berulang pada data besar.</li>
 </ul>
 <hr />
-<h2 id="terima-kasih">🙌 Terima Kasih</h2>
-<p>Dokumentasi ini didedikasikan untuk para pejuang kode di seluruh penjuru dunia, terutama kamu yang lagi belajar, nyoba, gagal, lalu bangkit lagi. 🔥</p>
-<blockquote>
-<p>"JavaScript itu bukan tentang seberapa cepat kamu paham, tapi seberapa gigih kamu mencoba."</p>
-</blockquote>
-<p>Selamat belajar dan... semoga sukses! 🌈</p>
-<p>```</p>
+<h2 id="7-kesimpulan">7. Kesimpulan</h2>
+<p>Fungsi tingkat tinggi (Higher-Order Functions) adalah konsep penting dalam pemrograman JavaScript yang memungkinkan kita untuk menulis kode yang lebih modular dan fleksibel. Dengan menggunakan fungsi-fungsi seperti <code>map()</code>, <code>filter()</code>, dan <code>reduce()</code>, kita bisa lebih mudah menangani koleksi data. Memahami cara kerja fungsi tingkat tinggi adalah keterampilan yang sangat berharga dalam menulis kode yang efisien dan terstruktur.</p>
+<p>Sekarang, kita telah membahas tentang fungsi tingkat tinggi di JavaScript. Selanjutnya, kita akan melihat bagaimana konsep-konsep ini digunakan dalam berbagai pustaka dan framework JavaScript.
+```</p>
 
 
 
@@ -1458,10 +1668,10 @@ mkdocs gh-deploy
     
     
       
-      <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Tersalin ke clipboard", "clipboard.copy": "Salin ke clipboard", "search.result.more.one": "1 lagi di halaman ini", "search.result.more.other": "# lagi di halaman ini", "search.result.none": "Tidak ada dokumen yang sesuai", "search.result.one": "1 dokumen ditemukan", "search.result.other": "# dokumen ditemukan", "search.result.placeholder": "Ketik untuk mulai pencarian", "search.result.term.missing": "Tidak ada", "select.version": "Pilih versi"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Tersalin ke clipboard", "clipboard.copy": "Salin ke clipboard", "search.result.more.one": "1 lagi di halaman ini", "search.result.more.other": "# lagi di halaman ini", "search.result.none": "Tidak ada dokumen yang sesuai", "search.result.one": "1 dokumen ditemukan", "search.result.other": "# dokumen ditemukan", "search.result.placeholder": "Ketik untuk mulai pencarian", "search.result.term.missing": "Tidak ada", "select.version": "Pilih versi"}, "version": null}</script>
     
     
-      <script src="assets/javascripts/bundle.c8b220af.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.c8b220af.min.js"></script>
       
     
   </body>
