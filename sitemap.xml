@@ -2,262 +2,1078 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
-         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/java/01-intro/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/JAVA/01-Pengenalan-Java/</loc>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
-         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/java/02-array/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/JAVA/02-Instalasi-dan-Setup/</loc>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
-         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/java/03-variabel/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/JAVA/03-Program-Pertama/</loc>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
-         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/java/04-tipe-data/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/JAVA/04-Tipe-Data-dan-Variabel/</loc>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
-         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/java/05-operator/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/JAVA/05-Operator/</loc>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
-         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/java/06-string/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/JAVA/06-Percabangan/</loc>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
-         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/java/07-method/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/JAVA/07-Perulangan/</loc>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
-         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/java/08-control-flow/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/JAVA/08-Array-dan-String/</loc>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
-         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/java/09-oop-pengenalan/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/JAVA/09-Konesp-OOP/</loc>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
-         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/java/10-inheritance/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/JAVA/09-a-Package-dan-Import/</loc>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
-         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/java/11-encapsulation/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/JAVA/10-Constructors-dan-Overloading/</loc>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
-         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/java/12-polymorphism/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/JAVA/11-This-and-Super-Keyword/</loc>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
-         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/java/13-abstract-interface/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/JAVA/12-Access-Modifiers/</loc>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
-         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/java/14-collection-framework/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/JAVA/13-Static-vs-Non-Static/</loc>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
-         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/java/15-exception-handling/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/JAVA/14-Final-Keyword-dan-Konstanta/</loc>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
-         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/java/16-multi-threading/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/JAVA/15-ArrayList-LinkedList-HashSet-TreeSet/</loc>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
-         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/java/17-file-io/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/JAVA/16-HashMap-TreeMap/</loc>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
-         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/java/18-serialization/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/JAVA/17-Iterator-dan-For-Each/</loc>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
-         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/java/19-database-jdbc/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/JAVA/18-Generic-di-java/</loc>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
-         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/java/20-lambda/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/JAVA/19-Try-Catch-Finally/</loc>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
-         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/java/21-stream-api/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/JAVA/20-Multiple-Catch-dan-Nested-Try/</loc>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
-         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/java/22-optional/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/JAVA/21-Throw-dan-Throws/</loc>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
-         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/java/23-functional-interface/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/JAVA/22-Costum-Exception/</loc>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
-         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/java/24-modular-system/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/JAVA/23-Scanner-BufferedReader/</loc>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
-         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/java/25-record-class/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/JAVA/24-Menulis-dan-Membaca-File/</loc>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
-         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/java/26-gradle/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/JAVA/25-Serialization-dan-Deserialization/</loc>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
-         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/java/27-maven/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/JAVA/26-Thread-Class-dan-Runnable-Interface/</loc>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
-         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/java/28-ide-setup/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/JAVA/27-Synchronized-dan-Lock/</loc>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
-         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/java/29-clean-code/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/JAVA/28-Thread-Pool-Executor/</loc>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
-         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/java/30-unit-testing/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/JAVA/29-Socket-Programming/</loc>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
-         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/java/31-tdd/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/JAVA/30-Client-Server-Sederhana/</loc>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
-         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/java/32-performance/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/JAVA/31-HTTP-Request/</loc>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
-         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/java/33-security/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/JAVA/32.Debugging-di-IDE/</loc>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
-         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/java/34-intro/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/JAVA/33-Unit-Testing-dengan-JUnit/</loc>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
-         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/java/35-viewmodel/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/JAVA/34-Logging-dan-Error-Handling-Best-Practices/</loc>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
-         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/java/36-intent-service/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/JAVA/35-Pengenalan-Swing-dan-AWT/</loc>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
-         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/java/37-firebase/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/JAVA/36-Membuat-Frame-dan-Layout/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/JAVA/37-Button-TextField-Label-dll/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/JAVA/38-Event-Handling/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/JAVA/39-Proyek-GUI-Sederhana/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/JAVA/40-Apa-itu-Android-dan-Java/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/JAVA/41-Struktur-Proyek-Android-Studio/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/JAVA/42-Activity-dan-Layout/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/JAVA/43-Java-untuk-Android-Development/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/JAVA/44-Aplikasi-Kalkulator/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/JAVA/45-Aplikasi-Manajemen-Data-Mahasiswa/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/JAVA/46-To-Do-List-dengan-GUI/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/JAVA/47-Mini-CRUD-dengan-File/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/JAVA/48-Sistem-Login-Sederhana/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/PHP/01-pemula/01-Pengenalan-PHP/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/PHP/01-pemula/02-Instalasi-dan-Setup/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/PHP/01-pemula/03-Struktur-Dasar-Program-PHP/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/PHP/01-pemula/04-Tipe-Data-dan-Variabel/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/PHP/01-pemula/05-Operator/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/PHP/01-pemula/06-Struktur-Kontrol/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/PHP/01-pemula/07-Perulangan/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/PHP/01-pemula/08-Fungsi/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/PHP/01-pemula/09-Array/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/PHP/01-pemula/10-Superglobal/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/PHP/01-pemula/11-Form-Handling/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/PHP/01-pemula/12-Include-dan-Require/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/PHP/02-menengah/13-String-dan-Regex/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/PHP/02-menengah/14-File-Handling/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/PHP/02-menengah/15-Session-Cookie/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/PHP/02-menengah/16-Upload-File/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/PHP/02-menengah/17-Validasi-Data/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/PHP/02-menengah/18-MySQL-Koneksi/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/PHP/02-menengah/19-CRUD-MySQL/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/PHP/02-menengah/20-Modularisasi-Kode/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/PHP/02-menengah/21-Error-Handling/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/PHP/03-mahir/22-OOP-di-PHP/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/PHP/03-mahir/23-Constructor-Inheritance/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/PHP/03-mahir/24-Interface-Abstract/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/PHP/03-mahir/25-Trait/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/PHP/03-mahir/26-Namespace-Autoloading/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/PHP/03-mahir/27-Composer/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/PHP/03-mahir/28-Design-Pattern/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/PHP/03-mahir/29-REST-API/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/PHP/03-mahir/30-JSON-HTTP/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/PHP/03-mahir/31-Middleware/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/PHP/04-best-practices/32-Clean-Code/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/PHP/04-best-practices/33-Struktur-Folder/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/PHP/04-best-practices/34-Validasi-Sanitasi/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/PHP/04-best-practices/35-Keamanan/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/PHP/04-best-practices/36-Password-Hashing/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/PHP/04-best-practices/37-Env-File/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/PHP/04-best-practices/38-Code-Style/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/PHP/04-best-practices/39-Unit-Testing/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/PHP/04-best-practices/40-Logging-Debugging/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/PHP/05-mini-proyek/41-Login-Sederhana/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/PHP/05-mini-proyek/42-CRUD-Mahasiswa/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/PHP/05-mini-proyek/43-Sistem-Voting/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/PHP/05-mini-proyek/44-Galeri-Foto/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/PHP/05-mini-proyek/45-Catatan-Harian/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/PHP/05-mini-proyek/46-Pemesanan-Tiket/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/PHP/05-mini-proyek/47-Blog-Sederhana/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/PHP/05-mini-proyek/48-REST-API-Mobile/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/01-Pengenalan-Java/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/02-Instalasi-dan-Setup-Java/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/03-Program-Pertama-di-Java/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/04-Struktur-Dasar-Program-Java/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/05-Tipe-Data-dan-Variabel/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/06-Operator-di-Java/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/07-Percabangan-if%2C-switch/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/08-Perulangan-for%2C-while%2C-do-while/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/09-Array-di-Java/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/10-String-dan-Manipulasi-String/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/11-Konsep-OOP-di-Java/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/12-Class-dan-Object/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/13-Package-dan-Import/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/14-Constructor-dan-Overloading/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/15-Inheritance-Pewarisan/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/16-Polymorphism/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/17-Encapsulation/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/18-Abstraksi-dan-Interface/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/19-This-dan-Super-Keyword/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/20-Access-Modifiers/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/21-Static-vs-Non-Static/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/22-Final-Keyword-dan-Konstanta/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/23-ArrayList%2C-LinkedList%2C-HashSet%2C-TreeSet/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/24-HashMap%2C-TreeMap/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/25-Iterator-dan-For-Each/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/26-Generic-di-Java/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/27-Try%2C-Catch%2C-Finally/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/28-Multiple-Catch-dan-Nested-Try/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/29-Throw-dan-Throws/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/30-Custom-Exception/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/31-Scanner-dan-BufferedReader/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/32-Menulis-dan-Membaca-File/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/33-Serialization-dan-Deserialization/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/34-Thread-Class-dan-Runnable-Interface/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/35-Synchronized-dan-Lock/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/36-Thread-Pool-dan-ExecutorService/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/37-Deadlock-dan-Race-Condition/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/38-Pengenalan-Networking-di-Java/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/39-Socket-Programming/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/40-Membuat-Client-Server-Sederhana/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/41-HTTP-Request-dengan-Java/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/42-Debugging-di-IDE/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/43-Unit-Testing-dengan-JUnit/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/44-Logging-dan-Error-Handling-Best-Practices/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/45-Profiling-dan-Performance-Optimization/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/46-Pengenalan-Swing-dan-AWT/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/47-Membuat-Frame-dan-Layout/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/48-Button%2C-TextField%2C-Label%2C-dll/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/49-Event-Handling/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/50-Proyek-GUI-Sederhana/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/51-Apa-itu-Android-dan-Hubungannya-dengan-Java/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/52-Struktur-Proyek-Android-Studio/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/53-Activity-dan-Layout/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/54-Java-untuk-Android-Development/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/55-Membuat-Aplikasi-Kalkulator/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/56-Aplikasi-Manajemen-Data-Mahasiswa/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/57-To-Do-List-dengan-GUI/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/58-Mini-CRUD-dengan-File/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/59-Sistem-Login-Sederhana/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/60-Java-Design-Patterns-Factory%2C-Singleton%2C-dll/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/61-Clean-Code-dengan-Java/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/62-Refactoring-dan-Maintainability/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/63-Style-Guide-dan-Konvensi-Penamaan/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/64-Maven-dan-Gradle-untuk-Manajemen-Proyek/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/65-Java-8-Features-Lambda%2C-Stream-API/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/66-Java-17-dan-Versi-Terbaru-Record%2C-Sealed-Classes%2C-dll/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/67-Secure-Coding-dan-SQL-Injection/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-java/68-JDBC-dan-Koneksi-Database/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-javascript/01-pemula/01-Pengenalan-JavaScript/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-javascript/01-pemula/02-Syntax-dasar/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-javascript/01-pemula/03-Variabel/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-javascript/01-pemula/04-Tipe-Data/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-javascript/01-pemula/05-Operator/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-javascript/01-pemula/06-Kondisi-If-Else/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-javascript/01-pemula/07-Perulangan/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-javascript/01-pemula/08-Array/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-javascript/01-pemula/09-Function/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-javascript/01-pemula/10-Object/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-javascript/01-pemula/11-Scope-dan-Hoisting/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-javascript/01-pemula/12-Callback/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-javascript/02-menengah/13-Fetch-API/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-javascript/02-menengah/14-Higher-Order-Function/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-javascript/02-menengah/15-Modularisasi/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-javascript/02-menengah/16-Struktur-Data/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-javascript/03-mahir/17-Event-Loop/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-javascript/03-mahir/18-Functional-Programming/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-javascript/03-mahir/19-Keamanan/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-javascript/03-mahir/20-Konsep-Lanjutan/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-javascript/03-mahir/21-OOP/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-javascript/03-mahir/22-Tools-Bundler-Linter/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-javascript/04-best-practices/23-Clean-Code/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-javascript/04-best-practices/24-Debugging/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-javascript/04-best-practices/25-Error-Handling/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-javascript/04-best-practices/26-Performance/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-javascript/04-best-practices/27-Refactor/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-javascript/04-best-practices/28-Testing/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-javascript/04-best-practices/29-Style-Guide/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-javascript/04-best-practices/30-Komentar/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-javascript/05-mini-proyek/31-Kalkulator/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-javascript/05-mini-proyek/32-ToDo-List/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-javascript/05-mini-proyek/33-Gallery/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-javascript/05-mini-proyek/34-Pencarian-Film/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-javascript/05-mini-proyek/35-Quiz-App/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-kotlin/01-Pengenalan-Kotlin/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-kotlin/02-Instalasi-dan-Setup/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-kotlin/03-Variabel-dan-Tipe-Data/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-kotlin/04-Percabangan/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-kotlin/05-Perulangan/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-kotlin/06-Function/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-kotlin/07-Kelas-dan-Objek/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-kotlin/08-Properties-dan-Fields/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-kotlin/09-Encapsulation/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-kotlin/10-Inheritance/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-kotlin/11-Polymorphism/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-kotlin/12-Interface-dan-Abstract-Class/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-kotlin/13-Collection/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-kotlin/14-Lambda-dan-Higher-Order-Functions/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-kotlin/15-Coroutines/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-kotlin/16-Null-Safety/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-kotlin/17-Extension-Functions/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-kotlin/18-Serialization-dan-Deserialization/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-kotlin/19-Testing-di-Kotlin/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-kotlin/20-Multi-Platform-Development/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-sql/01-Pengenalan-SQL/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-sql/02-Instalasi-dan-Setup/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-sql/03-Dasar-Dasar-SQL/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-sql/04-SELECT-Statement/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-sql/05-Clauses-SQL/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-sql/06-JOIN/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-sql/07-Subquery/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-sql/08-Insert-Update-Delete/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-sql/09-Constraints/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-sql/10-Tipe-Data-SQL/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-sql/11-Index/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-sql/12-Views/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-sql/13-Stored-Procedures/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-sql/14-Transactions/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-sql/15-Performance-Tuning/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-sql/16-SQL-Functions/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-sql/17-Data-Integrity/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-sql/18-Backup-dan-Restore/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-sql/19-Database-Design/</loc>
+         <lastmod>2025-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/belajar-sql/20-Advanced-Queries/</loc>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
          <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/javascript/01-intro/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
          <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/javascript/02-variabel/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
          <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/javascript/03-tipe-data/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
          <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/javascript/04-operator/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
          <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/javascript/05-control-flow/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
          <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/javascript/06-array-object/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
          <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/javascript/07-fungsi/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
          <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/javascript/08-struktur-data/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
          <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/javascript/09-higher-order/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
          <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/javascript/10-async/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
          <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/javascript/11-modularisasi/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
          <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/javascript/12-dom-event/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
          <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/javascript/13-fetch-api/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
          <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/javascript/14-konsep-lanjut/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
          <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/javascript/15-oop/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
          <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/javascript/16-functional/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
          <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/javascript/17-event-loop/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
          <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/javascript/18-tools/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
          <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/javascript/19-keamanan/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
          <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/javascript/21-debugging/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
          <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/javascript/22-komentar/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
          <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/javascript/23-refactor/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
          <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/javascript/24-style-guide/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
          <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/javascript/25-testing/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
          <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/javascript/26-error-handling/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
          <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/javascript/27-performance/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <lastmod>2025-04-19</lastmod>
     </url>
     <url>
          <loc>https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol/javascript/28-eslintrc-prettierrc/</loc>
-         <lastmod>2025-04-18</lastmod>
+         <lastmod>2025-04-19</lastmod>
     </url>
 </urlset>
