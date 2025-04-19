@@ -1,44 +1,46 @@
 site_name: Dokumentasi JavaScript dari Nol
 site_url: https://Delta_Code26.github.io/dokumentasi-javascript-dari-nol
 repo_url: https://github.com/Delta-Code26/dokumentasi-javascript-dari-nol.git
+edit_uri: edit/main/docs/
 theme:
-  name: 'material'  # Kamu bisa memilih tema lainnya juga
+  name: 'material'
   language: 'id'
+
 nav:
   - Home: index.md
   - JavaScript:
-    - Pemula:
-      - Intro: javascript/01-intro.md
-      - Variabel: javascript/02-variabel.md
-      - Tipe Data: javascript/03-tipe-data.md
-      - Operator: javascript/04-operator.md
-      - Control Flow: javascript/05-control-flow.md
-      - Array & Object: javascript/06-array-object.md
-      - Fungsi: javascript/07-fungsi.md
-    - Menengah:
-      - Struktur Data: javascript/08-struktur-data.md
-      - Higher-Order Functions: javascript/09-higher-order.md
-      - ASYNC: javascript/10-async.md
-      - Modularisasi: javascript/11-modularisasi.md
-      - DOM EVENT: javascript/12-dom-event.md
-      - FETCH API: javascript/13-fetch-api.md
-    - Mahir:
-      - Konsep Lanjutan: javascript/14-konsep-lanjut.md
-      - OOP: javascript/15-oop.md
-      - Functional Programming: javascript/16-functional.md
-      - Event Loop: javascript/17-event-loop.md
-      - Tools: javascript/18-tools.md
-      - Keamanan: javascript/19-keamanan.md
-    - Best Practices:
-      - Clean Code: javascript/20-clean-code.md
-      - Debugging: javascript/21-debugging.md
-      - Komentar: javascript/22-komentar.md
-      - Refactor: javascript/23-refactor.md
-      - Style Guide: javascript/24-style-guide.md
-      - Testing: javascript/25-testing.md
-      - error-handling: javascript/26-error-handling.md
-      - Performance: javascript/27-performance.md
-      - Eslintcr & Prettier: javascript/28-eslintrc-prettierrc.md
+      - Pemula:
+          - Intro: javascript/01-intro.md
+          - Variabel: javascript/02-variabel.md
+          - Tipe Data: javascript/03-tipe-data.md
+          - Operator: javascript/04-operator.md
+          - Control Flow: javascript/05-control-flow.md
+          - Array & Object: javascript/06-array-object.md
+          - Fungsi: javascript/07-fungsi.md
+      - Menengah:
+          - Struktur Data: javascript/08-struktur-data.md
+          - Higher-Order Functions: javascript/09-higher-order.md
+          - ASYNC: javascript/10-async.md
+          - Modularisasi: javascript/11-modularisasi.md
+          - DOM EVENT: javascript/12-dom-event.md
+          - FETCH API: javascript/13-fetch-api.md
+      - Mahir:
+          - Konsep Lanjutan: javascript/14-konsep-lanjut.md
+          - OOP: javascript/15-oop.md
+          - Functional Programming: javascript/16-functional.md
+          - Event Loop: javascript/17-event-loop.md
+          - Tools: javascript/18-tools.md
+          - Keamanan: javascript/19-keamanan.md
+      - Best Practices:
+          - Clean Code: javascript/20-clean-code.md
+          - Debugging: javascript/21-debugging.md
+          - Komentar: javascript/22-komentar.md
+          - Refactor: javascript/23-refactor.md
+          - Style Guide: javascript/24-style-guide.md
+          - Testing: javascript/25-testing.md
+          - error-handling: javascript/26-error-handling.md
+          - Performance: javascript/27-performance.md
+          - Eslintcr & Prettier: javascript/28-eslintrc-prettierrc.md
   - PYTHON:
     - Pemula:
       - Intro: python/01-intro.md
@@ -73,66 +75,74 @@ nav:
       - Performance: python/27-performance.md
       - Eslintcr & Prettier: python/28-eslintrc-prettierrc.md
   - JAVA:
-    - Dasar-dasar-JAVA:
-      - Pengenalan Java: java/01-Pengenalan-Java.md
-      - Instalasi dan Setup: java/02-Instalasi-dan-Setup.md
-      - Program-Pertama: java/03-Program-Pertama.md
-      - Tipe Data dan Variabel: java/04-Tipe-Data-dan-Variabel.md
-      - Operator: java/05-Operator.md
-    - Kontrol Alur Program:
-      - Percabangan: java/06-Percabangan.md
-      - Perulangan: java/07-Perulangan.md
-      - Array dan String: java/08-Array-dan-String.md
-    - pemrograman Berbasis Objek:
-      - Konsep OOP: java/09-Konsep-OOP.md
-      - Constructors dan Overloading: java/10-Constructors-dan-Overloading.md
-      - This dan Super Keyword: java/11-This-dan-Super-Keyword.md
-      - Access Modifier: java/12-Access-Modifier.md
-      - Static dan Non-Static: java/13-Static-dan-Non-Static.md
-      - Final Keyword dan Konstanta: java/14-Final-Keyword-dan-Konstanta.md
-    - Koleksi dan Data Structure:
-      - ArrayList LinkedList HashSet dan TreeSet: java/15-ArrayList-LinkedList-HashSet-dan-TreeSet.md
-      - HashMap dan TreeMap: java/16-HashMap-dan-TreeMap.md
-      - Iterator dan For-Each: java/17-Iterator-dan-For-Each.md
-      - Generic di JAVA: java/18-Generic-di-JAVA.md
-    - Exception dan Error Handling:
-      - Try Catch Finally: java/19-Try-Catch-Finally.md
-      - Multiple Catch dan Nested Try: java/20-Multiple-Catch-dan-Nested-Try.md
-      - Throw dan Throws: java/21-Throw-dan-Throws.md
-      - Costum Exception: java/22-Costum-Exception.md
-    - Input/Output & File handling:
-      - Scanner BufferReader: java/23-Scanner-BufferReader.md
-      - Menulis dan Membaca File: java/24-Menulis-dan-Membaca-File.md
-      - Serialization dan Deserialization: java/25-Serialization-dan-Deserialization.md
-    - Multi-Threading & Concurrency:
-      - Thread Class dan Runnable Interface: java/26-Thread-Class-dan-Runnable-Interface.md
-      - Synchronized dan Lock: java/27-Synchronized-dan-Lock.md
-      - Thread Pool Executor: java/28-Thread-Pool-Executor.md
-    - Java dan Jaringan:
-      - Socket Programming: java/29-Socket-Programming.md
-      - Client-Server Sederhana: java/30-Client-Server-Sederhana.md
-      - HTTP Request: java/31-HTTP-Request.md
-    - Testing dan Debugging:
-      - Debugging di IDE: java/32-Debugging-di-IDE.md
-      - Unit Testing dengan JUnit: java/33-Unit-Testing-dengan-JUnit.md
-      - Logging dan Error Handling Best Practices: java/34-Logging-dan-Error-Handling-Best-Practices.md
-    - GUI Programming dengan Java:
-      - Pengenalan Swing dan AWT: java/35-Pengenalan-Swing-dan-AWT.md
-      - Membuat Frame dan Layout: java/36-Membuat-Frame-dan-Layout.md
-      - Button TextField Label dll: java/37-Button-TextField-Label-dll.md
-      - Event Handling: java/38-Event-Handling.md
-      - Proyek GUI Sederhana: java/39-Proyek-GUI-Sederhana.md
-    - Apa itu Android:
-      - Apa itu Android dan Java: java/40-Apa-itu-Android-dan-Java.md
-      - Struktur Proyek Android Studio: java/41-Struktur-Proyek-Android-Studio.md
-      - Activity dan Layout: java/42-Activity-dan-Layout.md
-      - Java untuk Android Development: java/43-Java-untuk-Android-Development.md
-    - Studi Kasus & Proyek Mini:
-      - Aplikasi kalkulator sederhana: java/44-Aplikasi-kalkulator-sederhana.md
-      - APlikasi Manajemen Data Mahasiswa: java/45-Aplikasi-Manajemen-Data-Mahasiswa.md
-      - To-Do List dengan GUI: java/46-To-Do-List-dengan-GUI.md
-      - Mini CRUD dengan File: java/47-Mini-CRUD-dengan-File.md
-      - Sistem Login Sederhana: java/48-Sistem-Login-Sederhana.md
-
+    - Pengenalan: belajar-java/01-Pengenalan-Java.md
+    - Instalasi dan Setup: belajar-java/02-Instalasi-dan-Setup-Java.md
+    - Program Pertama di Java: belajar-java/03-Program-Pertama-di-Java.md
+    - Struktur Dasar Program Java: belajar-java/04-Struktur-Dasar-Program-Java.md
+    - Tipe Data dan Variabel: belajar-java/05-Tipe-Data-dan-Variabel.md
+    - Operator di Java: belajar-java/06-Operator-di-Java.md
+    - Percabangan if, switch: belajar-java/07-Percabangan-if,-switch.md
+    - Perulangan for, while, do-while: belajar-java/08-Perulangan-for,-while,-do-while.md
+    - Array di Java: belajar-java/09-Array-di-Java.md
+    - String dan Manipulasi String: belajar-java/10-String-dan-Manipulasi-String.md
+    - Konsep OOP di Java: belajar-java/11-Konsep-OOP-di-Java.md
+    - Class dan Object: belajar-java/12-Class-dan-Object.md
+    - Package dan Import: belajar-java/13-Package-dan-Import.md
+    - Constructor dan Overloading: belajar-java/14-Constructor-dan-Overloading.md
+    - Inheritance Pewarisan: belajar-java/15-Inheritance-Pewarisan.md
+    - Polymorphism: belajar-java/16-Polymorphism.md
+    - Encapsulation: belajar-java/17-Encapsulation.md
+    - Abstraksi dan Interface: belajar-java/18-Abstraksi-dan-Interface.md
+    - This dan Super Keyword: belajar-java/19-This-dan-Super-Keyword.md
+    - Access Modifiers: belajar-java/20-Access-Modifiers.md
+    - Static vs Non-Static: belajar-java/21-Static-vs-Non-Static.md
+    - Final Keyword dan Konstanta: belajar-java/22-Final-Keyword-dan-Konstanta.md
+    - ArrayList, LinkedList, HashSet, TreeSet: belajar-java/23-ArrayList,-LinkedList,-HashSet,-TreeSet.md
+    - HashMap, TreeMap: belajar-java/24-HashMap,-TreeMap.md
+    - Iterator dan For Each: belajar-java/25-Iterator-dan-For-Each.md
+    - Generic di Java: belajar-java/26-Generic-di-Java.md
+    - Try, Catch, Finally: belajar-java/27-Try,-Catch,-Finally.md
+    - Multiple Catch dan Nested Try: belajar-java/28-Multiple-Catch-dan-Nested-Try.md
+    - Throw dan Throws: belajar-java/29-Throw-dan-Throws.md
+    - Custom Exception: belajar-java/30-Custom-Exception.md
+    - Scanner dan BufferedReader: belajar-java/31-Scanner-dan-BufferedReader.md
+    - Menulis dan Membaca File: belajar-java/32-Menulis-dan-Membaca-File.md
+    - Serialization dan Deserialization: belajar-java/33-Serialization-dan-Deserialization.md
+    - Thread Class dan Runnable Interface: belajar-java/34-Thread-Class-dan-Runnable-Interface.md
+    - Synchronized dan Lock: belajar-java/35-Synchronized-dan-Lock.md
+    - Thread Pool dan ExecutorService: belajar-java/36-Thread-Pool-dan-ExecutorService.md
+    - Deadlock dan Race Condition: belajar-java/37-Deadlock-dan-Race-Condition.md
+    - Pengenalan Networking di Java: belajar-java/38-Pengenalan-Networking-di-Java.md
+    - Socket Programming: belajar-java/39-Socket-Programming.md
+    - Membuat Client Server Sederhana: belajar-java/40-Membuat-Client-Server-Sederhana.md
+    - HTTP Request dengan Java: belajar-java/41-HTTP-Request-dengan-Java.md
+    - Debugging di IDE: belajar-java/42-Debugging-di-IDE.md
+    - Unit Testing dengan JUnit: belajar-java/43-Unit-Testing-dengan-JUnit.md
+    - Logging dan Error Handling Best Practices: belajar-java/44-Logging-dan-Error-Handling-Best-Practices.md
+    - Profiling dan Performance Optimization: belajar-java/45-Profiling-dan-Performance-Optimization.md
+    - Pengenalan Swing dan AWT: belajar-java/46-Pengenalan-Swing-dan-AWT.md
+    - Membuat Frame dan Layout: belajar-java/47-Membuat-Frame-dan-Layout.md
+    - Button, TextField, Label, dll: belajar-java/48-Button,-TextField,-Label,-dll.md
+    - Event Handling: belajar-java/49-Event-Handling.md
+    - Proyek GUI Sederhana: belajar-java/50-Proyek-GUI-Sederhana.md
+    - Apa itu Android dan Hubungannya dengan Java: belajar-java/51-Apa-itu-Android-dan-Hubungannya-dengan-Java.md
+    - Struktur Proyek Android Studio: belajar-java/52-Struktur-Proyek-Android-Studio.md
+    - Activity dan Layout: belajar-java/53-Activity-dan-Layout.md
+    - Java untuk Android Development: belajar-java/54-Java-untuk-Android-Development.md
+    - Membuat Aplikasi Kalkulator: belajar-java/55-Membuat-Aplikasi-Kalkulator.md
+    - Aplikasi Manajemen Data Mahasiswa: belajar-java/56-Aplikasi-Manajemen-Data-Mahasiswa.md
+    - To Do List dengan GUI: belajar-java/57-To-Do-List-dengan-GUI.md
+    - Mini CRUD dengan File: belajar-java/58-Mini-CRUD-dengan-File.md
+    - Sistem Login Sederhana: belajar-java/59-Sistem-Login-Sederhana.md
+    - Java Design Patterns Factory, Singleton, dll: belajar-java/60-Java-Design-Patterns-Factory,-Singleton,-dll.md
+    - Clean Code dengan Java: belajar-java/61-Clean-Code-dengan-Java.md
+    - Refactoring dan Maintainability: belajar-java/62-Refactoring-dan-Maintainability.md
+    - Style Guide dan Konvensi Penamaan: belajar-java/63-Style-Guide-dan-Konvensi-Penamaan.md
+    - Maven dan Gradle untuk Manajemen Proyek: belajar-java/64-Maven-dan-Gradle-untuk-Manajemen-Proyek.md
+    - Java 8 Features Lambda, Stream API: belajar-java/65-Java-8-Features-Lambda,-Stream-API.md
+    - Java 17 dan Versi Terbaru Record, Sealed Classes, dll: belajar-java/66-Java-17-dan-Versi-Terbaru-Record,-Sealed-Classes,-dll.md
+    - Secure Coding dan SQL Injection: belajar-java/67-Secure-Coding-dan-SQL-Injection.md
+    - JDBC dan Koneksi Database: belajar-java/68-JDBC-dan-Koneksi-Database.md
+    - index: belajar-java/index.md
 repo_url: https://github.com/Delta-Code26/dokumentasi-javascript-dari-nol
 edit_uri: main/docs/
