@@ -64,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#40-membuat-client-server-sederhana" class="md-skip">
+        <a href="#40-membuat-client-server-sederhana-di-java" class="md-skip">
           Lewati ke isi
         </a>
       
@@ -3102,6 +3102,19 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Membuat Client Server Sederhana
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -3113,6 +3126,88 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Daftar isi">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Daftar isi
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tujuan" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎯 Tujuan
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#struktur-sederhana" class="md-nav__link">
+    <span class="md-ellipsis">
+      👨‍💻 Struktur Sederhana
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kode-server" class="md-nav__link">
+    <span class="md-ellipsis">
+      🖥️ Kode Server
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kode-client" class="md-nav__link">
+    <span class="md-ellipsis">
+      💻 Kode Client
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cara-menjalankan" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧪 Cara Menjalankan
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#catatan" class="md-nav__link">
+    <span class="md-ellipsis">
+      📝 Catatan
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#selanjutnya" class="md-nav__link">
+    <span class="md-ellipsis">
+      📦 Selanjutnya
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -3813,6 +3908,77 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Daftar isi
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tujuan" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎯 Tujuan
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#struktur-sederhana" class="md-nav__link">
+    <span class="md-ellipsis">
+      👨‍💻 Struktur Sederhana
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kode-server" class="md-nav__link">
+    <span class="md-ellipsis">
+      🖥️ Kode Server
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kode-client" class="md-nav__link">
+    <span class="md-ellipsis">
+      💻 Kode Client
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cara-menjalankan" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧪 Cara Menjalankan
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#catatan" class="md-nav__link">
+    <span class="md-ellipsis">
+      📝 Catatan
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#selanjutnya" class="md-nav__link">
+    <span class="md-ellipsis">
+      📦 Selanjutnya
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -3830,8 +3996,93 @@
   
 
 
-<h1 id="40-membuat-client-server-sederhana">40. Membuat Client-Server Sederhana</h1>
-<p><em>Tuliskan materi lengkap di sini.</em></p>
+<h1 id="40-membuat-client-server-sederhana-di-java">40. Membuat Client-Server Sederhana di Java</h1>
+<p>Dalam dunia nyata, banyak aplikasi bergantung pada arsitektur client-server, seperti web browser (client) yang berkomunikasi dengan web server. Di bab ini, kita akan membuat contoh client-server sederhana menggunakan Java dan socket TCP.</p>
+<hr />
+<h2 id="tujuan">🎯 Tujuan</h2>
+<ul>
+<li>Memahami cara kerja komunikasi antara client dan server.</li>
+<li>Menggunakan <code>Socket</code> dan <code>ServerSocket</code> dari Java.</li>
+<li>Mengirim dan menerima pesan sederhana.</li>
+</ul>
+<hr />
+<h2 id="struktur-sederhana">👨‍💻 Struktur Sederhana</h2>
+<pre><code>Client &lt;-----&gt; Server
+</code></pre>
+<p>Client mengirimkan pesan → Server menerima dan merespon → Client menampilkan balasan.</p>
+<hr />
+<h2 id="kode-server">🖥️ Kode Server</h2>
+<pre><code class="language-java">import java.io.*;
+import java.net.*;
+
+public class ServerSederhana {
+    public static void main(String[] args) throws IOException {
+        ServerSocket serverSocket = new ServerSocket(1234);
+        System.out.println(&quot;Server berjalan di port 1234...&quot;);
+
+        Socket clientSocket = serverSocket.accept();
+        System.out.println(&quot;Client terhubung!&quot;);
+
+        BufferedReader input = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
+        PrintWriter output = new PrintWriter(clientSocket.getOutputStream(), true);
+
+        String pesan = input.readLine();
+        System.out.println(&quot;Dari client: &quot; + pesan);
+
+        output.println(&quot;Halo juga, client!&quot;);
+
+        input.close();
+        output.close();
+        clientSocket.close();
+        serverSocket.close();
+    }
+}
+</code></pre>
+<hr />
+<h2 id="kode-client">💻 Kode Client</h2>
+<pre><code class="language-java">import java.io.*;
+import java.net.*;
+
+public class ClientSederhana {
+    public static void main(String[] args) throws IOException {
+        Socket socket = new Socket(&quot;localhost&quot;, 1234);
+
+        PrintWriter output = new PrintWriter(socket.getOutputStream(), true);
+        BufferedReader input = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+
+        output.println(&quot;Halo server!&quot;);
+        String response = input.readLine();
+        System.out.println(&quot;Dari server: &quot; + response);
+
+        output.close();
+        input.close();
+        socket.close();
+    }
+}
+</code></pre>
+<hr />
+<h2 id="cara-menjalankan">🧪 Cara Menjalankan</h2>
+<ol>
+<li>Jalankan class <code>ServerSederhana</code> dulu.</li>
+<li>Jalankan class <code>ClientSederhana</code>.</li>
+<li>Lihat komunikasi di console masing-masing.</li>
+</ol>
+<hr />
+<h2 id="catatan">📝 Catatan</h2>
+<ul>
+<li>Pastikan client dan server menggunakan port yang sama.</li>
+<li>Bisa dijalankan di komputer berbeda jika menggunakan IP publik/server LAN.</li>
+<li>Untuk penggunaan skala besar, implementasi harus menangani banyak client (multithreading).</li>
+</ul>
+<hr />
+<h2 id="selanjutnya">📦 Selanjutnya</h2>
+<p>Setelah kamu paham konsep dasar client-server, kamu bisa mengembangkannya menjadi sistem yang lebih kompleks seperti:</p>
+<ul>
+<li>Chat room multi-user (multithreaded)</li>
+<li>Server database sederhana</li>
+<li>API server mini</li>
+</ul>
+<p>Next 👉 <a href="41-Pengenalan-GUI-dengan-Swing.md">41. Pengenalan GUI dengan Swing</a></p>
 
 
 

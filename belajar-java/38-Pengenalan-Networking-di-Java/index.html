@@ -3056,6 +3056,19 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Pengenalan Networking di Java
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -3067,6 +3080,85 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Daftar isi">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Daftar isi
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#apa-itu-pemrograman-jaringan" class="md-nav__link">
+    <span class="md-ellipsis">
+      🌐 Apa itu Pemrograman Jaringan?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#contoh-client-server-sederhana-menggunakan-socket-tcp" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔌 Contoh Client-Server Sederhana Menggunakan Socket (TCP)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔌 Contoh Client-Server Sederhana Menggunakan Socket (TCP)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#server" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅ Server
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#client" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅ Client
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#akses-url-menggunakan-javaneturl" class="md-nav__link">
+    <span class="md-ellipsis">
+      🌐 Akses URL Menggunakan java.net.URL
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kesimpulan" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Kesimpulan
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -3813,6 +3905,74 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Daftar isi
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#apa-itu-pemrograman-jaringan" class="md-nav__link">
+    <span class="md-ellipsis">
+      🌐 Apa itu Pemrograman Jaringan?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#contoh-client-server-sederhana-menggunakan-socket-tcp" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔌 Contoh Client-Server Sederhana Menggunakan Socket (TCP)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔌 Contoh Client-Server Sederhana Menggunakan Socket (TCP)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#server" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅ Server
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#client" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅ Client
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#akses-url-menggunakan-javaneturl" class="md-nav__link">
+    <span class="md-ellipsis">
+      🌐 Akses URL Menggunakan java.net.URL
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kesimpulan" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Kesimpulan
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -3831,7 +3991,96 @@
 
 
 <h1 id="38-pengenalan-networking-di-java">38. Pengenalan Networking di Java</h1>
-<p><em>Tuliskan materi lengkap di sini.</em></p>
+<p>Java menyediakan dukungan yang kuat untuk pemrograman jaringan melalui paket <code>java.net</code>. Dengan ini, kita bisa membuat aplikasi client-server, mengirim dan menerima data melalui internet, serta membangun komunikasi antara berbagai perangkat.</p>
+<hr />
+<h2 id="apa-itu-pemrograman-jaringan">🌐 Apa itu Pemrograman Jaringan?</h2>
+<p>Pemrograman jaringan memungkinkan aplikasi untuk berkomunikasi melalui protokol jaringan seperti <strong>TCP</strong> dan <strong>UDP</strong>. Dalam Java, komunikasi ini dapat dibangun menggunakan:</p>
+<ul>
+<li><strong>Socket</strong>: Untuk komunikasi berbasis koneksi (TCP)</li>
+<li><strong>DatagramSocket</strong>: Untuk komunikasi tanpa koneksi (UDP)</li>
+<li><strong>URL</strong> dan <strong>URLConnection</strong>: Untuk mengakses sumber daya melalui protokol HTTP/HTTPS</li>
+</ul>
+<hr />
+<h2 id="contoh-client-server-sederhana-menggunakan-socket-tcp">🔌 Contoh Client-Server Sederhana Menggunakan Socket (TCP)</h2>
+<h3 id="server">✅ Server</h3>
+<pre><code class="language-java">import java.io.*;
+import java.net.*;
+
+public class Server {
+    public static void main(String[] args) {
+        try {
+            ServerSocket serverSocket = new ServerSocket(1234);
+            System.out.println(&quot;Server menunggu koneksi...&quot;);
+            Socket clientSocket = serverSocket.accept();
+            System.out.println(&quot;Client terhubung!&quot;);
+
+            BufferedReader input = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
+            PrintWriter output = new PrintWriter(clientSocket.getOutputStream(), true);
+
+            String pesan = input.readLine();
+            System.out.println(&quot;Dari Client: &quot; + pesan);
+            output.println(&quot;Pesan diterima: &quot; + pesan);
+
+            input.close();
+            output.close();
+            clientSocket.close();
+            serverSocket.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}
+</code></pre>
+<h3 id="client">✅ Client</h3>
+<pre><code class="language-java">import java.io.*;
+import java.net.*;
+
+public class Client {
+    public static void main(String[] args) {
+        try {
+            Socket socket = new Socket(&quot;localhost&quot;, 1234);
+            BufferedReader input = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+            PrintWriter output = new PrintWriter(socket.getOutputStream(), true);
+
+            output.println(&quot;Halo dari Client!&quot;);
+            String balasan = input.readLine();
+            System.out.println(&quot;Dari Server: &quot; + balasan);
+
+            input.close();
+            output.close();
+            socket.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}
+</code></pre>
+<hr />
+<h2 id="akses-url-menggunakan-javaneturl">🌐 Akses URL Menggunakan <code>java.net.URL</code></h2>
+<p>Kamu juga bisa mengakses konten dari website menggunakan <code>URL</code>:</p>
+<pre><code class="language-java">import java.io.*;
+import java.net.*;
+
+public class URLExample {
+    public static void main(String[] args) {
+        try {
+            URL url = new URL(&quot;https://example.com&quot;);
+            BufferedReader reader = new BufferedReader(new InputStreamReader(url.openStream()));
+            String inputLine;
+            while ((inputLine = reader.readLine()) != null) {
+                System.out.println(inputLine);
+            }
+            reader.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}
+</code></pre>
+<hr />
+<h2 id="kesimpulan">📌 Kesimpulan</h2>
+<p>Java menyediakan kelas-kelas powerful dalam <code>java.net</code> untuk mendukung berbagai aktivitas jaringan, baik itu komunikasi antar komputer melalui socket maupun mengambil data dari internet. Di bab selanjutnya, kita akan membahas lebih dalam tentang penggunaan <strong>URL</strong>, <strong>HTTP connection</strong>, dan membuat server HTTP sederhana.</p>
+<p>Next 👉 <a href="39-Membuat-Server-dan-Client-dengan-HTTPURLConnection.md">39. Membuat Server dan Client dengan HTTPURLConnection</a></p>
 
 
 

@@ -64,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#37-deadlock-dan-race-condition" class="md-skip">
+        <a href="#37-deadlock-dan-race-condition-di-java" class="md-skip">
           Lewati ke isi
         </a>
       
@@ -3033,6 +3033,19 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Deadlock dan Race Condition
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -3044,6 +3057,130 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Daftar isi">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Daftar isi
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#apa-itu-deadlock" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔒 Apa itu Deadlock?
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔒 Apa itu Deadlock?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#contoh-deadlock" class="md-nav__link">
+    <span class="md-ellipsis">
+      Contoh Deadlock
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apa-itu-race-condition" class="md-nav__link">
+    <span class="md-ellipsis">
+      🚧 Apa itu Race Condition?
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🚧 Apa itu Race Condition?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#contoh-race-condition" class="md-nav__link">
+    <span class="md-ellipsis">
+      Contoh Race Condition
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mengatasi-deadlock" class="md-nav__link">
+    <span class="md-ellipsis">
+      🛠️ Mengatasi Deadlock
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🛠️ Mengatasi Deadlock">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#contoh-menghindari-deadlock-dengan-trylock" class="md-nav__link">
+    <span class="md-ellipsis">
+      Contoh Menghindari Deadlock dengan tryLock
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mengatasi-race-condition" class="md-nav__link">
+    <span class="md-ellipsis">
+      🛠️ Mengatasi Race Condition
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🛠️ Mengatasi Race Condition">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#contoh-mengatasi-race-condition-dengan-synchronized" class="md-nav__link">
+    <span class="md-ellipsis">
+      Contoh Mengatasi Race Condition dengan synchronized
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kesimpulan" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅ Kesimpulan
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -3813,6 +3950,119 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Daftar isi
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#apa-itu-deadlock" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔒 Apa itu Deadlock?
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔒 Apa itu Deadlock?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#contoh-deadlock" class="md-nav__link">
+    <span class="md-ellipsis">
+      Contoh Deadlock
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apa-itu-race-condition" class="md-nav__link">
+    <span class="md-ellipsis">
+      🚧 Apa itu Race Condition?
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🚧 Apa itu Race Condition?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#contoh-race-condition" class="md-nav__link">
+    <span class="md-ellipsis">
+      Contoh Race Condition
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mengatasi-deadlock" class="md-nav__link">
+    <span class="md-ellipsis">
+      🛠️ Mengatasi Deadlock
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🛠️ Mengatasi Deadlock">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#contoh-menghindari-deadlock-dengan-trylock" class="md-nav__link">
+    <span class="md-ellipsis">
+      Contoh Menghindari Deadlock dengan tryLock
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mengatasi-race-condition" class="md-nav__link">
+    <span class="md-ellipsis">
+      🛠️ Mengatasi Race Condition
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🛠️ Mengatasi Race Condition">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#contoh-mengatasi-race-condition-dengan-synchronized" class="md-nav__link">
+    <span class="md-ellipsis">
+      Contoh Mengatasi Race Condition dengan synchronized
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kesimpulan" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅ Kesimpulan
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -3830,8 +4080,171 @@
   
 
 
-<h1 id="37-deadlock-dan-race-condition">37. Deadlock dan Race Condition</h1>
-<p><em>Tuliskan materi lengkap di sini.</em></p>
+<h1 id="37-deadlock-dan-race-condition-di-java">37. Deadlock dan Race Condition di Java</h1>
+<p>Pada saat bekerja dengan banyak thread, kita sering menemui masalah yang disebut <strong>Deadlock</strong> dan <strong>Race Condition</strong>. Kedua masalah ini terjadi ketika beberapa thread berinteraksi satu sama lain dan menyebabkan aplikasi tidak berjalan dengan semestinya. Memahami dan mengatasi masalah ini sangat penting untuk membuat aplikasi multithreading yang aman dan efisien.</p>
+<hr />
+<h2 id="apa-itu-deadlock">🔒 Apa itu Deadlock?</h2>
+<p><strong>Deadlock</strong> terjadi ketika dua atau lebih thread saling menunggu satu sama lain untuk melepaskan sumber daya yang diperlukan untuk melanjutkan eksekusi. Akibatnya, thread-thread tersebut tidak bisa bergerak maju, dan aplikasi menjadi "terhenti" tanpa solusi.</p>
+<h3 id="contoh-deadlock">Contoh Deadlock</h3>
+<p>Misalnya, ada dua thread yang saling bergantung pada dua sumber daya yang berbeda.</p>
+<pre><code class="language-java">public class DeadlockExample {
+    private static final Object resource1 = new Object();
+    private static final Object resource2 = new Object();
+
+    public static void main(String[] args) {
+        Thread t1 = new Thread(() -&gt; {
+            synchronized (resource1) {
+                System.out.println(&quot;Thread 1: Mengunci resource1&quot;);
+                try { Thread.sleep(100); } catch (InterruptedException e) {}
+                synchronized (resource2) {
+                    System.out.println(&quot;Thread 1: Mengunci resource2&quot;);
+                }
+            }
+        });
+
+        Thread t2 = new Thread(() -&gt; {
+            synchronized (resource2) {
+                System.out.println(&quot;Thread 2: Mengunci resource2&quot;);
+                try { Thread.sleep(100); } catch (InterruptedException e) {}
+                synchronized (resource1) {
+                    System.out.println(&quot;Thread 2: Mengunci resource1&quot;);
+                }
+            }
+        });
+
+        t1.start();
+        t2.start();
+    }
+}
+</code></pre>
+<p>Pada contoh di atas, <strong>Thread 1</strong> mengunci <code>resource1</code> dan menunggu untuk mengunci <code>resource2</code>, sementara <strong>Thread 2</strong> mengunci <code>resource2</code> dan menunggu untuk mengunci <code>resource1</code>. Akibatnya, kedua thread saling menunggu, menyebabkan <strong>deadlock</strong>.</p>
+<hr />
+<h2 id="apa-itu-race-condition">🚧 Apa itu Race Condition?</h2>
+<p><strong>Race Condition</strong> terjadi ketika dua atau lebih thread mengakses dan memodifikasi data yang sama secara bersamaan, tanpa sinkronisasi yang tepat. Ini bisa menyebabkan data yang tidak konsisten atau hasil yang tidak terduga, karena urutan eksekusi thread tidak bisa diprediksi.</p>
+<h3 id="contoh-race-condition">Contoh Race Condition</h3>
+<p>Berikut adalah contoh sederhana dari <strong>race condition</strong>.</p>
+<pre><code class="language-java">public class RaceConditionExample {
+    private static int counter = 0;
+
+    public static void main(String[] args) {
+        Runnable incrementTask = () -&gt; {
+            for (int i = 0; i &lt; 1000; i++) {
+                counter++; // Meningkatkan counter
+            }
+        };
+
+        Thread t1 = new Thread(incrementTask);
+        Thread t2 = new Thread(incrementTask);
+
+        t1.start();
+        t2.start();
+
+        try {
+            t1.join();
+            t2.join();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        System.out.println(&quot;Counter: &quot; + counter); // Output tidak terduga
+    }
+}
+</code></pre>
+<p>Pada contoh di atas, dua thread mencoba untuk meningkatkan nilai dari <code>counter</code> sebanyak 1000 kali masing-masing. Karena kedua thread mengakses dan memodifikasi nilai yang sama tanpa sinkronisasi, <strong>counter</strong> bisa berakhir dengan nilai yang lebih rendah dari 2000, karena akses yang tidak terkendali terhadap data.</p>
+<hr />
+<h2 id="mengatasi-deadlock">🛠️ Mengatasi Deadlock</h2>
+<p>Untuk menghindari deadlock, beberapa langkah yang dapat diambil antara lain:</p>
+<ol>
+<li><strong>Menghindari Urutan Sumber Daya yang Saling Bergantung</strong>: Jangan biarkan thread saling menunggu satu sama lain. Usahakan thread mengunci sumber daya dalam urutan yang konsisten.</li>
+<li><strong>Timeout pada Lock</strong>: Gunakan timeout ketika mencoba mengunci sumber daya untuk menghindari deadlock yang berlangsung lama.</li>
+<li><strong>Menggunakan <code>tryLock</code></strong>: Menggunakan <code>ReentrantLock</code> dengan <code>tryLock()</code> yang memungkinkan thread untuk mencoba mengunci dan membatalkan jika tidak bisa mendapatkan kunci dalam waktu tertentu.</li>
+</ol>
+<h3 id="contoh-menghindari-deadlock-dengan-trylock">Contoh Menghindari Deadlock dengan <code>tryLock</code></h3>
+<pre><code class="language-java">import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
+
+public class DeadlockAvoidanceExample {
+    private static final Lock lock1 = new ReentrantLock();
+    private static final Lock lock2 = new ReentrantLock();
+
+    public static void main(String[] args) {
+        Thread t1 = new Thread(() -&gt; {
+            try {
+                if (lock1.tryLock() &amp;&amp; lock2.tryLock()) {
+                    System.out.println(&quot;Thread 1: Mengunci resource1 dan resource2&quot;);
+                } else {
+                    System.out.println(&quot;Thread 1: Gagal mendapatkan kunci, mencoba lagi...&quot;);
+                }
+            } finally {
+                lock1.unlock();
+                lock2.unlock();
+            }
+        });
+
+        Thread t2 = new Thread(() -&gt; {
+            try {
+                if (lock2.tryLock() &amp;&amp; lock1.tryLock()) {
+                    System.out.println(&quot;Thread 2: Mengunci resource2 dan resource1&quot;);
+                } else {
+                    System.out.println(&quot;Thread 2: Gagal mendapatkan kunci, mencoba lagi...&quot;);
+                }
+            } finally {
+                lock2.unlock();
+                lock1.unlock();
+            }
+        });
+
+        t1.start();
+        t2.start();
+    }
+}
+</code></pre>
+<p>Dengan menggunakan <code>tryLock()</code>, kita bisa menghindari deadlock dan memberi kesempatan thread untuk mencoba lagi jika tidak dapat mengunci sumber daya.</p>
+<hr />
+<h2 id="mengatasi-race-condition">🛠️ Mengatasi Race Condition</h2>
+<p>Untuk menghindari <strong>race condition</strong>, kita harus memastikan bahwa hanya satu thread yang bisa mengakses dan memodifikasi data pada satu waktu. Ada beberapa cara untuk melakukannya:</p>
+<ol>
+<li><strong>Sinkronisasi</strong>: Gunakan <code>synchronized</code> untuk memastikan hanya satu thread yang dapat mengakses kode tertentu pada satu waktu.</li>
+<li><strong>Lock</strong>: Gunakan <code>Lock</code> seperti <code>ReentrantLock</code> untuk mendapatkan kontrol lebih besar atas pengelolaan sinkronisasi.</li>
+<li><strong>Atomic Variables</strong>: Gunakan kelas seperti <code>AtomicInteger</code> untuk variabel yang membutuhkan operasi atomik.</li>
+</ol>
+<h3 id="contoh-mengatasi-race-condition-dengan-synchronized">Contoh Mengatasi Race Condition dengan <code>synchronized</code></h3>
+<pre><code class="language-java">public class SynchronizedExample {
+    private static int counter = 0;
+
+    public synchronized static void increment() {
+        counter++;
+    }
+
+    public static void main(String[] args) {
+        Runnable incrementTask = () -&gt; {
+            for (int i = 0; i &lt; 1000; i++) {
+                increment();
+            }
+        };
+
+        Thread t1 = new Thread(incrementTask);
+        Thread t2 = new Thread(incrementTask);
+
+        t1.start();
+        t2.start();
+
+        try {
+            t1.join();
+            t2.join();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        System.out.println(&quot;Counter: &quot; + counter); // Output konsisten
+    }
+}
+</code></pre>
+<p>Dengan menambahkan kata kunci <code>synchronized</code>, kita memastikan bahwa hanya satu thread yang dapat menjalankan metode <code>increment()</code> pada satu waktu, sehingga menghindari race condition.</p>
+<hr />
+<h2 id="kesimpulan">✅ Kesimpulan</h2>
+<p><strong>Deadlock</strong> dan <strong>Race Condition</strong> adalah dua masalah besar dalam pemrograman multithreading yang perlu diatasi untuk memastikan aplikasi berjalan dengan lancar dan efisien. Dengan memahami penyebab dan solusi untuk masalah-masalah ini, kita bisa membuat aplikasi yang lebih stabil dan aman.</p>
+<p>Next 👉 <a href="38-ExecutorService-dengan-Future-dan-Callable.md">38. ExecutorService dengan Future dan Callable</a></p>
 
 
 
