@@ -5,6 +5,17 @@ edit_uri: edit/main/docs/
 theme:
   name: 'material'
   language: 'id'
+  features:
+    - navigation.tabs
+    - navigation.sections
+  icon:
+    repo: fontawesome/brands/github
+  nav_icons:
+    - home: material/home
+    - JavaScript: simple/javascript
+    - PYTHON: simple/python
+    - JAVA: simple/java
+
 
 nav:
   - Home: index.md
